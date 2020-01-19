@@ -26,6 +26,9 @@ extra:
 
 # Page tree
 nav:
+  - General:
+      - Home: index.md
+      - 'Installing Nodejs': installing-nodejs.md
   - Foxy-Pool:
       - Home: foxy-pool/index.md
       - Binding:
@@ -39,6 +42,15 @@ nav:
       - Pledging: foxy-pool/pledging.md
       - Settings: foxy-pool/settings.md
       - 'Distribution Ratio': foxy-pool/distribution-ratio.md
+  - Foxy-Miner:
+      - Home: foxy-miner/index.md
+      - Installing: foxy-miner/installing.md
+      - Configuration: foxy-miner/configuration.md
+  - Foxy-Proxy:
+      - Home: foxy-proxy/index.md
+      - Installing: foxy-proxy/installing.md
+      - Configuration: foxy-proxy/configuration.md
+
 
 # Extensions
 markdown_extensions:
