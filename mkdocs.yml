@@ -1,0 +1,49 @@
+# Project information
+site_name: Foxy Docs
+site_description: Foxy Documentation
+site_author: felixbrucker
+site_url: https://docs.foxypool.cf
+
+# Repository
+repo_name: foxy-docs
+repo_url: https://github.com/felixbrucker/foxy-docs
+
+# Theme
+theme:
+  name: 'material'
+  favicon: assets/img/favicon.ico
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+
+# Options
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/felixbrucker
+
+# Page tree
+nav:
+  - Foxy-Pool:
+      - Home: foxy-pool/index.md
+      - Binding:
+          - BHD: foxy-pool/binding/bhd.md
+          - BOOM: foxy-pool/binding/boom.md
+          - BURST: foxy-pool/binding/burst.md
+          - HDD: foxy-pool/binding/hdd.md
+          - LAVA: foxy-pool/binding/lava.md
+          - LHD: foxy-pool/binding/lhd.md
+          - XHD: foxy-pool/binding/xhd.md
+      - Pledging: foxy-pool/pledging.md
+      - Settings: foxy-pool/settings.md
+      - 'Distribution Ratio': foxy-pool/distribution-ratio.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
