@@ -28,7 +28,7 @@ extra:
 nav:
   - General:
       - Home: index.md
-      - 'Installing Nodejs': installing-nodejs.md
+      - Installing Nodejs: installing-nodejs.md
   - Foxy-Pool:
       - Home: foxy-pool/index.md
       - Binding:
@@ -41,7 +41,11 @@ nav:
           - XHD: foxy-pool/binding/xhd.md
       - Pledging: foxy-pool/pledging.md
       - Settings: foxy-pool/settings.md
-      - 'Distribution Ratio': foxy-pool/distribution-ratio.md
+      - Distribution Ratio: foxy-pool/distribution-ratio.md
+      - API:
+          - Overview: foxy-pool/api/overview.md
+          - Web-UI API: foxy-pool/api/web-ui-api.md
+          - Mining API: foxy-pool/api/mining-api.md
   - Foxy-Miner:
       - Home: foxy-miner/index.md
       - Installing: foxy-miner/installing.md
