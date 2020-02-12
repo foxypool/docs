@@ -7,6 +7,44 @@ If no config file can be found, an example config file is created for you in `<H
 
 To store statistics Foxy-Proxy uses a SQLite database located in `<HOMEDIR>/.config/foxy-proxy/db.sqlite` by default.
 
+## Autostart Foxy-Proxy on boot
+
+### Windows
+
+!!! info
+    The following steps for Windows will start the proxy on login, not boot
+
+1. Create a `.bat` file which contains the following lines:
+```
+cls
+:start
+call foxy-proxy
+goto start
+```
+
+2. Create a shortcut to that bat file and move it into `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+
+### Linux
+
+1. Install pm2:
+```
+npm i -g pm2
+```
+
+2. Start the proxy through pm2:
+```
+pm2 start foxy-proxy
+```
+
+3. Save the current running configuration and create a startup cmd:
+```
+pm2 save
+pm2 startup
+```
+
+4. Depending on if you are `root` the `pm2 startup` command either runs directly or outputs a sudo command you will need to execute.
+
+
 ## Configuration Options
 
 The config file currently consists of these config options:
