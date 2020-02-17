@@ -29,6 +29,7 @@ nav:
   - General:
       - Home: index.md
       - Installing Nodejs: installing-nodejs.md
+      - Donate: donate.md
   - Foxy-Pool:
       - Home: foxy-pool/index.md
       - Binding:
