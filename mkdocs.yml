@@ -33,7 +33,6 @@ nav:
       - Home: foxy-pool/index.md
       - Binding:
           - BHD: foxy-pool/binding/bhd.md
-          - BOOM: foxy-pool/binding/boom.md
           - BURST: foxy-pool/binding/burst.md
           - HDD: foxy-pool/binding/hdd.md
           - LAVA: foxy-pool/binding/lava.md
