@@ -65,23 +65,29 @@ pocChains:
     url: "https://bhd.foxypool.cf"
     priority: 0
     color: yellow
-    accountKey: "your BHD payout address"
+    payoutAddress: "your BHD payout address"
+    minerAlias: "your desired name"
+    minerName: "your desired miner name"
+    appendVersionToMinerName: true
     isBhd: true
     isPool: true
-    isHpool: true
   # BTB via Foxy Pool
   - name: BTB - FoxyPool
     url: "https://btb.foxypool.cf"
     priority: 1
     color: magenta
-    accountKey: "your BTB payout address"
+    payoutAddress: "your BTB payout address"
+    minerAlias: "your desired name"
+    minerName: "your desired miner name"
+    appendVersionToMinerName: true
     isPool: true
-    isHpool: true
   # BURST via Foxy Pool
   - name: BURST - FoxyPool
     url: "https://burst.foxypool.cf"
     priority: 2
     color: blue
-    accountKey: "your BURST payout address"
+    payoutAddress: "your BURST payout address"
+    minerAlias: "your desired name"
+    minerName: "your desired miner name"
+    appendVersionToMinerName: true
     isPool: true
-    isHpool: true
