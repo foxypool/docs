@@ -32,6 +32,7 @@ nav:
       - Donate: donate.md
   - Foxy-Pool:
       - Home: foxy-pool/index.md
+      - Mining: foxy-pool/mining.md
       - Binding:
           - BHD: foxy-pool/binding/bhd.md
           - BURST: foxy-pool/binding/burst.md
