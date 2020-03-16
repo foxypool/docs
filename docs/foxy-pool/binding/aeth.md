@@ -1,6 +1,6 @@
 ### To bind to the AETH Foxy-Pool just follow these steps:
 
-1. Start the AETH full node (aeth.exe) and let is sync till till it is on the current height.
+1. Start the AETH full node (aeth.exe) and let is sync till it is on the current height.
 2. Open the AETH GUI and create an account by entering a wallet password of your choice twice:
 
     ![AETH create account](../../assets/img/binding/aeth-bind-1.png)
