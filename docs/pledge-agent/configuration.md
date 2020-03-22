@@ -13,6 +13,7 @@ The config file currently consists of these config options:
     - `sendThreshold`: The minimum amount to send
     - `pledgeThreshold`: The minimum amount to pledge
     - `walletUrl`: The wallet url to use (only BURST and BOOM)
+    - `accountIdToPassPhrase`: The numeric accountId to passphrase mapping (only BURST and BOOM) to use for sending / pledging
     - `walletUrls`: The wallet urls (array) to use (only BHD, DISC, HDD, LHD, XHD). Entries can be strings (a wallet url) or an object with the following properties:
         - `url`: The wallet url to use
         - `walletPassphrase`: The passphrase for the wallet
