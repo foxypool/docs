@@ -56,6 +56,11 @@ nav:
       - Home: foxy-proxy/index.md
       - Installing: foxy-proxy/installing.md
       - Configuration: foxy-proxy/configuration.md
+  - Pledge-Agent:
+      - Home: pledge-agent/index.md
+      - Supported coins: pledge-agent/supported-coins.md
+      - Installing: pledge-agent/installing.md
+      - Configuration: pledge-agent/configuration.md
 
 
 # Extensions
