@@ -1,7 +1,7 @@
 ## How to configure Foxy-Miner
 
-Foxy-Miner looks for a file named `config.yaml` in the current directory it is run from.
-If no such file is found a first run wizard is shown which will create a basic `config.yaml` based on your inputs.
+Foxy-Miner looks for a file named `foxy-miner.yaml` in the current directory it is run from.
+If no such file is found a first run wizard is shown which will create a basic `foxy-miner.yaml` based on your inputs.
 
 ## Configuration Options
 
