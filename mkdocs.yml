@@ -20,6 +20,7 @@ theme:
 
 # Options
 extra:
+  manifest: 'manifest.webmanifest'
   social:
     - type: github-alt
       link: https://github.com/felixbrucker
@@ -86,3 +87,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
