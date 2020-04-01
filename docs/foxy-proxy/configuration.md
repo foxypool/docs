@@ -134,18 +134,18 @@ useMultiplePorts: false
 proxies:
   - name: 'Multi-Foxy'
     upstreams:
-      - name: 'FoxyPool BURST'
-        type: foxypool
-        url: 'https://burst.foxypool.cf'
-        payoutAddress: 'your BURST payout address'
-        accountName: 'your desired name'
-        coin: BURST
-        weight: 8
       - name: 'FoxyPool BHD'
-        type: foxypool
-        url: 'https://bhd.foxypool.cf'
+        type: 'foxypool'
+        url: 'http://miner.bhd.foxypool.cf'
         payoutAddress: 'your BHD payout address'
         accountName: 'your desired name'
-        coin: BHD
+        coin: 'BHD'
         weight: 12
+      - name: 'FoxyPool BURST'
+        type: 'foxypool'
+        url: 'http://miner.burst.foxypool.cf'
+        payoutAddress: 'your BURST payout address'
+        accountName: 'your desired name'
+        coin: 'BURST'
+        weight: 8
 ```

@@ -56,27 +56,27 @@ The config file currently consists of these config options:
 
 ```yaml
 minerBinPath: 'C:\\some\\path\\to\\scavenger.exe'
-minerType: scavenger
-logLevel: info
+minerType: 'scavenger'
+logLevel: 'info'
 listenAddr: '127.0.0.1:5000'
 humanizeDeadlines: true
 upstreams:
-  - name: FoxyPool BURST
-    type: foxypool
-    url: 'https://burst.foxypool.cf'
-    payoutAddress: 'your BURST payout address'
-    accountName: 'your desired name'
-    weight: 8
-    color: '#3c55d1'
-    coin: BURST
-    doNotInterruptAbovePercent: 95
-  - name: FoxyPool BHD
-    type: foxypool
-    url: 'https://bhd.foxypool.cf'
+  - name: 'FoxyPool BHD'
+    type: 'foxypool'
+    url: 'http://miner.bhd.foxypool.cf'
     payoutAddress: 'your BHD payout address'
     accountName: 'your desired name'
     weight: 12
     color: '#e25898'
-    coin: BHD
+    coin: 'BHD'
+    doNotInterruptAbovePercent: 95
+  - name: 'FoxyPool BURST'
+    type: 'foxypool'
+    url: 'http://miner.burst.foxypool.cf'
+    payoutAddress: 'your BURST payout address'
+    accountName: 'your desired name'
+    weight: 8
+    color: '#3c55d1'
+    coin: 'BURST'
     doNotInterruptAbovePercent: 95
 ```

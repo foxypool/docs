@@ -1,10 +1,10 @@
 The Mining Socket.IO endpoint for every Foxy-Pool is reachable on
 
 ```
-https://<hostname>.<tld>/mining
+http://<hostname>.<tld>/mining
 ```
 
-In the case of the main pools that would be `https://<coin>.foxypool.cf/mining`, where `<coin>`
+In the case of the main pools that would be `http://miner.<coin>.foxypool.cf/mining`, where `<coin>`
 needs to be substituted for the actual coin of the pool you want to connect to.
 
 ## API calls
@@ -14,7 +14,7 @@ needs to be substituted for the actual coin of the pool you want to connect to.
 ```javascript
 const io = require('socket.io-client');
 
-const client = io('https://bhd.foxypool.cf/mining');
+const client = io('http://miner.bhd.foxypool.cf/mining');
 
 client.emit('getMiningInfo', (miningInfo) => {
   // Do stuff here
