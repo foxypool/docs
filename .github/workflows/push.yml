@@ -1,12 +1,9 @@
-name: Github Pages
+name: Build
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -31,9 +28,3 @@ jobs:
           python3 -m pip install -r ./requirements.txt
 
       - run: mkdocs build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
