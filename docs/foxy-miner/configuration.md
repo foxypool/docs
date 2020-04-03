@@ -25,8 +25,8 @@ The config file currently consists of these config options:
 - `dashboardLogLines`: Defaults to 16, set the log lines used in the cli dashboard.
 - `upstreams`: Array of upstream config objects, see below (**required**)
     - `name`: The name of the upstream, must be unique within the proxy (**required**)
-    - `url`: The upstream url, **required**
-    - `updateMiningInfoInterval`: Change the default 1000 msec update interval, value is in ms
+    - `url`: The upstream url, should be omitted for foxy-pools
+    - `updateMiningInfoInterval`: Change the default 1000 msec update interval, value is in ms. Only applies to HTTP polling based upstreams
     - `accountKey`: Add the supplied account key to miningInfo and nonceSubmission requests
     - `payoutAddress`: Your payout address, required for FoxyPool type upstreams.
     - `type`: Used to distinguish different upstream types. Valid values are `socketio` and `foxypool`. If the upstream is FoxyPool, set it to `foxypool`. If the upstream is a socket.io enabled Foxy-Proxy set it to `socketio`.
@@ -63,20 +63,18 @@ humanizeDeadlines: true
 upstreams:
   - name: 'FoxyPool BHD'
     type: 'foxypool'
-    url: 'http://miner.bhd.foxypool.cf'
+    coin: 'BHD'
     payoutAddress: 'your BHD payout address'
     accountName: 'your desired name'
     weight: 12
     color: '#e25898'
-    coin: 'BHD'
     doNotInterruptAbovePercent: 95
   - name: 'FoxyPool BURST'
     type: 'foxypool'
-    url: 'http://miner.burst.foxypool.cf'
+    coin: 'BURST'
     payoutAddress: 'your BURST payout address'
     accountName: 'your desired name'
     weight: 8
     color: '#3c55d1'
-    coin: 'BURST'
     doNotInterruptAbovePercent: 95
 ```
