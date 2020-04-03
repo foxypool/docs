@@ -67,7 +67,7 @@ The config file currently consists of these config options:
     - `maxNumberOfChains`: Set the max number of chains that should be scanning. Can be combined with `useProfitability` to only mine the `n` most profitable chains.
     - `upstreams`: Array of upstream config objects, see below (**required**)
         - `name`: The name of the upstream, must be unique within the proxy (**required**)
-        - `url`: The upstream url, **required**
+        - `url`: The upstream url, should be omitted for foxy-pools
         - `mode`: `'solo'` or `'pool'` depending on if the upstream is a pool or a solo wallet (**required**)
         - `isBHD`: Set to `true` if the upstream is a bhd solo wallet or bhd pool (**required** for bhd based upstreams)
         - `walletUrl`: Optional url of a wallet to retrieve block winner information
@@ -78,7 +78,7 @@ The config file currently consists of these config options:
         - `updateMiningInfoInterval`: Change the default 1000 msec update interval, value is in ms
         - `accountKey`: Add the supplied account key to miningInfo and nonceSubmission requests (**required** for bhd pools)
         - `payoutAddress`: Your payout address, required for FoxyPool type upstreams.
-        - `type`: Used to distinguish different upstream types. Valid values are `hpool`, `foxypool`, `socketio` and `burst-grpc`. If the upstream is a burst wallet with the grpc v2 api set it to `burst-grpc`.
+        - `type`: Used to distinguish different upstream types. Valid values are `hpool`, `foxypool` and `socketio`.
         - `accountIdToUrl`: accountId -> upstream url (object), override the default upstream url based on the accountId
         - `historicalRoundsToKeep`: By default keep 720 rounds of historical stats, overwrite here
         - `minerName`: Set a custom miner name
@@ -101,7 +101,7 @@ The config file currently consists of these config options:
         - `deadlineColor`: Use the defined hex string as color for this upstream's deadlines in logs. eg `'#e2ad58'`
         - `estimatedCapacityRounds`: Use a custom amount of rounds for estimated capacity calculations.
         - `disabled`: Set to true to disable the upstream.
-        - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `BURST`, `BOOM`, `DISC`, `LHD`.
+        - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `BURST`, `DISC`, `LHD`, `XHD`, `HDD`, `AETH`, `LAVA`.
         - `excludedAccountIds`: An array of accountIds to exclude when submitting to the upstream.
         - `distributionRatio`: Your preferred distribution ratio (DR) on Foxy-Pools. Eg. `'50-50'` or `'100-0'`
 - `listenAddr`: a string representation of the address and port the proxy should listen on (**required**)
@@ -136,16 +136,14 @@ proxies:
     upstreams:
       - name: 'FoxyPool BHD'
         type: 'foxypool'
-        url: 'http://miner.bhd.foxypool.cf'
+        coin: 'BHD'
         payoutAddress: 'your BHD payout address'
         accountName: 'your desired name'
-        coin: 'BHD'
         weight: 12
       - name: 'FoxyPool BURST'
         type: 'foxypool'
-        url: 'http://miner.burst.foxypool.cf'
+        coin: 'BURST'
         payoutAddress: 'your BURST payout address'
         accountName: 'your desired name'
-        coin: 'BURST'
         weight: 8
 ```
