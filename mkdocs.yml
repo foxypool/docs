@@ -39,7 +39,6 @@ nav:
           - BHD: foxy-pool/binding/bhd.md
           - BURST: foxy-pool/binding/burst.md
           - HDD: foxy-pool/binding/hdd.md
-          - LAVA: foxy-pool/binding/lava.md
           - LHD: foxy-pool/binding/lhd.md
           - XHD: foxy-pool/binding/xhd.md
       - Pledging: foxy-pool/pledging.md
