@@ -7,7 +7,7 @@ Pledging is a way to increase your earnings on Foxy-Pools by pledging/lending co
 
 On Foxy-Pools your pledge share (based on your pledge compared to the sum of all pledges on that pool) earns you a share of the pledge rewards for each block won.
 
-Pledge rewards are only available if the pool is fully pledged (BHD/BOOM/HDD/LHD/XHD) or partially pledged (DISC/BTB).
+Pledge rewards are only available if the pool is fully pledged (BHD/HDD/LHD/XHD) or partially pledged (DISC/BTB).
 For BHD there is a [special pool](https://big-hard-deck.foxypool.cf) to use for pledging as the main pool is not fully pledged.
 
 To pledge to a pool follow the pools `Pledging to the pool` steps available on each pools `Info` tab in the Web-UI.
