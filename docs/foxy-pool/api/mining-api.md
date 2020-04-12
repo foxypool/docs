@@ -57,13 +57,3 @@ client.emit('submitNonce', submission, options, (result) => {
   // Do stuff here
 });
 ```
-
-### Retrieving the block winner account id for a given height
-
-```javascript
-...
-
-client.emit('getBlockWinnerAccountId', height, (accountId) => {
-  // Do stuff here
-});
-```
