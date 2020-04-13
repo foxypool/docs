@@ -12,7 +12,7 @@ repo_url: https://github.com/felixbrucker/foxy-docs
 theme:
   name: 'material'
   favicon: assets/img/favicon.ico
-  feature:
+  features:
     - tabs
   palette:
     primary: indigo
