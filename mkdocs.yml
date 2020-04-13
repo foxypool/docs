@@ -13,7 +13,7 @@ theme:
   name: 'material'
   favicon: assets/img/favicon.ico
   feature:
-    tabs: true
+    - tabs
   palette:
     primary: indigo
     accent: indigo
@@ -22,7 +22,7 @@ theme:
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - type: github-alt
+    - icon: fontawesome/brands/github-alt
       link: https://github.com/felixbrucker
 
 # Page tree
