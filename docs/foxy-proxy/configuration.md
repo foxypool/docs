@@ -78,7 +78,7 @@ The config file currently consists of these config options:
         - `updateMiningInfoInterval`: Change the default 1000 msec update interval, value is in ms
         - `accountKey`: Add the supplied account key to miningInfo and nonceSubmission requests (**required** for bhd pools)
         - `payoutAddress`: Your payout address, required for FoxyPool type upstreams.
-        - `type`: Used to distinguish different upstream types. Valid values are `hpool`, `foxypool` and `socketio`.
+        - `type`: Used to distinguish different upstream types. Valid values are `foxypool` and `socketio`. Omit to use the generic upstream.
         - `accountIdToUrl`: accountId -> upstream url (object), override the default upstream url based on the accountId
         - `historicalRoundsToKeep`: By default keep 720 rounds of historical stats, overwrite here
         - `minerName`: Set a custom miner name
@@ -104,6 +104,7 @@ The config file currently consists of these config options:
         - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `BURST`, `DISC`, `LHD`, `XHD`, `HDD`, `AETH`, `BTB`.
         - `excludedAccountIds`: An array of accountIds to exclude when submitting to the upstream.
         - `distributionRatio`: Your preferred distribution ratio (DR) on Foxy-Pools. Eg. `'50-50'` or `'100-0'`
+        - `minerPassthrough`: Set to true to pass the miners minerName and capacity through to the upstream.
 - `listenAddr`: a string representation of the address and port the proxy should listen on (**required**)
 - `useMultiplePorts`: set this to `true` when using blago as blago doesn't support regular urls but only an address and a port
 - `webAuth`: Remove this config option to allow any user without authenticating to access the stats
