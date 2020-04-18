@@ -22,8 +22,10 @@ theme:
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/felixbrucker
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/gNHhn9y
 
 # Page tree
 nav:
