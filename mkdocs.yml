@@ -43,6 +43,7 @@ nav:
           - HDD: foxy-pool/binding/hdd.md
           - LHD: foxy-pool/binding/lhd.md
           - XHD: foxy-pool/binding/xhd.md
+      - EC:  foxy-pool/ec.md
       - Pledging: foxy-pool/pledging.md
       - Settings: foxy-pool/settings.md
       - Distribution Ratio: foxy-pool/distribution-ratio.md
@@ -67,6 +68,7 @@ nav:
 
 # Extensions
 markdown_extensions:
+  - meta
   - admonition
   - codehilite:
       guess_lang: false
@@ -93,3 +95,6 @@ plugins:
   - search
   - minify:
       minify_html: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
