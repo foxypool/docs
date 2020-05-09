@@ -46,6 +46,7 @@ nav:
       - EC:  foxy-pool/ec.md
       - Pledging: foxy-pool/pledging.md
       - Settings: foxy-pool/settings.md
+      - Daily Rewards: foxy-pool/daily-rewards.md
       - Distribution Ratio: foxy-pool/distribution-ratio.md
       - API:
           - Overview: foxy-pool/api/overview.md
