@@ -70,6 +70,7 @@ nav:
 # Extensions
 markdown_extensions:
   - meta
+  - footnotes
   - admonition
   - codehilite:
       guess_lang: false

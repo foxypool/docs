@@ -78,3 +78,5 @@ upstreams:
     color: '#3c55d1'
     doNotInterruptAbovePercent: 95
 ```
+
+[^1]: A wise man once said: "Knowledge is key"
