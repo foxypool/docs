@@ -1,38 +1,45 @@
-The Web-UI Socket.IO endpoint for every Foxy-Pool is reachable on
+The Web-UI Socket.IO endpoint of the Foxy-Pool Gateway is reachable on
 
 ```
-https://<hostname>.<tld>/web-ui
+https://api.foxypool.cf/web-ui
 ```
 
-In the case of the main pools that would be `https://<coin>.foxypool.cf/web-ui`, where `<coin>`
-needs to be substituted for the actual coin of the pool you want to connect to.
-
-## API calls
-
-### Retrieving all stats once
+## Retrieving all stats once for a given pool by hostname
 
 ```javascript
 const io = require('socket.io-client');
 
-const client = io('https://bhd.foxypool.cf/web-ui');
+const client = io('https://api.foxypool.cf/web-ui');
 
-client.emit('stats/init', ([poolConfig, poolStats, roundStats, liveStats]) => {
+const hostname = 'bhd.foxypool.cf';
+client.emit('stats/init', hostname, ([poolConfig, poolStats, roundStats, liveStats]) => {
   // Do stuff here
 });
 ```
 
-### Subscribing to new stats
+## Subscribe to new pool stats for a given list of pools by hostname
 
 ```javascript
 ...
 
-client.on('stats/pool', (poolStats) => {
+const hostnames = ['bhd.foxypool.cf', 'burst.foxypool.cf'];
+client.emit('subscribe', hostnames, () => {
   // Do stuff here
 });
-client.on('stats/current-round', (roundStats) => {
+```
+
+## Subscribing to new stats
+
+```javascript
+...
+
+client.on('stats/pool', (hostname, poolStats) => {
   // Do stuff here
 });
-client.on('stats/live', (liveStats) => {
+client.on('stats/round', (hostname, roundStats) => {
+  // Do stuff here
+});
+client.on('stats/live', (hostname, liveStats) => {
   // Do stuff here
 });
 ```
