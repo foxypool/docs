@@ -289,3 +289,20 @@ The following Requests have been implemented:
     }
 }
 ```
+
+### Keepalive (Ping/Pong)
+
+Both client and server must respond to a ping message with a pong message
+```json
+{
+    "jsonrpc": "2.0",
+    "id": null,
+    "method": "ping"
+}
+
+{
+    "jsonrpc": "2.0",
+    "id": null,
+    "method": "pong"
+}
+```
