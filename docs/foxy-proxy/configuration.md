@@ -101,7 +101,7 @@ The config file currently consists of these config options:
         - `deadlineColor`: Use the defined hex string as color for this upstream's deadlines in logs. eg `'#e2ad58'`
         - `estimatedCapacityRounds`: Use a custom amount of rounds for estimated capacity calculations.
         - `disabled`: Set to true to disable the upstream.
-        - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `BURST`, `DISC`, `LHD`, `XHD`, `HDD`, `AETH`, `BTB`.
+        - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `BURST`, `DISC`, `LHD`, `XHD`, `HDD`.
         - `excludedAccountIds`: An array of accountIds to exclude when submitting to the upstream.
         - `distributionRatio`: Your preferred distribution ratio (DR) on Foxy-Pools. Eg. `'50-50'` or `'100-0'`
         - `minerPassthrough`: Set to true to pass the miners minerName and capacity through to the upstream.
