@@ -18,7 +18,7 @@ This requires you to verify you do indeed own the address by signing a message w
 The Web-App's sourcecode is available [here](https://github.com/felixbrucker/poc-message-signing) and can be downloaded and executed locally without internet access.
 This Guide assumes the usage of the signing Web-App.
 
-3. Retrieve your addresses private key via your wallet if wanting to sign in using BHD/BTB/DISC/LHD/HDD/XHD.
+3. Retrieve your addresses private key via your wallet if wanting to sign in using BHD/DISC/LHD/HDD/XHD.
 First navigate to the wallets `Console`:
 
     ![BHD open console](../assets/img/signing/bhd-sign-2.png)
