@@ -37,7 +37,7 @@ The config file currently consists of these config options:
     - `minWeight`: If configured discard all new blocks with a weight below this value for this upstream
     - `color`: Use the defined hex string as color for this upstream's name. eg `'#e2ad58'`
     - `minerColor`: Send the defined hex string to this upstream as a per miner color.
-    - `coin`: Required for `useProfitability`. Possible values are: `BHD`, `BURST`, `BOOM`, `DISC`, `LHD`.
+    - `coin`: Required for `useProfitability` and Foxy-Pools. Possible values are: `BHD`, `BURST`, `DISC`, `LHD`, `HDD`, `XHD`.
     - `disabled`: Set to true to disable this upstream.
     - `submitProbability`: 95 for 95% submit probability per round (based on capacity and netDiff)
     - `doNotInterruptAbovePercent`: 80 for completing scans with this progress percentage even on higher prio chains.
