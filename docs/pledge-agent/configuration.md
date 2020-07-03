@@ -74,3 +74,53 @@ XHD:
   moveOtherPledges: true
   lockingPeriod: '9 months'
 ```
+
+## Configuring the wallets
+
+Some wallets require you to configure them to allow API access through pledge-agent:
+
+### BHD
+
+You'll need to create/edit the file `btchd.conf` (located in `C:\Users\<user>\AppData\Roaming\btchd` on Windows) with the following content:
+```
+rpcuser=someuser
+rpcpassword=somepass
+server=1
+rpcallowua=1
+```
+
+### LHD
+
+You'll need to create/edit the file `ltchd.conf` (located in `C:\Users\<user>\AppData\Roaming\ltchd` on Windows) with the following content:
+```
+rpcuser=someuser
+rpcpassword=somepass
+server=1
+```
+
+### XHD
+
+You'll need to create/edit the file `xrphd.conf` (located in `C:\Users\<user>\AppData\Roaming\xrphd` on Windows) with the following content:
+```
+rpcuser=someuser
+rpcpassword=somepass
+server=1
+```
+
+### HDD
+
+You'll need to create/edit the file `hddcash.conf` (located in `C:\Users\<user>\AppData\Roaming\hddcash` on Windows) with the following content:
+```
+rpcuser=hddcash
+rpcpassword=aWJGS22RctmT9Wh8uptX
+server=1
+```
+
+### DISC
+
+You'll need to create/edit the file `diskcoin.conf` (located in `C:\Users\<user>\AppData\Roaming\diskcoin` on Windows) with the following content:
+```
+rpcuser=someuser
+rpcpassword=somepass
+server=1
+```
