@@ -2,7 +2,7 @@
 
 The recommended way to install Foxy-Proxy is via `npm`, the package manager for Nodejs - the language Foxy-Proxy is written in.
 
-1. [Install Nodejs](../installing-nodejs.md)
+1. [Install Nodejs](../general/installing-nodejs.md)
 2. Install Foxy-Proxy via `npm`:
 
         npm install --global foxy-proxy

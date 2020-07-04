@@ -4,7 +4,7 @@ The recommended way to install Foxy-Miner is via `npm`, the package manager for 
 
 ### Install via npm
 
-1. [Install Nodejs](../installing-nodejs.md)
+1. [Install Nodejs](../general/installing-nodejs.md)
 2. Install Foxy-Miner via `npm`:
 
         npm install --global foxy-miner

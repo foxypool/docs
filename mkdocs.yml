@@ -32,6 +32,7 @@ nav:
   - General:
       - Home: index.md
       - Glossary: general/glossary.md
+      - Configuring Scavenger: general/configuring-scavenger.md
       - Installing Nodejs: general/installing-nodejs.md
       - Donate: general/donate.md
   - Foxy-Pool:
