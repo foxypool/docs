@@ -1,4 +1,4 @@
-[Scavenger](https://github.com/PoC-Consortium/scavenger) can be configured via the `config.yaml` config file. The following sane default can be used as a baseline for future fine tuning:
+[Scavenger](https://github.com/PoC-Consortium/scavenger) can be configured via the `config.yaml` config file. The following sane defaults can be used as a baseline for future fine tuning:
 
 General:
 ```yaml
