@@ -31,8 +31,9 @@ extra:
 nav:
   - General:
       - Home: index.md
-      - Installing Nodejs: installing-nodejs.md
-      - Donate: donate.md
+      - Glossary: general/glossary.md
+      - Installing Nodejs: general/installing-nodejs.md
+      - Donate: general/donate.md
   - Foxy-Pool:
       - Home: foxy-pool/index.md
       - Mining: foxy-pool/mining.md
