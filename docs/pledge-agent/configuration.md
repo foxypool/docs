@@ -22,6 +22,7 @@ The config file currently consists of these config options:
     - `maxPledge`: Make sure to pledge at most this many coins to the configured `pledgeTo` address in total
     - `lockingPeriod`: Set the amount to lock the pledges for (only XHD). Use a string with an english time duration like `'9 months'` or set the amount of blocks to lock for as integer.
     - `coinsToKeepInWallet`: The amount of coins to keep in the wallet and not send / pledge
+    - `multiplesOf`: Only send/pledge amounts that are multiples of this number.
 
 ## Configuration Example
 
