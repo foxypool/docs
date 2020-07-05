@@ -12,12 +12,12 @@ The config file currently consists of these config options:
     - `pledgeTo`: The address to pledge coins to, can be omitted if no pledging is desired. Can be an array where the first entry is the address and the second entry is the percentage to use
     - `sendThreshold`: The minimum amount to send
     - `pledgeThreshold`: The minimum amount to pledge
-    - `walletUrl`: The wallet url to use (only BURST and BOOM)
-    - `accountIdToPassPhrase`: The numeric accountId to passphrase mapping (only BURST and BOOM) to use for sending / pledging
+    - `walletUrl`: The wallet url to use (only BURST)
+    - `accountIdToPassPhrase`: The numeric accountId to passphrase mapping (only BURST) to use for sending / pledging
     - `walletUrls`: The wallet urls (array) to use (only BHD, DISC, HDD, LHD, XHD). Entries can be strings (a wallet url) or an object with the following properties:
         - `url`: The wallet url to use
         - `walletPassphrase`: The passphrase for the wallet
-    - `sendMessage`: The message to add when sending coins (only BURST and BOOM)
+    - `sendMessage`: The message to add when sending coins (only BURST)
     - `moveOtherPledges`: If set to true will cancel pledges pointing at addresses different form the currently configured `pledgeTo` address
     - `maxPledge`: Make sure to pledge at most this many coins to the configured `pledgeTo` address in total
     - `lockingPeriod`: Set the amount to lock the pledges for (only XHD). Use a string with an english time duration like `'9 months'` or set the amount of blocks to lock for as integer.
@@ -28,19 +28,12 @@ The config file currently consists of these config options:
 
 ```yaml
 BHD:
-  pledgeTo: '3LxNj4jkU251oKqaSxLxRLgcTBNu58maWf'
+  pledgeTo: '382huZpCbisipKsLWTyQoPeWcpeeBRVdFF'
   walletUrls:
   - url: 'http://someuser:somepass@127.0.0.1:8732'
     walletPassphrase: 'for encrypted wallets'
   pledgeThreshold: 1
   moveOtherPledges: false
-BOOM:
-  pledgeTo: 'BOOM-2RKG-UQW9-UKEV-D9HVN'
-  accountIdToPassPhrase:
-    '1234567890': 'my secret passphrase here'
-  walletUrl: 'http://127.0.0.1:9925'
-  pledgeThreshold: 5
-  moveOtherPledges: true
 BURST:
   sendTo: 'BURST-BVUD-7VWE-HD7F-6RX4P'
   accountIdToPassPhrase:
