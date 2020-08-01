@@ -113,6 +113,7 @@ The config file currently consists of these config options:
 - `logLevel`: Can be one of the following values: `error`, `info`, `debug`. Defaults to `info`.
 - `logToFile`: Boolean, if set to `true` logs to `proxy.log` in the default log location (`<HOMEDIR>/.config/foxy-proxy/logs`). Files are rotated once they reach 10MB and each day.
 - `logDir`: Override the default log directory with a custom one
+- `logMaxFiles`: Set the number of log files to keep, eg. 5 to keep only the last 5 log files
 - `mail`: Contains config keys required for sending miner offline/recovered mails.
     - `host`: The hostname of the smtp mail server, eg. `smtp.googlemail.com`
     - `port`: The port to use when sending mails, eg `465`
