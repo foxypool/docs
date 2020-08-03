@@ -131,10 +131,10 @@ The config file currently consists of these config options:
 
 ```yaml
 listenAddr: '127.0.0.1:12345'
-maxScanTime: 30
 useMultiplePorts: false
 proxies:
   - name: 'Multi-Foxy'
+    maxScanTime: 30
     upstreams:
       - name: 'FoxyPool BHD'
         type: 'foxypool'
