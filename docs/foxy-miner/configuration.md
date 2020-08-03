@@ -32,6 +32,7 @@ The config file currently consists of these config options:
     - `type`: Used to distinguish different upstream types. Valid values are `socketio` and `foxypool`. If the upstream is FoxyPool, set it to `foxypool`. If the upstream is a socket.io enabled Foxy-Proxy set it to `socketio`.
     - `minerName`: Set a custom miner name
     - `accountName`: Set a custom account name in FoxyPool
+    - `targetDL`: Set a custom target deadline for this upstream, submissions with deadlines below this DL are ignored.
     - `sendTargetDL`: Set a custom targetDL to send to the miners
     - `weight`: defines which upstream should have the higher priority when two blocks appear within the same max scan time. Defaults to 10.
     - `minWeight`: If configured discard all new blocks with a weight below this value for this upstream
