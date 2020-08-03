@@ -8,12 +8,12 @@
 
 3. Enter the pools address into the `Bind To` field.
 4. Enter your plotterId passphrase into the `Plotter` field.
-5. Change the `Valid Height` to 14 hours (288 blocks).
+5. Change the `Alive Time` to 24 hours (480 blocks).
 
     ![BHD Generate bind data](../../assets/img/binding/bhd-bind-2.png)
 
-6. Click on `Generate Bind Data` button.
-7. Your plotterId and bind data are displayed and you can copy the bind
+6. Click on `Check` button.
+7. Your plotterId and bind data are displayed. Please verify the displayed plotterId matches yours. You can copy the bind
    data with the `Copy bind data` button.
 
     ![BHD Copy bind data](../../assets/img/binding/bhd-bind-3.png)
