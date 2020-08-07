@@ -5,7 +5,7 @@ Foxy-Docs
 
 ## How to use
 
-- Open https://docs.foxypool.cf
+- Open https://docs.foxypool.io
 - Profit
 
 ## License

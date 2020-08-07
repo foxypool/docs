@@ -14,7 +14,7 @@ This requires you to verify you do indeed own the address by signing a message w
 
     ![BHD Sign address input](../assets/img/signing/bhd-sign-1.png)
 
-2. Sign the message either directly in your wallet or via the signing Web-App available on [signing.foxypool.cf](https://signing.foxypool.cf).
+2. Sign the message either directly in your wallet or via the signing Web-App available on [signing.foxypool.io](https://signing.foxypool.io).
 The Web-App's sourcecode is available [here](https://github.com/felixbrucker/poc-message-signing) and can be downloaded and executed locally without internet access.
 This Guide assumes the usage of the signing Web-App.
 

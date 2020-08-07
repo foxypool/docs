@@ -3,7 +3,7 @@
 The Mining Socket.IO endpoint of the Foxy-Pool Gateway is reachable on
 
 ```
-http://miner.foxypool.cf/mining
+http://miner.foxypool.io/mining
 ```
 
 ### Retrieving the current mining info for a given coin once
@@ -11,7 +11,7 @@ http://miner.foxypool.cf/mining
 ```javascript
 const io = require('socket.io-client');
 
-const client = io('http://miner.foxypool.cf/mining');
+const client = io('http://miner.foxypool.io/mining');
 
 const coin = 'BHD';
 client.emit('getMiningInfo', coin, (miningInfo) => {
@@ -73,7 +73,7 @@ client.emit('submitNonce', coin, submission, options, (result) => {
 The Mining Websocket endpoint of the Foxy-Pool Gateway is reachable on
 
 ```
-ws://miner.foxypool.cf:8081
+ws://miner.foxypool.io:8081
 ```
 
 The Request format is JSON and has the following properties:
@@ -98,7 +98,7 @@ The Response format is JSON and has the following properties:
 ```javascript
 const WebSocket = require('ws');
 
-const client = new WebSocket('ws://miner.foxypool.cf:8081');
+const client = new WebSocket('ws://miner.foxypool.io:8081');
 
 // Wait for the connection to be open
 await new Promise(resolve => client.onopen = resolve);
@@ -207,7 +207,7 @@ const result = await sendMessageAndAwaitResponse({
 The Stratum endpoint of the Foxy-Pool Gateway is reachable on
 
 ```
-stratum+tcp://miner.foxypool.cf:8082
+stratum+tcp://miner.foxypool.io:8082
 ```
 
 The endpoint uses the [burst-stratum](https://github.com/felixbrucker/burst-stratum) protocol, which is a slightly modified version of the traditional stratum protocol.

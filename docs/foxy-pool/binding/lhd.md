@@ -18,7 +18,7 @@
 
     ![LHD Copy bind data](../../assets/img/binding/lhd-bind-3.png)
 
-8. Open the [Foxy-Pool LHD Web UI](https://lhd.foxypool.cf/bind) and
+8. Open the [Foxy-Pool LHD Web UI](https://lhd.foxypool.io/bind) and
    enter your plotterId and the copied bind data.
 9. Press the `Bind` button.
 

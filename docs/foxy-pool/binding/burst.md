@@ -2,7 +2,7 @@
 
 1. Open your BURST wallet and let it sync till it is on the current
    height.
-2. If you do not own any BURST, you can use the faucet available on the [pools Web UI](https://burst.foxypool.cf/faucet) to get a little BURST to be able to bind to the pool.
+2. If you do not own any BURST, you can use the faucet available on the [pools Web UI](https://burst.foxypool.io/faucet) to get a little BURST to be able to bind to the pool.
 3. Select the Setting drop down at the top right corner and click `Reward Assignment`:
 
     ![BURST Bind to selection](../../assets/img/binding/burst-bind-1.png)

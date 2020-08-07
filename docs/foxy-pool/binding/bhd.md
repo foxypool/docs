@@ -18,7 +18,7 @@
 
     ![BHD Copy bind data](../../assets/img/binding/bhd-bind-3.png)
 
-8. Open the [Foxy-Pool BHD Web UI](https://bhd.foxypool.cf/bind) and
+8. Open the [Foxy-Pool BHD Web UI](https://bhd.foxypool.io/bind) and
    enter your plotterId and the copied bind data.
 9. Press the `Bind` button.
 
