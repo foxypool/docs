@@ -40,6 +40,18 @@ benchmark_only: XPU
 This will disable submitting deadlines found. Additionally you can add your plot file paths multiple times to increase the benchmark duration as well as maximize the file reading because of caching already read parts.
 While in benchmark mode adjust the `cpu_threads` / `gpu_threads` and `gpu_nonces_per_cache` sizes depending on if you are CPU or GPU mining and observe the results to maximize speeds.
 
+
+Use `scavenger -o` to print the opencl device list and the `ideal_nonce_cache_multiplier` for each opencl device to calculate the optimal `gpu_nonces_per_cache`:
+
+```
+19:53:39 [INFO]  OCL: platform 1, AMD Accelerated Parallel Processing - OpenCL 2.1 AMD-APP (2671.3)
+19:53:39 [INFO]  OCL:   device 0, Advanced Micro Devices, Inc. - Tahiti
+19:53:40 [INFO]  OCL:     cores=32,kernel_1_workgroupsize=256, kernel_2_workgroupsize=256
+19:53:40 [INFO]  OCL:     ideal_nonce_cache_multiplier=8192
+```
+
+The `gpu_nonces_per_cache` should be a multiple of the `ideal_nonce_cache_multiplier` of the GPU used for scanning.
+
 Furthermore you can use
 ```yaml
 benchmark_only: IO
