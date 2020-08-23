@@ -48,10 +48,11 @@ The config file currently consists of these config options:
 
 - `miner`: An array of upstreams + miner configs, used only for multi miner setups
     - `upstreams`
-    - `minerType`
+    - `minerBinPath`
     - `minerConfigPath`
     - `minerType`
     - `minerColor`
+    - `disabled`
 
 ## Configuration Example
 
