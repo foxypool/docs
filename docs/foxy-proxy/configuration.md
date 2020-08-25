@@ -44,6 +44,9 @@ pm2 startup
 
 4. Depending on if you are `root` the `pm2 startup` command either runs directly or outputs a sudo command you will need to execute.
 
+## Per Miner maxScanTime
+
+To allow fine granular control each miner which supports urls instead of simple ip:port can subscribe to their own maxScanTime. To do so, just append the preferred maxScanTime in seconds to the url, like so: http://localhost:12345/burst-bhd/25. That would result in that miner setting its `maxScanTime` to 25 seconds.
 
 ## Configuration Options
 
