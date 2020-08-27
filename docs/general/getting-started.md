@@ -1,6 +1,6 @@
 ### So you want to start mining with your HDD?
 
-1. First check your estimated rewards for the capacity you wish to use [here](https://calculator.foxypool.io). If you those look good to you move on to step 2.
+1. First check your estimated rewards for the capacity you wish to use [here](https://calculator.foxypool.io). If those look good to you move on to step 2.
 2. Now you need to create your first [Plot file](glossary.md#plot-file). The plot file is created using a Plotter, a piece of software which generates the [nonces](glossary.md#nonce) for the plot file using your CPU or preferably your GPU.
 Recommended Plotter:
     - [Turbo Plotter](https://blackpawn.com/tp/) (Windows, Linux & Mac OS X - requires a GUI to run, easy to use)
