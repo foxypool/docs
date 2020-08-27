@@ -31,6 +31,7 @@ extra:
 nav:
   - General:
       - Home: index.md
+      - Getting Started: general/getting-started.md
       - Glossary: general/glossary.md
       - Configuring Scavenger: general/configuring-scavenger.md
       - Installing Nodejs: general/installing-nodejs.md
