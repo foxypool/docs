@@ -12,11 +12,14 @@ repo_url: https://github.com/felixbrucker/foxy-docs
 theme:
   name: 'material'
   favicon: assets/img/favicon.ico
+  logo: assets/img/fox.png
   features:
     - tabs
   palette:
     primary: indigo
     accent: indigo
+  icon:
+    repo: fontawesome/brands/github-alt
 
 # Options
 extra:
