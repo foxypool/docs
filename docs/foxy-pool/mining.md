@@ -4,16 +4,16 @@ You can mine on Foxy-Pools using various mining software and connection methods.
 
 - HTTP Polling is the "classic" way of connecting to a Burst Wallet and thus was adopted by most mining pools. Miners poll for new mining info every x seconds. This connection method is considered legacy.
 
-### Socket.IO
+=== "Socket.IO"
 
-- [Foxy-Miner](../foxy-miner/index.md), mini proxy which wraps Scavenger and provides multi-mining, [example config](../foxy-miner/configuration.md#configuration-example)
-- [Foxy-Proxy](../foxy-proxy/index.md), multi mining proxy with a web ui, [example config](../foxy-proxy/configuration.md#configuration-example)
+    - [Foxy-Miner](../foxy-miner/index.md), mini proxy which wraps Scavenger and provides multi-mining, [example config](../foxy-miner/configuration.md#configuration-example)
+    - [Foxy-Proxy](../foxy-proxy/index.md), multi mining proxy with a web ui, [example config](../foxy-proxy/configuration.md#configuration-example)
 
-### Websocket
+=== "Websocket"
 
-- [ddProxy](http://www.ddproxy.sg/index_en.html#download), an intelligent multi-mining proxy with support for many coins. [config templates](http://www.ddproxy.sg/index_en.html#template)
+    - [ddProxy](http://www.ddproxy.sg/index_en.html#download), an intelligent multi-mining proxy with support for many coins. [config templates](http://www.ddproxy.sg/index_en.html#template)
 
-### HTTP Polling
+=== "HTTP Polling (legacy)"
 
-- [quetzalcoatl/blagominer](https://github.com/quetzalcoatl/blagominer/releases), CPU only multi-miner with pause/resume support. [example config](../../assets/example/config/quetzalcoatl-blagominer/miner.conf)
-- [Archon](http://archonproxy.info/download), a collision free, multi-chain proof of capacity mining proxy. [example config](../../assets/example/config/archon/archon.yaml)
+    - [quetzalcoatl/blagominer](https://github.com/quetzalcoatl/blagominer/releases), CPU only multi-miner with pause/resume support. [example config](../../assets/example/config/quetzalcoatl-blagominer/miner.conf)
+    - [Archon](http://archonproxy.info/download), a collision free, multi-chain proof of capacity mining proxy. [example config](../../assets/example/config/archon/archon.yaml)
