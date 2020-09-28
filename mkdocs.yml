@@ -14,7 +14,7 @@ theme:
   favicon: assets/img/favicon.ico
   logo: assets/img/fox.png
   features:
-    - tabs
+    - navigation.tabs
   palette:
     primary: indigo
     accent: indigo
