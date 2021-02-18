@@ -23,7 +23,3 @@
 9. Press the `Bind` button.
 
     ![BHD Bind](../../assets/img/binding/bhd-bind-4.png){: loading=lazy }
-
-10. If there is no more balance in the pool please send 0.2 BHD to the
-    pools address and DM the Transaction ID, your plotterId and the bind data to
-    user `felixbrucker` on [Discord](https://discord.gg/gNHhn9y).
