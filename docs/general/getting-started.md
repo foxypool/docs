@@ -58,5 +58,7 @@ Recommended Plotter:
 5. You'll also need a [miner](glossary.md#mining-software), a piece of software reading your Plot files each round and submitting [deadlines](glossary.md#deadline) it finds in your Plot file to the pool.
    There are a number of supported and recommended mining software's listed [here](../foxy-pool/mining.md), but to get started using [Foxy-Miner](../foxy-miner/index.md) is recommended.
 6. Once the Plot file is done plotting, add its path to your miner's plot file list in it's configuration file and start mining!
-    ![Scavenger add plot path](../assets/img/getting-started/scavenger-config-add-plot-path.png){: loading=lazy }
+
+    ![Foxy-Miner add plot path](../assets/img/getting-started/foxy-miner-config-add-plot-path.png){: loading=lazy }
+
 7. To plot additional drives just repeat steps 2, 3 and 6 with the new drive paths

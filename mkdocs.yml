@@ -78,6 +78,7 @@ markdown_extensions:
   - attr_list
   - footnotes
   - admonition
+  - def_list
   - codehilite:
       guess_lang: false
   - toc:

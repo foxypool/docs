@@ -1,5 +1,8 @@
 [Scavenger](https://github.com/PoC-Consortium/scavenger) can be configured via the `config.yaml` config file. The following sane defaults can be used as a baseline for future fine tuning:
 
+!!! info
+    When using [Foxy-Miner](../foxy-miner/index.md) in managed mode (`isManaged`) please configure the corresponding values in the `foxy-miner.yaml` instead.
+
 General:
 ```yaml
 hdd_reader_thread_count: 0

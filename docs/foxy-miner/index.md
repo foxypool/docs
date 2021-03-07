@@ -8,3 +8,4 @@
 - Humanize deadlines, so you know exactly how low/big the deadlines are
 - Add all sorts of configurable colors
 - Support profitability based switching and exclusion of coins
+- Help the user with a first run wizard through the setup process
