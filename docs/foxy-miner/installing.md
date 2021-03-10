@@ -5,18 +5,20 @@
       The recommended way to install Foxy-Miner is via `npm`, the package manager for Nodejs - the language Foxy-Miner is written in.
 
       1. [Install Nodejs](../general/installing-nodejs.md)
-      2. Install Foxy-Miner via `npm`:
+      2. **Windows only**: Make sure you have the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) installed.
+      3. Install Foxy-Miner via `npm`:
       
               npm install --global foxy-miner
       
-      3. Run Foxy-Miner via:
+      4. Run Foxy-Miner via:
       
               foxy-miner
 
 
 === "Install via binary"
 
-      The latest release is available [here](https://github.com/felixbrucker/foxy-miner/releases/latest) on Github. Please download the appropriate version for your operating system.
+      1. **Windows only**: Make sure you have the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) installed.
+      2. Download the latest release for your operating system from [here](https://github.com/felixbrucker/foxy-miner/releases/latest).
 
 
 ## How to update Foxy-Miner
