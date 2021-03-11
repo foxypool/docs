@@ -15,6 +15,7 @@ theme:
   logo: assets/img/fox.png
   features:
     - navigation.tabs
+    - toc.integrate
   palette:
     primary: indigo
     accent: indigo
