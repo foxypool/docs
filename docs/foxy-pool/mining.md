@@ -17,3 +17,6 @@ You can mine on Foxy-Pools using various mining software and connection methods.
 
     - [quetzalcoatl/blagominer](https://github.com/quetzalcoatl/blagominer/releases), CPU only multi-miner with pause/resume support. [example config](../../assets/example/config/quetzalcoatl-blagominer/miner.conf)
     - [Archon](http://archonproxy.info/download), a collision free, multi-chain proof of capacity mining proxy. [example config](../../assets/example/config/archon/archon.yaml)
+
+!!! info
+    If you are new to mining please head over to the [Getting Started Guide](../general/getting-started.md) to learn how to setup mining with your HDDs!
