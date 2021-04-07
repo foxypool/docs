@@ -1,6 +1,6 @@
 The following coins are supported:
 
-- BURST (sending only)
+- BURST
 - BHD
 - DISC
 - HDD

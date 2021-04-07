@@ -10,8 +10,10 @@ The config file currently consists of these config options:
 - `<coin>`: The coin name in caps, valid coins are listed [here](supported-coins.md)
     - `sendTo`: The address to send coins to, can be omitted if no sending is desired. Can be an array where the first entry is the address and the second entry is the percentage to use
     - `pledgeTo`: The address to pledge coins to, can be omitted if no pledging is desired. Can be an array where the first entry is the address and the second entry is the percentage to use
+    - `commitPercentage`: The percentage of your coins to commit for each configured wallet (only BURST)
     - `sendThreshold`: The minimum amount to send
     - `pledgeThreshold`: The minimum amount to pledge
+    - `commitmentThreshold`: The minimum amount to commit
     - `walletUrl`: The wallet url to use (only BURST)
     - `accountIdToPassPhrase`: The numeric accountId to passphrase mapping (only BURST) to use for sending / pledging
     - `walletUrls`: The wallet urls (array) to use (only BHD, DISC, HDD, LHD, XHD). Entries can be strings (a wallet url) or an object with the following properties:
@@ -20,6 +22,7 @@ The config file currently consists of these config options:
     - `sendMessage`: The message to add when sending coins (only BURST)
     - `moveOtherPledges`: If set to true will cancel pledges pointing at addresses different form the currently configured `pledgeTo` address
     - `maxPledge`: Make sure to pledge at most this many coins to the configured `pledgeTo` address in total
+    - `maxCommitment`: Make sure to commit at most this many coins in total
     - `lockingPeriod`: Set the amount to lock the pledges for (only XHD). Use a string with an english time duration like `'9 months'` or set the amount of blocks to lock for as integer.
     - `coinsToKeepInWallet`: The amount of coins to keep in the wallet and not send / pledge
     - `multiplesOf`: Only send/pledge amounts that are multiples of this number.
@@ -36,10 +39,12 @@ BHD:
   moveOtherPledges: false
 BURST:
   sendTo: 'BURST-BVUD-7VWE-HD7F-6RX4P'
+  commitPercentage: 70
   accountIdToPassPhrase:
     '1234567890': 'my secret passphrase here'
   walletUrl: 'http://127.0.0.1:8125'
   sendThreshold: 0
+  commitmentThreshold: 1
 DISC:
   pledgeTo: ['1LLB4uVBUEgr9ERGoHV2tLaYFnQjfak7K3', 70]
   sendTo: ['1F9nVpiA7iKcrpyHCGw6AeqMdU9EebZmrw', 30]
