@@ -17,10 +17,16 @@ The config file currently consists of these config options:
 ### `chiaDaemonAddress`
 : Possible values: `<address>:<port>`. Use the specified chia daemon address to connect to. Overrides the daemon address and port of the chia config if specified.
 
+### `excludedServices`:
+: Possible values in the array: `fullNode`, `wallet`, `farmer`, `harvester`, `plotter`. An array with services to exclude from stats, even when they are running.
+
 
 ## Configuration Example
 
 ```yaml
 chiaConfigDirectory: /home/felix/.chia/mainnet
 apiKey: f2d3a4ed-6480-4ae8-b130-06fd1845b440
+excludedServices:
+  - wallet
+  - fullNode
 ```
