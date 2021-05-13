@@ -74,6 +74,7 @@ nav:
     - Home: chia-dashboard-satellite/index.md
     - Installing: chia-dashboard-satellite/installing.md
     - Configuration: chia-dashboard-satellite/configuration.md
+    - API: chia-dashboard-satellite/api.md
 
 
 # Extensions
