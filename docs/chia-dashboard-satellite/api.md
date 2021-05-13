@@ -135,6 +135,7 @@ Top level service names are taken from [chia-blockchain](https://github.com/Chia
     `PATCH /satellite`
 
 Clients can update the satellite service stats via sparse `PATCH` requests, containing the updated [services](#the-satellite-service-stats-object) in their JSON body.
+Sending `null` as the value of a service clears all stats for this service.
 
 Example:
 
