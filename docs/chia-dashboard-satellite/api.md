@@ -22,12 +22,10 @@ To use an API key to authenticate a request, append a `Authorization` header to 
 
 ### The satellite service stats object
 
-Top level service names are taken from [chia-blockchain](https://github.com/Chia-Network/chia-blockchain).
-
 ??? example "Full example of a satellite service stats object"
     ```json
     {
-        "chia_harvester": {
+        "harvester": {
             "plotCount": 1413,
             "totalCapacityInGib": "143438.92061062715947628029",
             "farmerConnections": [{
@@ -37,7 +35,7 @@ Top level service names are taken from [chia-blockchain](https://github.com/Chia
                 "ip": "127.0.0.1"
             }]
         },
-        "chia_farmer": {
+        "farmer": {
             "farmingInfos": [{
                 "challenge": "0x5474dbce02c2f8fc4e9361c7471c0839e5f816a439073f7865aff4bc343d7d1a",
                 "signagePoint": "0x6da1a6ed5ee0efc014d1c855ab7ce77a338991da1a7fbd24ffb1c547155be2df",
@@ -57,7 +55,7 @@ Top level service names are taken from [chia-blockchain](https://github.com/Chia
             }],
             "harvesterResponseTimes": [844, 66, 761, 128]
         },
-        "chia_full_node": {
+        "fullNode": {
             "blockchainState": {
                 "difficulty": 274,
                 "spaceInGib": "4449385793.9692783355712890625",
@@ -81,7 +79,7 @@ Top level service names are taken from [chia-blockchain](https://github.com/Chia
                 "ip": "181.46.139.248"
             }]
         },
-        "chia_wallet": {
+        "wallet": {
             "wallets": [{
                 "id": 1,
                 "name": "Chia Wallet",
@@ -105,7 +103,7 @@ Top level service names are taken from [chia-blockchain](https://github.com/Chia
                 "lastHeightFarmed": 268715
             }
         },
-        "chia plots create": {
+        "plotter": {
             "jobs": [{
                 "id": "455a0d9e-f797-4950-91b2-6456353da329",
                 "startedAt": "2021-05-13T09:37:09.140Z",
@@ -149,7 +147,7 @@ Example:
     Content-Length: 679
     
     {
-        "chia plots create": {
+        "plotter": {
             "jobs": [{
                 "id": "455a0d9e-f797-4950-91b2-6456353da329",
                 "startedAt": "2021-05-13T09:37:09.140Z",
@@ -179,7 +177,7 @@ Example:
     --header 'Authorization: Bearer f2d3a4ed-6480-4ae8-b130-06fd1845b440' \
     --header 'Content-Type: application/json' \
     --data-raw '{
-        "chia plots create": {
+        "plotter": {
             "jobs": [{
                 "id": "455a0d9e-f797-4950-91b2-6456353da329",
                 "startedAt": "2021-05-13T09:37:09.140Z",
@@ -213,7 +211,7 @@ Example:
       headers: { Authorization: `Bearer ${apiKey}` },
     });
     await client.patch('satellite', {
-        'chia plots create': {
+        plotter: {
             jobs: [{
                 id: '455a0d9e-f797-4950-91b2-6456353da329',
                 startedAt: '2021-05-13T09:37:09.140Z',
