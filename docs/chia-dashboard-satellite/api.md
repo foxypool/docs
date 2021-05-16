@@ -104,17 +104,21 @@ To use an API key to authenticate a request, append a `Authorization` header to 
             }
         },
         "plotter": {
+            "completedPlotsToday": 2, // Optional
+            "completedPlotsYesterday": 4, // Optional
             "jobs": [{
                 "id": "455a0d9e-f797-4950-91b2-6456353da329",
                 "startedAt": "2021-05-13T09:37:09.140Z",
                 "state": "RUNNING",
                 "kSize": 32,
+                "phase": 1, // Optional
                 "progress": 0.1984006092916984
             }, {
                 "id": "e539bacd-b0e2-41e1-bf1c-959326739201",
                 "startedAt": "2021-05-13T09:37:09.145Z",
                 "state": "RUNNING",
                 "kSize": 32,
+                "phase": 1,
                 "progress": 0.19954303122619954
             }, {
                 "id": "de666862-9c36-44f5-b0e8-7e35d86d7976",
