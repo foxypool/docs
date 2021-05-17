@@ -10,7 +10,7 @@ Recommended Plotter:
 
     For this tutorial Turbo Plotter is used.
 
-3. A Plot file contains a unique id, the [Plotter Id](glossary.md#plotter-id), also referred to as [Account Id](glossary.md#account-id). To obtain a Plotter Id you now have two choices: Via a BHD wallet or via a BURST wallet.
+3. A Plot file contains a unique id, the [Plotter Id](glossary.md#plotter-id), also referred to as [Account Id](glossary.md#account-id). The Plotter Id is coin agnostic and can be bound to both BHD and BURST. To obtain a Plotter Id you now have two choices: Via a BHD wallet or via a BURST wallet.
 
 === "BHD wallet"
 
