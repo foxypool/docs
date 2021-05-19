@@ -20,6 +20,9 @@ The config file currently consists of these config options:
 ### `excludedServices`:
 : Possible values in the array: `fullNode`, `wallet`, `farmer`, `harvester`, `plotter`. An array with services to exclude from stats, even when they are running.
 
+### `chiaDashboardCoreUrl`:
+: The url the satellite should connect to for stats updates, default is `https://chia-dashboard-api.foxypool.io`.
+
 
 ## Configuration Example
 
@@ -29,4 +32,5 @@ apiKey: f2d3a4ed-6480-4ae8-b130-06fd1845b440
 excludedServices:
   - wallet
   - fullNode
+chiaDashboardCoreUrl: https://eu.chiadashboard.com
 ```
