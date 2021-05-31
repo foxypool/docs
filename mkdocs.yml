@@ -58,7 +58,13 @@ nav:
           - LHD: foxy-pool/binding/lhd.md
           - XHD: foxy-pool/binding/xhd.md
       - EC:  foxy-pool/ec.md
-      - Pledging: foxy-pool/pledging.md
+      - Pledging:
+          - Overview: foxy-pool/pledging.md
+          - BHD: foxy-pool/pledging/bhd.md
+          - BURST: foxy-pool/pledging/burst.md
+          - HDD: foxy-pool/pledging/hdd.md
+          - LHD: foxy-pool/pledging/lhd.md
+          - XHD: foxy-pool/pledging/xhd.md
       - Settings: foxy-pool/settings.md
       - Daily Rewards: foxy-pool/daily-rewards.md
       - Distribution Ratio: foxy-pool/distribution-ratio.md
