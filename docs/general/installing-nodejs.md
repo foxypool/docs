@@ -12,7 +12,7 @@
         sudo apt update
         sudo apt install curl
         ```
-    or for Mac OS X:
+        or for Mac OS X:
         ```bash
         brew install curl
         ```
