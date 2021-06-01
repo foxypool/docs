@@ -7,13 +7,14 @@
       1. [Install Nodejs](../general/installing-nodejs.md)
       2. **Windows only**: Make sure you have the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) installed.
       3. Install Foxy-Miner via `npm`:
-      
-              npm install --global foxy-miner
+            ```bash
+            npm install --global foxy-miner
+            ```
       
       4. Run Foxy-Miner via:
-      
-              foxy-miner
-
+            ```bash
+            foxy-miner
+            ```
 
 === "Install via binary"
 
@@ -26,8 +27,9 @@
 === "Update via npm"
 
       Just run the following command to update Foxy-Miner through `npm`:
-      
-              npm update --global foxy-miner
+            ```bash
+            npm update --global foxy-miner
+            ```
 
 === "Update via binary"
 

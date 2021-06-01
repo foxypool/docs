@@ -6,13 +6,14 @@
 
       1. [Install Nodejs](../general/installing-nodejs.md)
       2. Install Chia-Dashboard-Satellite via `npm`:
-      
-              npm install --global chia-dashboard-satellite
-      
-      3. Run Chia-Dashboard-Satellite via:
-      
-              chia-dashboard-satellite
+         ```bash
+         npm install --global chia-dashboard-satellite
+         ```
 
+      3. Run Chia-Dashboard-Satellite via:
+         ```bash
+         chia-dashboard-satellite
+         ```
 
 === "Install via binary"
 
@@ -24,8 +25,9 @@
 === "Update via npm"
 
       Just run the following command to update Chia-Dashboard-Satellite through `npm`:
-      
-              npm update --global chia-dashboard-satellite
+         ```bash
+         npm update --global chia-dashboard-satellite
+         ```
 
 === "Update via binary"
 
