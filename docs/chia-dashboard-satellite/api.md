@@ -28,12 +28,7 @@ To use an API key to authenticate a request, append a `Authorization` header to 
         "harvester": {
             "plotCount": 1413,
             "totalCapacityInGib": "143438.92061062715947628029",
-            "farmerConnections": [{
-                "readMib": "0.5054006576538085888",
-                "writtenMib": "0.52267074584960937984",
-                "lastMessageTimestamp": "1620897229.0345235",
-                "ip": "127.0.0.1"
-            }]
+            "farmerConnectionsCount": 1
         },
         "farmer": {
             "farmingInfos": [{
@@ -53,7 +48,8 @@ To use an API key to authenticate a request, append a `Authorization` header to 
                 "totalPlots": 4639,
                 "lastUpdated": "2021-05-13T09:13:49.796Z"
             }],
-            "harvesterResponseTimes": [844, 66, 761, 128]
+            "averageHarvesterResponseTime": 844,
+            "worstHarvesterResponseTime": 2236
         },
         "fullNode": {
             "blockchainState": {
@@ -67,17 +63,7 @@ To use an API key to authenticate a request, append a `Authorization` header to 
                 },
                 "timestamp": null
             },
-            "fullNodeConnections": [{
-                "readMib": "3.433443069458007808",
-                "writtenMib": "29.20577812194824218624",
-                "lastMessageTimestamp": "1620897229.2749834",
-                "ip": "180.129.22.245"
-            }, {
-                "readMib": "3.29261589050292968448",
-                "writtenMib": "19.08905982971191406592",
-                "lastMessageTimestamp": "1620897229.268498",
-                "ip": "181.46.139.248"
-            }]
+            "fullNodeConnectionsCount": 12
         },
         "wallet": {
             "wallets": [{
