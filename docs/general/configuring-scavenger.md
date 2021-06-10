@@ -57,6 +57,6 @@ The `gpu_nonces_per_cache` should be a multiple of the `ideal_nonce_cache_multip
 
 Furthermore you can use
 ```yaml
-benchmark_only: IO
+benchmark_only: I/O
 ```
 to verify how fast your drives are. This benchmark mode will effectively just read the plot files without any processing.
