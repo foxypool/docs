@@ -3,7 +3,7 @@
 1. Open your BURST wallet and let it sync till it is on the current height.
 2. Click on `Commitment` at the top right.
    
-    ![BURST Commit](../../assets/img/pledging/burst-pledge.png){: loading=lazy }
+    ![BURST Commit](../../../assets/img/pledging/burst-pledge.png){: loading=lazy }
 
 3. In the modal appearing enter the amount you wish to commit in the `Amount` field.
 4. Use the standard fee or if you already have enough BURST you can use a higher fee for faster confirms as well.

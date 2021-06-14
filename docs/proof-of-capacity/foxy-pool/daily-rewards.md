@@ -1,7 +1,7 @@
 Each Foxy-Pool shows a "Daily Reward" value on its Dashboard. This value is the equivalent of the averaged mining
 rewards (excluding pledge rewards) per PiB of EC per day. The value is computed using the last 10 days of won blocks.
 
-Additionally the daily reward is also shown in USD / PiB, this value is based on the current exchange rate of the coin, if available.
+Additionally, the daily reward is also shown in USD / PiB, this value is based on the current exchange rate of the coin, if available.
 
 ### How is the daily reward computed exactly?
 

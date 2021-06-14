@@ -18,4 +18,4 @@ You can mine on Foxy-Pools using various mining software and connection methods.
     - [quetzalcoatl/blagominer](https://github.com/quetzalcoatl/blagominer/releases), CPU only multi-miner with pause/resume support. [example config](../../assets/example/config/quetzalcoatl-blagominer/miner.conf)
 
 !!! info
-    If you are new to mining please head over to the [Getting Started Guide](../general/getting-started.md) to learn how to setup mining with your HDDs!
+    If you are new to mining please head over to the [Getting Started Guide](../getting-started.md) to learn how to setup mining with your HDDs!

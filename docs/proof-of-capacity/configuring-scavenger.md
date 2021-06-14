@@ -1,7 +1,7 @@
 [Scavenger](https://github.com/PoC-Consortium/scavenger) can be configured via the `config.yaml` config file. The following sane defaults can be used as a baseline for future fine tuning:
 
 !!! info
-    When using [Foxy-Miner](../foxy-miner/index.md) in managed mode (`isManaged`) please configure the corresponding values in the `foxy-miner.yaml` instead.
+    When using [Foxy-Miner](foxy-miner/index.md) in managed mode (`isManaged`) please configure the corresponding values in the `foxy-miner.yaml` instead.
 
 General:
 ```yaml
@@ -40,7 +40,7 @@ For fine-tuning please use the benchmark functionality of scavenger via
 ```yaml
 benchmark_only: XPU
 ```
-This will disable submitting deadlines found. Additionally you can add your plot file paths multiple times to increase the benchmark duration as well as maximize the file reading because of caching already read parts.
+This will disable submitting deadlines found. Additionally, you can add your plot file paths multiple times to increase the benchmark duration as well as maximize the file reading because of caching already read parts.
 While in benchmark mode adjust the `cpu_threads` / `gpu_threads` and `gpu_nonces_per_cache` sizes depending on if you are CPU or GPU mining and observe the results to maximize speeds.
 
 

@@ -43,54 +43,55 @@ extra:
 nav:
   - General:
       - Home: index.md
-      - Getting Started: general/getting-started.md
-      - Glossary: general/glossary.md
-      - Configuring Scavenger: general/configuring-scavenger.md
       - Installing Nodejs: general/installing-nodejs.md
       - Donate: general/donate.md
-  - Foxy-Pool:
-      - Home: foxy-pool/index.md
-      - Mining: foxy-pool/mining.md
-      - Binding:
-          - BHD: foxy-pool/binding/bhd.md
-          - BURST: foxy-pool/binding/burst.md
-          - HDD: foxy-pool/binding/hdd.md
-          - LHD: foxy-pool/binding/lhd.md
-          - XHD: foxy-pool/binding/xhd.md
-      - EC:  foxy-pool/ec.md
-      - Pledging:
-          - Overview: foxy-pool/pledging.md
-          - BHD: foxy-pool/pledging/bhd.md
-          - BURST: foxy-pool/pledging/burst.md
-          - HDD: foxy-pool/pledging/hdd.md
-          - LHD: foxy-pool/pledging/lhd.md
-          - XHD: foxy-pool/pledging/xhd.md
-      - Settings: foxy-pool/settings.md
-      - Daily Rewards: foxy-pool/daily-rewards.md
-      - Distribution Ratio: foxy-pool/distribution-ratio.md
-      - API:
-          - Overview: foxy-pool/api/overview.md
-          - Web-UI API: foxy-pool/api/web-ui-api.md
-          - Mining API: foxy-pool/api/mining-api.md
-  - Foxy-Miner:
-      - Home: foxy-miner/index.md
-      - Installing: foxy-miner/installing.md
-      - Configuration: foxy-miner/configuration.md
-  - Foxy-Proxy:
-      - Home: foxy-proxy/index.md
-      - Installing: foxy-proxy/installing.md
-      - Configuration: foxy-proxy/configuration.md
-  - Pledge-Agent:
-      - Home: pledge-agent/index.md
-      - Supported coins: pledge-agent/supported-coins.md
-      - Installing: pledge-agent/installing.md
-      - Configuration: pledge-agent/configuration.md
-  - Chia-Dashboard-Satellite:
-    - Home: chia-dashboard-satellite/index.md
-    - Installing: chia-dashboard-satellite/installing.md
-    - Configuration: chia-dashboard-satellite/configuration.md
-    - API: chia-dashboard-satellite/api.md
-
+  - Proof of Capacity:
+      - Getting Started: proof-of-capacity/getting-started.md
+      - Glossary: proof-of-capacity/glossary.md
+      - Foxy-Pool:
+          - Home: proof-of-capacity/foxy-pool/index.md
+          - Mining: proof-of-capacity/foxy-pool/mining.md
+          - Binding:
+              - BHD: proof-of-capacity/foxy-pool/binding/bhd.md
+              - BURST: proof-of-capacity/foxy-pool/binding/burst.md
+              - HDD: proof-of-capacity/foxy-pool/binding/hdd.md
+              - LHD: proof-of-capacity/foxy-pool/binding/lhd.md
+              - XHD: proof-of-capacity/foxy-pool/binding/xhd.md
+          - EC:  proof-of-capacity/foxy-pool/ec.md
+          - Pledging:
+              - Overview: proof-of-capacity/foxy-pool/pledging.md
+              - BHD: proof-of-capacity/foxy-pool/pledging/bhd.md
+              - BURST: proof-of-capacity/foxy-pool/pledging/burst.md
+              - HDD: proof-of-capacity/foxy-pool/pledging/hdd.md
+              - LHD: proof-of-capacity/foxy-pool/pledging/lhd.md
+              - XHD: proof-of-capacity/foxy-pool/pledging/xhd.md
+          - Settings: proof-of-capacity/foxy-pool/settings.md
+          - Daily Rewards: proof-of-capacity/foxy-pool/daily-rewards.md
+          - Distribution Ratio: proof-of-capacity/foxy-pool/distribution-ratio.md
+          - API:
+              - Overview: proof-of-capacity/foxy-pool/api/overview.md
+              - Web-UI API: proof-of-capacity/foxy-pool/api/web-ui-api.md
+              - Mining API: proof-of-capacity/foxy-pool/api/mining-api.md
+      - Foxy-Miner:
+          - Home: proof-of-capacity/foxy-miner/index.md
+          - Installing: proof-of-capacity/foxy-miner/installing.md
+          - Configuration: proof-of-capacity/foxy-miner/configuration.md
+      - Foxy-Proxy:
+          - Home: proof-of-capacity/foxy-proxy/index.md
+          - Installing: proof-of-capacity/foxy-proxy/installing.md
+          - Configuration: proof-of-capacity/foxy-proxy/configuration.md
+      - Pledge-Agent:
+          - Home: proof-of-capacity/pledge-agent/index.md
+          - Supported coins: proof-of-capacity/pledge-agent/supported-coins.md
+          - Installing: proof-of-capacity/pledge-agent/installing.md
+          - Configuration: proof-of-capacity/pledge-agent/configuration.md
+      - Configuring Scavenger: proof-of-capacity/configuring-scavenger.md
+  - Proof of Spacetime:
+      - Chia-Dashboard-Satellite:
+        - Home: proof-of-spacetime/chia-dashboard-satellite/index.md
+        - Installing: proof-of-spacetime/chia-dashboard-satellite/installing.md
+        - Configuration: proof-of-spacetime/chia-dashboard-satellite/configuration.md
+        - API: proof-of-spacetime/chia-dashboard-satellite/api.md
 
 # Extensions
 markdown_extensions:
@@ -125,6 +126,45 @@ plugins:
   - search
   - minify:
       minify_html: true
+  - redirects:
+      redirect_maps:
+        'general/getting-started.md': 'proof-of-capacity/getting-started.md'
+        'general/glossary.md': 'proof-of-capacity/glossary.md'
+        'foxy-pool/index.md': 'proof-of-capacity/foxy-pool/index.md'
+        'foxy-pool/mining.md': 'proof-of-capacity/foxy-pool/mining.md'
+        'foxy-pool/binding/bhd.md': 'proof-of-capacity/foxy-pool/binding/bhd.md'
+        'foxy-pool/binding/burst.md': 'proof-of-capacity/foxy-pool/binding/burst.md'
+        'foxy-pool/binding/hdd.md': 'proof-of-capacity/foxy-pool/binding/hdd.md'
+        'foxy-pool/binding/lhd.md': 'proof-of-capacity/foxy-pool/binding/lhd.md'
+        'foxy-pool/binding/xhd.md': 'proof-of-capacity/foxy-pool/binding/xhd.md'
+        'foxy-pool/ec.md': 'proof-of-capacity/foxy-pool/ec.md'
+        'foxy-pool/pledging.md': 'proof-of-capacity/foxy-pool/pledging.md'
+        'foxy-pool/pledging/bhd.md': 'proof-of-capacity/foxy-pool/pledging/bhd.md'
+        'foxy-pool/pledging/burst.md': 'proof-of-capacity/foxy-pool/pledging/burst.md'
+        'foxy-pool/pledging/hdd.md': 'proof-of-capacity/foxy-pool/pledging/hdd.md'
+        'foxy-pool/pledging/lhd.md': 'proof-of-capacity/foxy-pool/pledging/lhd.md'
+        'foxy-pool/pledging/xhd.md': 'proof-of-capacity/foxy-pool/pledging/xhd.md'
+        'foxy-pool/settings.md': 'proof-of-capacity/foxy-pool/settings.md'
+        'foxy-pool/daily-rewards.md': 'proof-of-capacity/foxy-pool/daily-rewards.md'
+        'foxy-pool/distribution-ratio.md': 'proof-of-capacity/foxy-pool/distribution-ratio.md'
+        'foxy-pool/api/overview.md': 'proof-of-capacity/foxy-pool/api/overview.md'
+        'foxy-pool/api/web-ui-api.md': 'proof-of-capacity/foxy-pool/api/web-ui-api.md'
+        'foxy-pool/api/mining-api.md': 'proof-of-capacity/foxy-pool/api/mining-api.md'
+        'foxy-miner/index.md': 'proof-of-capacity/foxy-miner/index.md'
+        'foxy-miner/installing.md': 'proof-of-capacity/foxy-miner/installing.md'
+        'foxy-miner/configuration.md': 'proof-of-capacity/foxy-miner/configuration.md'
+        'foxy-proxy/index.md': 'proof-of-capacity/foxy-proxy/index.md'
+        'foxy-proxy/installing.md': 'proof-of-capacity/foxy-proxy/installing.md'
+        'foxy-proxy/configuration.md': 'proof-of-capacity/foxy-proxy/configuration.md'
+        'pledge-agent/index.md': 'proof-of-capacity/pledge-agent/index.md'
+        'pledge-agent/supported-coins.md': 'proof-of-capacity/pledge-agent/supported-coins.md'
+        'pledge-agent/installing.md': 'proof-of-capacity/pledge-agent/installing.md'
+        'pledge-agent/configuration.md': 'proof-of-capacity/pledge-agent/configuration.md'
+        'general/configuring-scavenger.md': 'proof-of-capacity/configuring-scavenger.md'
+        'chia-dashboard-satellite/index.md': 'proof-of-spacetime/chia-dashboard-satellite/index.md'
+        'chia-dashboard-satellite/installing.md': 'proof-of-spacetime/chia-dashboard-satellite/installing.md'
+        'chia-dashboard-satellite/configuration.md': 'proof-of-spacetime/chia-dashboard-satellite/configuration.md'
+        'chia-dashboard-satellite/api.md': 'proof-of-spacetime/chia-dashboard-satellite/api.md'
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML

@@ -54,9 +54,9 @@ Recommended Plotter:
 3. Once you started the plotting you can observe its progress and estimated time till it is done plotting:
     ![Turbo Plotter plotting](../assets/img/getting-started/tp-plotting.png){: loading=lazy }
 
-4. While the Plot file is plotting, you can bind your Plotter Id to the pools. You can follow the binding guides for [BHD](../foxy-pool/binding/bhd.md) and [BURST](../foxy-pool/binding/burst.md) to do so.
+4. While the Plot file is plotting, you can bind your Plotter Id to the pools. You can follow the binding guides for [BHD](foxy-pool/binding/bhd.md) and [BURST](foxy-pool/binding/burst.md) to do so.
 5. You'll also need a [miner](glossary.md#mining-software), a piece of software reading your Plot files each round and submitting [deadlines](glossary.md#deadline) it finds in your Plot file to the pool.
-   There are a number of supported and recommended mining software's listed [here](../foxy-pool/mining.md), but to get started using [Foxy-Miner](../foxy-miner/index.md) is recommended.
+   There are a number of supported and recommended mining software's listed [here](foxy-pool/mining.md), but to get started using [Foxy-Miner](foxy-miner/index.md) is recommended.
 6. Once the Plot file is done plotting, add its path to your miner's plot file list in it's configuration file and start mining!
 
     ![Foxy-Miner add plot path](../assets/img/getting-started/foxy-miner-config-add-plot-path.png){: loading=lazy }

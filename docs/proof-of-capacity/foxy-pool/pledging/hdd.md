@@ -4,7 +4,7 @@
    height.
 2. Change into the tab `Send` and select `Point to`:
 
-    ![HDD Point to](../../assets/img/pledging/hdd-pledge.png){: loading=lazy }
+    ![HDD Point to](../../../assets/img/pledging/hdd-pledge.png){: loading=lazy }
 
 3. Enter the pools address into the `Point To` field.
 4. Enter the amount you wish to pledge in the `Amount` field.

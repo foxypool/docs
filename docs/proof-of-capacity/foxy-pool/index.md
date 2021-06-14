@@ -5,4 +5,4 @@ These pools are pools intended for mining and pledging (if supported).
 
 ## Getting Started
 
-If you are new to mining please head over to the [Getting Started Guide](../general/getting-started.md) to learn how to setup mining with your HDDs!
+If you are new to mining please head over to the [Getting Started Guide](../getting-started.md) to learn how to setup mining with your HDDs!

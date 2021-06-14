@@ -12,7 +12,7 @@ This requires you to verify you do indeed own the address by signing a message w
 
 1. Enter your payout address that you want to manage.
 
-    ![BHD Sign address input](../assets/img/signing/bhd-sign-1.png){: loading=lazy }
+    ![BHD Sign address input](../../assets/img/signing/bhd-sign-1.png){: loading=lazy }
 
 2. Sign the message either directly in your wallet or via the signing Web-App available on [signing.foxypool.io](https://signing.foxypool.io).
 The Web-App's sourcecode is available [here](https://github.com/felixbrucker/poc-message-signing) and can be downloaded and executed locally without internet access.
@@ -21,18 +21,18 @@ This Guide assumes the usage of the signing Web-App.
 3. Retrieve your addresses private key via your wallet if wanting to sign in using BHD/DISC/LHD/HDD/XHD.
 First navigate to the wallets `Console`:
 
-    ![BHD open console](../assets/img/signing/bhd-sign-2.png){: loading=lazy }
+    ![BHD open console](../../assets/img/signing/bhd-sign-2.png){: loading=lazy }
 
 4. Retrieve the private key via the `dumpprivkey` command followed by your address.
 
-    ![BHD get private key](../assets/img/signing/bhd-sign-3.png){: loading=lazy }
+    ![BHD get private key](../../assets/img/signing/bhd-sign-3.png){: loading=lazy }
 
 5. Input your private key or passphrase (depending on the coin) into the signing Web-App:
 
-    ![BHD signature](../assets/img/signing/bhd-sign-4.png){: loading=lazy }
+    ![BHD signature](../../assets/img/signing/bhd-sign-4.png){: loading=lazy }
 
 6. Copy the signature (and public key for BURST) and paste them into the pools corresponding fields in the settings tab login form:
 
-    ![BHD signature input](../assets/img/signing/bhd-sign-5.png){: loading=lazy }
+    ![BHD signature input](../../assets/img/signing/bhd-sign-5.png){: loading=lazy }
 
 7. Login in by clicking the `Verify identity` button.

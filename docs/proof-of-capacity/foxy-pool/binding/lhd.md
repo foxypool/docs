@@ -4,22 +4,22 @@
    height.
 2. Change into the tab `Send` and select `Bind to`:
 
-    ![LHD Bind to](../../assets/img/binding/lhd-bind-1.png){: loading=lazy }
+    ![LHD Bind to](../../../assets/img/binding/lhd-bind-1.png){: loading=lazy }
 
 3. Enter the pools address into the `Bind To` field.
 4. Enter your plotterId passphrase into the `Plotter` field.
 5. Change the `Valid Height` to 24 hours (288 blocks).
 
-    ![LHD Generate bind data](../../assets/img/binding/lhd-bind-2.png){: loading=lazy }
+    ![LHD Generate bind data](../../../assets/img/binding/lhd-bind-2.png){: loading=lazy }
 
 6. Click on `Generate Bind Data` button.
 7. Your plotterId and bind data are displayed. Please verify the displayed plotterId matches yours. You can copy the bind
       data with the `Copy bind data` button.
 
-    ![LHD Copy bind data](../../assets/img/binding/lhd-bind-3.png){: loading=lazy }
+    ![LHD Copy bind data](../../../assets/img/binding/lhd-bind-3.png){: loading=lazy }
 
 8. Open the [Foxy-Pool LHD Web UI](https://lhd.foxypool.io/bind) and
    enter your plotterId and the copied bind data.
 9. Press the `Bind` button.
 
-    ![LHD Bind](../../assets/img/binding/lhd-bind-4.png){: loading=lazy }
+    ![LHD Bind](../../../assets/img/binding/lhd-bind-4.png){: loading=lazy }

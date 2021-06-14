@@ -4,7 +4,7 @@
 
       The recommended way to install Foxy-Miner is via `npm`, the package manager for Nodejs - the language Foxy-Miner is written in.
 
-      1. [Install Nodejs](../general/installing-nodejs.md)
+      1. [Install Nodejs](../../general/installing-nodejs.md)
       2. **Windows only**: Make sure you have the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) installed.
       3. Install Foxy-Miner via `npm`:
             ```bash

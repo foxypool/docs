@@ -120,7 +120,7 @@ The config file currently consists of these config options:
     #### `gpuWorkers`
     : Possible values: any number. Defines how many plot files should be processed by your GPU in parallel.
     #### `gpuNoncesPerCache`
-    : Possible values: any number. When running into a GPU processing bottleneck you can fine tune this number [like this](../general/configuring-scavenger.md#fine-tuning).
+    : Possible values: any number. When running into a GPU processing bottleneck you can fine tune this number [like this](../configuring-scavenger.md#fine-tuning).
     #### `useGpuMemMapping`
     : Possible values: `true`, `false`. Can improve performance on integrated GPUs like Intel onboard graphics.
     #### `useGpuAsyncCompute`

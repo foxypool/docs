@@ -2,7 +2,7 @@
 
 The recommended way to install Pledge-Agent is via `npm`, the package manager for Nodejs - the language Pledge-Agent is written in.
 
-1. [Install Nodejs](../general/installing-nodejs.md)
+1. [Install Nodejs](../../general/installing-nodejs.md)
 2. Install Pledge-Agent via `npm`:
    ```bash
    npm install --global pledge-agent
