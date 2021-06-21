@@ -1,4 +1,4 @@
-### So you want to start mining with your HDD?
+### So you want to start PoC mining with your HDD?
 
 #### Preparation
 
