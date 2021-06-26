@@ -47,3 +47,8 @@
 
 ??? faq "Will the OG pool continue to work after the official pooling protocol is released?"
     Yes, this pool is here to stay
+??? faq "Adding pool_url and pool_payout_address"
+    Please ensure both pool_urland pool_payout_address are added into the farmer section and NOT full_node_peer section, it should be the same as the same identation as full_node_peer.
+    
+??? faq "To take note while adding pool_url"
+    Add the pool_url config option in the farmer section of your chia config.yaml and set it to https://farmer.chia-og.foxypool.io (and NOT https://farmer.chia-og.foxypool.io/; WITHOUT additional backslash "/")
