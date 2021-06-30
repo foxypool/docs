@@ -1,9 +1,12 @@
 !!! info
-    Please note that untrusted members have to accumulate 1.75 XFX in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance by contacting the pool operator.
+    Please note that untrusted members have to accumulate 1.75 XFX in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance via the pools web ui.
 
     Currently, only long known members of the [Foxy Discord](https://discord.gg/gNHhn9y) are trusted, but if such a person knows you very well, he can vouch for you.
 
 ## Getting started
+
+!!! warning
+    Due to the fact that Foxy-Pool does not know which of your plots are farming on Foxy-Pool and which are farming solo, all plots using the same pool public key need to farm on Foxy-Pool to avoid getting flagged for cheating.
 
 !!! info
     The following changes are only necessary for the node running the `farmer` service. If you run the GUI you also run the `farmer` service. As such if you run a multi harvester setup you only need to update the node with the farmer on it, the harvesters can remain as is.
