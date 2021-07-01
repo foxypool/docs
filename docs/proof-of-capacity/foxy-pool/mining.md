@@ -2,7 +2,7 @@ You can mine on Foxy-Pools using various mining software and connection methods.
 
 - Socket.IO and Websocket connections offer push support by keeping a constant connection to the server open, which can slightly improve the time for the miner to detect a new round started as well as drastically reduce the load on the pool.
 
-- HTTP Polling is the "classic" way of connecting to a Burst Wallet and thus was adopted by most mining pools. Miners poll for new mining info every x seconds. This connection method is considered legacy.
+- HTTP Polling is the "classic" way of connecting to a Signa Wallet and thus was adopted by most mining pools. Miners poll for new mining info every x seconds. This connection method is considered legacy.
 
 === "Socket.IO"
 

@@ -1,14 +1,14 @@
 #### Account Id
-The numeric representation of a BURST account address. It is a long number like 1234567890123567890123.
+The numeric representation of a SIGNA account address. It is a long number like 1234567890123567890123.
 
 #### Base target
 The base target is calculated from the last blocks and adjusts the difficulty for miners. The lower the base target, the harder it is for a miner to find a low [deadline](#deadline). It gets adjusted by the network in a way that the coin can have a stable block time on average.
 
 #### Binding
-The process of assigning a [plotter id](#plotter-id) / [account id](#account-id) to an address, generally a pool. In BURST bindings are called [Reward Assignments](#reward-assignment).
+The process of assigning a [plotter id](#plotter-id) / [account id](#account-id) to an address, generally a pool. In SIGNA bindings are called [Reward Assignments](#reward-assignment).
 
-#### BURST Account
-A BURST account consists of a passphrase, from which you can derive the BURST address (BURST-XXXX-XXXX-XXXX-XXXXX) and the [Account Id](#account-id) (1234567890123..).
+#### SIGNA Account
+A SIGNA account consists of a passphrase, from which you can derive the SIGNA address (S-XXXX-XXXX-XXXX-XXXXX) and the [Account Id](#account-id) (1234567890123..).
 
 #### Deadline
 A deadline represents a duration in seconds. The lowest deadline wins the round once its duration expired (measured since the start of the current round).
@@ -29,16 +29,16 @@ The file holding your stored hashes for mining. It consists of [nonces](#nonce).
 An alternative name for the [account id](#account-id). The Plotter Id is the first number in a [plot file](#plot-file) name.
 
 #### POC
-Proof-of-Capacity, the consensus algorithm of HDD mining coins, like BURST, BHD, etc.
+Proof-of-Capacity, the consensus algorithm of HDD mining coins, like SIGNA, BHD, etc.
 
 #### POC1
-The old legacy plot file format of BURST, not used anymore.
+The old legacy plot file format of SIGNA, not used anymore.
 
 #### POC2
-The currently used plot file format of BURST. Adopted by other coins like BHD etc. File name format: `<plotter_id>_<start_nonce>_<nonce_count>`
+The currently used plot file format of SIGNA. Adopted by other coins like BHD etc. File name format: `<plotter_id>_<start_nonce>_<nonce_count>`
 
 #### Reward Assignment
-The BURST terminology for a [binding](#binding).
+The SIGNA terminology for a [binding](#binding).
 
 #### Solo mining
 Submitting deadlines to a wallet directly is called solo mining. With solo mining you don't share rewards with anyone else but also only receive rewards when you win a block.

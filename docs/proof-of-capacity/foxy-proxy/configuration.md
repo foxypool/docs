@@ -46,7 +46,7 @@ pm2 startup
 
 ## Per Miner maxScanTime
 
-To allow fine granular control each miner which supports urls instead of simple ip:port can subscribe to their own maxScanTime. To do so, just append the preferred maxScanTime in seconds to the url, like so: `http://localhost:12345/burst-bhd/25`. That would result in that miner setting its `maxScanTime` to 25 seconds.
+To allow fine granular control each miner which supports urls instead of simple ip:port can subscribe to their own maxScanTime. To do so, just append the preferred maxScanTime in seconds to the url, like so: `http://localhost:12345/signa-bhd/25`. That would result in that miner setting its `maxScanTime` to 25 seconds.
 
 ## Configuration Options
 
@@ -74,7 +74,7 @@ The config file currently consists of these config options:
         - `mode`: `'solo'` or `'pool'` depending on if the upstream is a pool or a solo wallet (**required**)
         - `isBHD`: Set to `true` if the upstream is a bhd solo wallet or bhd pool (**required** for bhd based upstreams)
         - `walletUrl`: Optional url of a wallet to retrieve block winner information
-        - `customEndpoint`: Set a custom endpoint for burst like coins. Defaults to `burst`. Set to `boom` for the boomcoin wallet.
+        - `customEndpoint`: Set a custom endpoint for signa like coins. Defaults to `burst`. Set to `boom` for the boomcoin wallet.
         - `passphrases`: accountId -> passphrase mapping for solo mining (**required** for solo)
         - `passphrase`: Use a singular passphrase for all accountIds (pool emulation)
         - `targetDL`: Deadlines below this value will not be sent to the upstream (**required**)
@@ -104,7 +104,7 @@ The config file currently consists of these config options:
         - `deadlineColor`: Use the defined hex string as color for this upstream's deadlines in logs. eg `'#e2ad58'`
         - `estimatedCapacityRounds`: Use a custom amount of rounds for estimated capacity calculations.
         - `disabled`: Set to true to disable the upstream.
-        - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `BURST`, `DISC`, `LHD`, `XHD`, `HDD`.
+        - `coin`: Required for `useProfitability` and correct block explorer links. Possible values are: `BHD`, `SIGNA`, `DISC`, `LHD`, `XHD`, `HDD`.
         - `excludedAccountIds`: An array of accountIds to exclude when submitting to the upstream.
         - `distributionRatio`: Your preferred distribution ratio (DR) on Foxy-Pools. Eg. `'50-50'` or `'100-0'`
         - `minerPassthrough`: Set to true to pass the miners minerName and capacity through to the upstream.
@@ -145,10 +145,10 @@ proxies:
         payoutAddress: 'your BHD payout address'
         accountName: 'your desired name'
         weight: 12
-      - name: 'FoxyPool BURST'
+      - name: 'FoxyPool SIGNA'
         type: 'foxypool'
-        coin: 'BURST'
-        payoutAddress: 'your BURST payout address'
+        coin: 'SIGNA'
+        payoutAddress: 'your SIGNA payout address'
         accountName: 'your desired name'
         weight: 8
 ```

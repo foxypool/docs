@@ -24,10 +24,10 @@ upstreams:
     weight: 12
     color: '#e25898'
     doNotInterruptAbovePercent: 95
-  - name: 'FoxyPool BURST'
+  - name: 'FoxyPool SIGNA'
     type: 'foxypool'
-    coin: 'BURST'
-    payoutAddress: 'your BURST payout address'
+    coin: 'SIGNA'
+    payoutAddress: 'your SIGNA payout address'
     accountName: 'your desired name'
     weight: 8
     color: '#3c55d1'
@@ -75,7 +75,7 @@ The config file currently consists of these config options:
     #### `type`
     : Possible values: `socketio`, `foxypool`. Used to distinguish different upstream types. When omitted legacy http polling is used.
     #### `coin`
-    : Possible values: `BHD`, `BURST`, `LHD`, `HDD`, `XHD`. Required for Foxy-Pools and the `useProfitability` option.
+    : Possible values: `BHD`, `SIGNA`, `LHD`, `HDD`, `XHD`. Required for Foxy-Pools and the `useProfitability` option.
     #### `payoutAddress`
     : Possible values: any valid address for the `coin`. Your payout address of the specific coin of the upstream. Required for Foxy-Pools.
     #### `accountName`

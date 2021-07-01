@@ -53,7 +53,7 @@ nav:
           - Mining: proof-of-capacity/foxy-pool/mining.md
           - Binding:
               - BHD: proof-of-capacity/foxy-pool/binding/bhd.md
-              - BURST: proof-of-capacity/foxy-pool/binding/burst.md
+              - SIGNA: proof-of-capacity/foxy-pool/binding/signa.md
               - HDD: proof-of-capacity/foxy-pool/binding/hdd.md
               - LHD: proof-of-capacity/foxy-pool/binding/lhd.md
               - XHD: proof-of-capacity/foxy-pool/binding/xhd.md
@@ -61,7 +61,7 @@ nav:
           - Pledging:
               - Overview: proof-of-capacity/foxy-pool/pledging.md
               - BHD: proof-of-capacity/foxy-pool/pledging/bhd.md
-              - BURST: proof-of-capacity/foxy-pool/pledging/burst.md
+              - SIGNA: proof-of-capacity/foxy-pool/pledging/signa.md
               - HDD: proof-of-capacity/foxy-pool/pledging/hdd.md
               - LHD: proof-of-capacity/foxy-pool/pledging/lhd.md
               - XHD: proof-of-capacity/foxy-pool/pledging/xhd.md
@@ -142,14 +142,14 @@ plugins:
         'foxy-pool/index.md': 'proof-of-capacity/foxy-pool/index.md'
         'foxy-pool/mining.md': 'proof-of-capacity/foxy-pool/mining.md'
         'foxy-pool/binding/bhd.md': 'proof-of-capacity/foxy-pool/binding/bhd.md'
-        'foxy-pool/binding/burst.md': 'proof-of-capacity/foxy-pool/binding/burst.md'
+        'foxy-pool/binding/burst.md': 'proof-of-capacity/foxy-pool/binding/signa.md'
         'foxy-pool/binding/hdd.md': 'proof-of-capacity/foxy-pool/binding/hdd.md'
         'foxy-pool/binding/lhd.md': 'proof-of-capacity/foxy-pool/binding/lhd.md'
         'foxy-pool/binding/xhd.md': 'proof-of-capacity/foxy-pool/binding/xhd.md'
         'foxy-pool/ec.md': 'proof-of-capacity/foxy-pool/ec.md'
         'foxy-pool/pledging.md': 'proof-of-capacity/foxy-pool/pledging.md'
         'foxy-pool/pledging/bhd.md': 'proof-of-capacity/foxy-pool/pledging/bhd.md'
-        'foxy-pool/pledging/burst.md': 'proof-of-capacity/foxy-pool/pledging/burst.md'
+        'foxy-pool/pledging/burst.md': 'proof-of-capacity/foxy-pool/pledging/signa.md'
         'foxy-pool/pledging/hdd.md': 'proof-of-capacity/foxy-pool/pledging/hdd.md'
         'foxy-pool/pledging/lhd.md': 'proof-of-capacity/foxy-pool/pledging/lhd.md'
         'foxy-pool/pledging/xhd.md': 'proof-of-capacity/foxy-pool/pledging/xhd.md'

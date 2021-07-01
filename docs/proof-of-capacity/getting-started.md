@@ -10,7 +10,7 @@ Recommended Plotter:
 
     For this tutorial Turbo Plotter is used.
 
-3. A Plot file contains a unique id, the [Plotter Id](glossary.md#plotter-id), also referred to as [Account Id](glossary.md#account-id). The Plotter Id is coin agnostic and can be bound to both BHD and BURST. To obtain a Plotter Id you now have two choices: Via a BHD wallet or via a BURST wallet.
+3. A Plot file contains a unique id, the [Plotter Id](glossary.md#plotter-id), also referred to as [Account Id](glossary.md#account-id). The Plotter Id is coin agnostic and can be bound to both BHD and SIGNA. To obtain a Plotter Id you now have two choices: Via a BHD wallet or via a SIGNA wallet.
 
 === "BHD wallet"
 
@@ -25,20 +25,20 @@ Recommended Plotter:
     !!! info
         This secret phrase is directly related to the Plotter Id, without the secret phrase the Plot files for this Plotter Id can not be used correctly for mining.
 
-=== "BURST wallet"
+=== "SIGNA wallet"
 
-    Please visit either your own BURST wallet or an [online wallet](https://wallet1.burst-team.us:2083/index.html) you trust and click on "New? Create Your Account!":
+    Please visit either your own SIGNA wallet or an [online wallet](https://wallet1.burst-team.us:2083/index.html) you trust and click on "New? Create Your Account!":
 
-    ![BURST wallet create account](../assets/img/getting-started/burst-wallet-create-account.png){: loading=lazy }
+    ![SIGNA wallet create account](../assets/img/getting-started/signa-wallet-create-account.png){: loading=lazy }
 
     A secret phrase is generated for you, please store it in a secure location and make a backup!
 
     !!! info
         This secret phrase is directly related to the Plotter Id, without the secret phrase the Plot files for this Plotter Id can not be used correctly for mining.
 
-    Once you have the secret phrase backed up and confirmed, the BURST wallet dashboard is visible, where you can retrieve the Plotter Id by clicking on the BURST address in the top left corner and selecting "Copy Numeric Account ID":
+    Once you have the secret phrase backed up and confirmed, the SIGNA wallet dashboard is visible, where you can retrieve the Plotter Id by clicking on the SIGNA address in the top left corner and selecting "Copy Numeric Account ID":
 
-    ![BURST wallet copy numeric id](../assets/img/getting-started/burst-wallet-copy-numeric-id.png){: loading=lazy }
+    ![SIGNA wallet copy numeric id](../assets/img/getting-started/signa-wallet-copy-numeric-id.png){: loading=lazy }
 
 #### Plotting
 
@@ -54,7 +54,7 @@ Recommended Plotter:
 3. Once you started the plotting you can observe its progress and estimated time till it is done plotting:
     ![Turbo Plotter plotting](../assets/img/getting-started/tp-plotting.png){: loading=lazy }
 
-4. While the Plot file is plotting, you can bind your Plotter Id to the pools. You can follow the binding guides for [BHD](foxy-pool/binding/bhd.md) and [BURST](foxy-pool/binding/burst.md) to do so.
+4. While the Plot file is plotting, you can bind your Plotter Id to the pools. You can follow the binding guides for [BHD](foxy-pool/binding/bhd.md) and [SIGNA](foxy-pool/binding/signa.md) to do so.
 5. You'll also need a [miner](glossary.md#mining-software), a piece of software reading your Plot files each round and submitting [deadlines](glossary.md#deadline) it finds in your Plot file to the pool.
    There are a number of supported and recommended mining software's listed [here](foxy-pool/mining.md), but to get started using [Foxy-Miner](foxy-miner/index.md) is recommended.
 6. Once the Plot file is done plotting, add its path to your miner's plot file list in it's configuration file and start mining!
