@@ -47,3 +47,7 @@
 
 ??? faq "Will the OG pool continue to work after the official pooling protocol is released?"
     Yes, this pool is here to stay
+
+??? faq "Adding pool_url and pool_payout_address"
+    Please ensure both `pool_url` and `pool_payout_address` are added into the farmer section and NOT full_node_peer section, it should be the same indentation as `full_node_peer`.
+    
