@@ -48,5 +48,5 @@
 ??? faq "Will the OG pool continue to work after the official pooling protocol is released?"
     Yes, this pool is here to stay
 
-??? faq "How long will I see stats under My Farmer in the Dashboard after I have completed the setup"
-    When it send partial/proof and being accepted by the pool, it also depends on how many plots you have, it can be ranging from minutes to hours.
+??? faq "How long does it take till I can access the "My Farmer" tab in the pool web ui after I have completed the setup?"
+    Once the first partial/proof is being accepted by the pool. This also depends on how many plots you have, the duration can range from minutes to hours.
