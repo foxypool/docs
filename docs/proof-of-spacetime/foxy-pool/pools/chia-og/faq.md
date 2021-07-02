@@ -51,5 +51,3 @@
 ??? faq "Adding pool_url and pool_payout_address"
     Please ensure both `pool_url` and `pool_payout_address` are added into the farmer section and NOT full_node_peer section, it should be the same indentation as `full_node_peer`.
     
-??? faq "To take note while adding pool_url"
-    Add the pool_url config option in the farmer section of your chia config.yaml and set it to https://farmer.chia-og.foxypool.io (and NOT https://farmer.chia-og.foxypool.io/; WITHOUT additional backslash "/")
