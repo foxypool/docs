@@ -24,7 +24,7 @@ client.emit('getMiningInfo', coin, (miningInfo) => {
 ```javascript
 ...
 
-const coins = ['BHD', 'BURST'];
+const coins = ['BHD', 'SIGNA'];
 client.emit('subscribe', coins, () => {
   // Do stuff here
 });
@@ -143,7 +143,7 @@ const miningInfo = await sendMessageAndAwaitResponse({
 ```javascript
 ...
 
-const coins = ['BHD', 'BURST'];
+const coins = ['BHD', 'SIGNA'];
 await sendMessageAndAwaitResponse({
   id: 123,
   topic: 'subscribe',
@@ -224,7 +224,7 @@ The following Requests have been implemented:
     "method": "mining.subscribe",
     "params": [
         "BHD",
-        "BURST"
+        "SIGNA"
     ]
 }
 

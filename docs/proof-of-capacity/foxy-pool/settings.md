@@ -31,7 +31,7 @@ First navigate to the wallets `Console`:
 
     ![BHD signature](../../assets/img/signing/bhd-sign-4.png){: loading=lazy }
 
-6. Copy the signature (and public key for BURST) and paste them into the pools corresponding fields in the settings tab login form:
+6. Copy the signature (and public key for SIGNA) and paste them into the pools corresponding fields in the settings tab login form:
 
     ![BHD signature input](../../assets/img/signing/bhd-sign-5.png){: loading=lazy }
 

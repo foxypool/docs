@@ -24,7 +24,7 @@ client.emit('stats/init', poolIdentifier, ([poolConfig, poolStats, roundStats, l
 ```javascript
 ...
 
-const poolIdentifier = ['bhd', 'burst'];
+const poolIdentifier = ['bhd', 'signa'];
 client.emit('subscribe', poolIdentifier, () => {
   // Do stuff here
 });
