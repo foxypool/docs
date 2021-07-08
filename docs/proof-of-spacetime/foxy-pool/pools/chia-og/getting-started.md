@@ -43,11 +43,11 @@
 To verify your farmer is working correctly, please set your log level to `INFO` in your chia `config.yaml` and restart your chia-blockchain software.
 If the connection to the pool worked you'll now see a log entry in your chia `debug.log`:
 ```
-Connected to pool Foxy-Pool CHIA (OG)
+Connected to OG pool Foxy-Pool CHIA (OG)
 ```
 Otherwise, you'll see the following info message that pooling is disabled:
 ```
-Not pooling as 'pool_payout_address' and/or 'pool_url' are missing in your config
+Not OG pooling as 'pool_payout_address' and/or 'pool_url' are missing in your config
 ```
 
 Once you submitted your first partial to the pool you can log in to the pool. This can take 1 - 60 minutes, depending on your capacity.
