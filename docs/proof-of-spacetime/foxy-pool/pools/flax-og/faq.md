@@ -11,6 +11,9 @@
 
 ## Multi-Farming
 
+??? faq "Can i farm my OG plots on Foxy and my portable plots somewhere else?"
+    Yes
+
 ??? faq "Can i farm solo with some of my plots and pool with the rest?"
     If the plots share the same pool public key no, otherwise yes.
 
