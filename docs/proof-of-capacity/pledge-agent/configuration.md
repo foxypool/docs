@@ -16,7 +16,7 @@ The config file currently consists of these config options:
     - `commitmentThreshold`: The minimum amount to commit
     - `walletUrl`: The wallet url to use (only BURST)
     - `accountIdToPassPhrase`: The numeric accountId to passphrase mapping (only BURST) to use for sending / pledging
-    - `walletUrls`: The wallet urls (array) to use (only BHD, DISC, HDD, LHD, XHD). Entries can be strings (a wallet url) or an object with the following properties:
+    - `walletUrls`: The wallet urls (array) to use (only BHD). Entries can be strings (a wallet url) or an object with the following properties:
         - `url`: The wallet url to use
         - `walletPassphrase`: The passphrase for the wallet
     - `sendMessage`: The message to add when sending coins (only BURST)

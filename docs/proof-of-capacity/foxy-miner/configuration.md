@@ -75,7 +75,7 @@ The config file currently consists of these config options:
     #### `type`
     : Possible values: `socketio`, `foxypool`. Used to distinguish different upstream types. When omitted legacy http polling is used.
     #### `coin`
-    : Possible values: `BHD`, `SIGNA`, `LHD`, `HDD`, `XHD`. Required for Foxy-Pools and the `useProfitability` option.
+    : Possible values: `BHD`, `SIGNA`. Required for Foxy-Pools and the `useProfitability` option.
     #### `payoutAddress`
     : Possible values: any valid address for the `coin`. Your payout address of the specific coin of the upstream. Required for Foxy-Pools.
     #### `accountName`

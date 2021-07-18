@@ -13,6 +13,6 @@ On Foxy-Pools your pledge share (based on your pledge compared to the sum of all
     block worth 10 coins. The miners get 3 coins of those 10 coins block reward. The investors get 7 coins. You will get
     $7 * 9.09\% \approx 0.6363$ coins. This example assumes 0% pool fee for simplicity.
 
-Pledge rewards are only available if the pool is fully pledged (BHD/HDD/LHD/XHD) or partially pledged (DISC).
+Pledge rewards are only available if the pool is fully pledged (pledged amount is greater than the required pledge amount).
 
 To pledge to a pool follow the pools `Pledging to the pool` steps available on each pools `Info` tab in the Web-UI.

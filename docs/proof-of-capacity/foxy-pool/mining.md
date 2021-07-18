@@ -7,7 +7,6 @@ You can mine on Foxy-Pools using various mining software and connection methods.
 === "Socket.IO"
 
     - [Foxy-Miner](../foxy-miner/index.md), mini proxy which wraps Scavenger and provides multi-mining, [example config](../foxy-miner/configuration.md#configuration-example)
-    - [Foxy-Proxy](../foxy-proxy/index.md), multi mining proxy with a web ui, [example config](../foxy-proxy/configuration.md#configuration-example)
 
 === "Websocket"
 
