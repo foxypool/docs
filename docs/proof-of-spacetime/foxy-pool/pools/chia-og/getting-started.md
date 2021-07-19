@@ -63,8 +63,7 @@ To leave the pool (temporary or permanent) please follow these steps:
 1. Visit the [My Farmer](https://chia-og.foxypool.io/my-farmer) tab of the pool, log in and authenticate.
 2. Press the "Leave pool" button and confirm whether you want to leave temporary (collateral will remain as is) or permanent (collateral will be paid out):
 
-    ![temp leave](../../../../assets/img/getting-started/temp-leave-chia-pool.png){: loading=lazy }
-    ![perm leave](../../../../assets/img/getting-started/perm-leave-chia-pool.png){: loading=lazy }
+    ![leave pool](../../../../assets/img/getting-started/leave-chia-pool.png){: loading=lazy }
 
 3. Once you have left the pool via the button, shut down your chia-blockchain software and head over to your chia `config.yaml`.
 4. In the config remove the `pool_payout_address` and `pool_url` config options you added to the farmer section.
