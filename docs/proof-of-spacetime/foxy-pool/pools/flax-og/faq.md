@@ -60,4 +60,4 @@
     No, if you leave the pool, there is no coming back.
 
 ??? faq "Can i transfer the collateral to the portable plots pool once it is available?"
-    Yes
+    No, but you can leave the pool with your collateral once all OG plots have been replotted for NFT plots.

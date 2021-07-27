@@ -11,6 +11,9 @@
 ??? faq "Can i have more than one Launcher Id for the same account?"
     No, these will be separate accounts.
 
+??? faq "Changing the payout address"
+    To change your payout address please use the GUI's "Edit Payout Instructions" button. When not using the GUI but editing the chia `config.yaml` directly please make sure that the address is in puzzle hash form.
+
 ## EC
 
 ??? faq "Why is my EC so low?"
