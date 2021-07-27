@@ -80,6 +80,10 @@ nav:
       - Foxy-Pool:
         - Home: proof-of-spacetime/foxy-pool/home.md
         - Pools:
+          - CHIA:
+            - Getting Started: proof-of-spacetime/foxy-pool/pools/chia/getting-started.md
+            - Authenticate: proof-of-spacetime/foxy-pool/pools/chia/authenticate.md
+            - FAQ: proof-of-spacetime/foxy-pool/pools/chia/faq.md
           - CHIA (OG):
             - Getting Started: proof-of-spacetime/foxy-pool/pools/chia-og/getting-started.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/chia-og/faq.md
