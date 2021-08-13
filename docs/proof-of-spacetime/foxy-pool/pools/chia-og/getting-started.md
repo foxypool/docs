@@ -13,7 +13,7 @@
 !!! info
     The following changes are only necessary for the node running the `farmer` service. If you run the GUI you also run the `farmer` service. As such if you run a multi harvester setup you only need to update the node with the farmer on it, the harvesters can remain as is.
 
-1. To get started farming on [Foxy-Pool CHIA (OG)](https://chia-og.foxypool.io) please download and install the pooling enabled chia-blockchain software from [here](https://github.com/felixbrucker/chia-blockchain/releases/latest). The source is available on the `main` branch in case you prefer or require to build from source.
+1. To get started farming on [Foxy-Pool CHIA (OG)](https://chia-og.foxypool.io) please download and install the pooling enabled chia-blockchain software from [here](https://github.com/foxypool/chia-blockchain/releases/latest). The source is available on the `main` branch in case you prefer or require to build from source.
 2. Find you chia `config.yaml`:
    
     === "Linux & Mac OS"
