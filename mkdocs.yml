@@ -5,8 +5,8 @@ site_author: felixbrucker
 site_url: https://docs.foxypool.io
 
 # Repository
-repo_name: foxy-docs
-repo_url: https://github.com/felixbrucker/foxy-docs
+repo_name: docs
+repo_url: https://github.com/foxypool/docs
 
 # Theme
 theme:

@@ -11,4 +11,4 @@ Foxy-Docs
 
 ## License
 
-GNU GPLv3 (see [LICENSE](https://github.com/felixbrucker/foxy-docs/blob/master/LICENSE))
+GNU GPLv3 (see [LICENSE](https://github.com/foxypool/docs/blob/master/LICENSE))
