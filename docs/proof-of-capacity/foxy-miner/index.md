@@ -1,6 +1,6 @@
 ## What is Foxy-Miner
 
-[Foxy-Miner](https://github.com/felixbrucker/foxy-miner) is a mini proxy which wraps [scavenger](https://github.com/PoC-Consortium/scavenger) or [conqueror](https://github.com/PoC-Consortium/Helix) to provide a few features these miners do not yet support themselves:
+[Foxy-Miner](https://github.com/foxypool/foxy-miner) is a mini proxy which wraps [scavenger](https://github.com/PoC-Consortium/scavenger) or [conqueror](https://github.com/PoC-Consortium/Helix) to provide a few features these miners do not yet support themselves:
 
 - Multi-Mining support, mine as many coins as you want with custom ordering of their priorities
 - Scan the next chain as soon as the current scan is done

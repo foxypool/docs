@@ -19,7 +19,7 @@
 === "Install via binary"
 
       1. **Windows only**: Make sure you have the [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-US/download/details.aspx?id=48145) installed.
-      2. Download the latest release for your operating system from [here](https://github.com/felixbrucker/foxy-miner/releases/latest).
+      2. Download the latest release for your operating system from [here](https://github.com/foxypool/foxy-miner/releases/latest).
 
 
 ## How to update Foxy-Miner
@@ -33,4 +33,4 @@
 
 === "Update via binary"
 
-      Download the newer version from [here](https://github.com/felixbrucker/foxy-miner/releases/latest) and use the new binary instead of the old one.
+      Download the newer version from [here](https://github.com/foxypool/foxy-miner/releases/latest) and use the new binary instead of the old one.
