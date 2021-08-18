@@ -1,7 +1,7 @@
 !!! info
     Please note that untrusted members have to accumulate 1.75 XFX in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance via the pools web ui.
 
-    Currently, only long known members of the [Foxy Discord](https://discord.gg/gNHhn9y) are trusted, but if such a person knows you very well, he can vouch for you.
+    Currently, only long known members of the [Foxy Discord](https://discord.gg/gNHhn9y){target=_blank} are trusted, but if such a person knows you very well, he can vouch for you.
 
 ## Getting started
 
@@ -13,7 +13,7 @@
 !!! info
     The following changes are only necessary for the node running the `farmer` service. If you run the GUI you also run the `farmer` service. As such if you run a multi harvester setup you only need to update the node with the farmer on it, the harvesters can remain as is.
 
-1. To get started farming on [Foxy-Pool FLAX (OG)](https://flax-og.foxypool.io) please download and install the pooling enabled flax-blockchain software from [here](https://github.com/foxypool/flax-blockchain/releases/latest). The source is available on the `main` branch in case you prefer or require to build from source.
+1. To get started farming on [Foxy-Pool FLAX (OG)](https://flax-og.foxypool.io){target=_blank} please download and install the pooling enabled flax-blockchain software from [here](https://github.com/foxypool/flax-blockchain/releases/latest){target=_blank}. The source is available on the `main` branch in case you prefer or require to build from source.
 2. Find you flax `config.yaml`:
    
     === "Linux & Mac OS"
@@ -54,13 +54,13 @@ Once you submitted your first partial to the pool you can log in to the pool. Th
 
 ## Logging in
 
-To see your farmers stats on the [My Farmer](https://flax-og.foxypool.io/my-farmer) tab of the pool you need to log in with the pool public key used by your plots. The pool public key can be found in your flax `config.yaml` in the `pool_public_keys` list or via `flax keys show`.
+To see your farmers stats on the [My Farmer](https://flax-og.foxypool.io/my-farmer){target=_blank} tab of the pool you need to log in with the pool public key used by your plots. The pool public key can be found in your flax `config.yaml` in the `pool_public_keys` list or via `flax keys show`.
 
 ## Leaving the pool
 
 To leave the pool (temporary or permanent) please follow these steps:
 
-1. Visit the [My Farmer](https://flax-og.foxypool.io/my-farmer) tab of the pool, log in and authenticate.
+1. Visit the [My Farmer](https://flax-og.foxypool.io/my-farmer){target=_blank} tab of the pool, log in and authenticate.
 2. Press the "Leave pool" button and confirm whether you want to leave temporary (collateral will remain as is) or permanent (collateral will be paid out):
 
     ![leave pool](../../../../assets/img/getting-started/leave-chia-pool.png){: loading=lazy }

@@ -6,4 +6,4 @@ The individual sections are shown as tabs at the top.
 
 ## Get Support
 
-If there are things you need help with just join our [Discord](https://discord.gg/gNHhn9y) and ask away, there are plenty of people around.
+If there are things you need help with just join our [Discord](https://discord.gg/gNHhn9y){target=_blank} and ask away, there are plenty of people around.
