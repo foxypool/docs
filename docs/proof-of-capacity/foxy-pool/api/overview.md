@@ -1,4 +1,4 @@
-Foxy-Pools support several connection methods to use by miners and use Socket.IO to connect to the Web-UI.
+Foxy-Pools support several connection methods to use by miners and use HTTP and Socket.IO for the stats API.
 
 - [Socket.IO](https://socket.io), a library that enables real-time, bidirectional and event-based communication between client and server.
 - plain Websockets
