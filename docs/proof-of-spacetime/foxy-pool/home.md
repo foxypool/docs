@@ -6,6 +6,7 @@ Currently, the following pools are available or planned:
 - [x] [Foxy-Pool CHIA (OG)](pools/chia-og/getting-started.md) - uses existing solo plots
 - [x] [Foxy-Pool FLAX (OG)](pools/flax-og/getting-started.md) - uses existing solo plots
 - [x] [Foxy-Pool CHIVES (OG)](pools/chives-og/getting-started.md) - uses existing solo plots
+- [x] [Foxy-Pool HDDCOIN (OG)](pools/hddcoin-og/getting-started.md) - uses existing solo plots
 
 ## API
 
