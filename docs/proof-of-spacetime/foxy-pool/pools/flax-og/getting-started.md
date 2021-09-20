@@ -52,6 +52,12 @@ Not OG pooling as 'pool_payout_address' and/or 'pool_url' are missing in your co
 
 Once you submitted your first partial to the pool you can log in to the pool. This can take 1 - 60 minutes, depending on your capacity.
 
+You can search your log for
+```
+The partial submitted to the OG pool was accepted
+```
+to check for them.
+
 ## Logging in
 
 To see your farmers stats on the [My Farmer](https://flax-og.foxypool.io/my-farmer){target=_blank} tab of the pool you need to log in with the pool public key used by your plots. The pool public key can be found in your flax `config.yaml` in the `pool_public_keys` list or via `flax keys show`.
