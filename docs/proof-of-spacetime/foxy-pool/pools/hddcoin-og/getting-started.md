@@ -67,7 +67,7 @@ To see your farmers stats on the [My Farmer](https://hddcoin-og.foxypool.io/my-f
 
 It is advisable to authenticate at this stage so you can change Your Name /  Set Min Payout / **Leave Pool**
 
-From your [Farmer Page](https://hddcoin-og.foxypool.io/my-farmer){target=_blank} on the pool you will see a green Authenticate Button
+From your [My Farmer](https://hddcoin-og.foxypool.io/my-farmer){target=_blank} on the pool you will see a green Authenticate Button
 
 ![auth1](../../../../assets/img/getting-started/auth-account-1.png){: loading=lazy }
 
