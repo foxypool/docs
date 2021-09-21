@@ -94,8 +94,8 @@ Once you have clicked it you will see a new dialog with 2 commands and instructi
 
     NOTE: leave the cli open in the current folder as you need it for the next command also
 
- 2. Run the command that the dialog box tells you to run but replace <your fingerprint here> with the one you got from the previous step we will use 1234567
-    and <as it shows in dialog> with what it shows in the command then run the full command as its appears
+ 2. Run the command that the dialog box tells you to run but replace "your fingerprint here" with the one you got from the previous step we will use 1234567
+    and "as it shows in dialog" with what it shows in the command then run the full command as its appears
 
     ```
     ./hddcoin keys sign -t "m/12381/8444/1/0" -d <as it shows in dialog> -f <your fingerprint here>
