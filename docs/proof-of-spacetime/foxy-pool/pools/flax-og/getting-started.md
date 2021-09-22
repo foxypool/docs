@@ -62,56 +62,7 @@ to check for them.
 
 To see your farmers stats on the [My Farmer](https://flax-og.foxypool.io/my-farmer){target=_blank} tab of the pool you need to log in with the pool public key used by your plots. The pool public key can be found in your flax `config.yaml` in the `pool_public_keys` list or via `flax keys show`.
 
-
-## Authenticating
-
-It is advisable to authenticate at this stage so you can change Your Name /  Set Min Payout / **Leave Pool**
-
-From your [My Farmer](https://flax-og.foxypool.io/my-farmer){target=_blank} on the pool you will see a green Authenticate Button
-
-![auth1](../../../../assets/img/getting-started/auth-account-1.png){: loading=lazy }
-
-Once you have clicked it you will see a new dialog with 2 commands and instructions on what command you need to run.
- 1. Get your fingerprint from first command keys show
-
-    === "Linux & Mac OS"
-
-        ```bash
-        cd ~\AppData\Local\flax-blockchain\app*\resources\app.asar.unpacked\daemon\
-        then run command
-        ./flax keys show
-        ```
-   
-    === "Windows"
-
-        ```ps
-        cd (Get-Item "$ENV:LOCALAPPDATA\flax-blockchain\app*\resources\app.asar.unpacked\daemon").fullname
-        then run command
-        ./flax keys show
-        ```
-    
-    **Then make a note of the fingerprint** that is associated with your plots and PK (incase you have multiple keys for other wallets)
-
-    NOTE: leave the cli open in the current folder as you need it for the next command also
-
- 2. Run the command that the dialog box tells you to run but replace "your fingerprint here" with the one you got from the previous step we will use 1234567
-    and "as it shows in dialog" with what it shows in the command then run the full command as its appears
-
-    ```
-    ./flax keys sign -t "m/12381/8444/1/0" -d <as it shows in dialog> -f <your fingerprint here>
-    ```
-Now that you have run the command above you can copy and paste the signature: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx into the bottom box then hit Authenticate.
-
-You should be back at the Farmer page but now you can see the below
-
-![auth2](../../../../assets/img/getting-started/auth-account-2.png){: loading=lazy }
-
-Now you can set your name that you want to use to show on the dashboards and set the min payout but also leave pool
-
-!!! warning 
-    Leave Pool button this must be clicked when you want to leave the pool either permanently or temporary please see the steps below should you wish to leave the pool.
-
-
+It is advisable to authenticate at this stage, so you can change your name, set a minimum payout amount or [leave the pool](#leaving-the-pool). To do so please follow the steps described in [Authenticate](authenticate.md)
 
 ## Leaving the pool
 
