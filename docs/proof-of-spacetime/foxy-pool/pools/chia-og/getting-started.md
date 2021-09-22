@@ -62,6 +62,8 @@ to check for them.
 
 To see your farmers stats on the [My Farmer](https://chia-og.foxypool.io/my-farmer){target=_blank} tab of the pool you need to log in with the pool public key used by your plots. The pool public key can be found in your chia `config.yaml` in the `pool_public_keys` list or via `chia keys show`.
 
+It is advisable to authenticate at this stage, so you can change your name, set a minimum payout amount or [leave the pool](#leaving-the-pool). To do so please follow the steps described in [Authenticate](authenticate.md)
+
 ## Leaving the pool
 
 To leave the pool (temporary or permanent) please follow these steps:
