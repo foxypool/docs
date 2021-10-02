@@ -36,7 +36,14 @@
 
     ![config example](../../../../assets/img/getting-started/foxy-pool-chia-og-config-example.png){: loading=lazy }
 
-4. Save the `config.yaml` and (re-)start the pooling enabled chia-blockchain.
+4. Register an account for your pool public key used by your plots via the discord bot on the [Foxy Discord](https://discord.gg/gNHhn9y){target=_blank} either via DM or in a channel:
+
+    ![register account](../../../../assets/img/getting-started/foxy-pool-chia-og-register-account.png){: loading=lazy }
+
+    !!! info
+        You can get help on how the syntax looks like by entering `/register`
+
+5. Finally, after successfully registering your account (re-)start the pooling enabled chia-blockchain client.
 
 ## Verify your farmer is working correctly
 
