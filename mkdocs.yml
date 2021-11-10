@@ -100,6 +100,10 @@ nav:
             - Getting Started: proof-of-spacetime/foxy-pool/pools/hddcoin-og/getting-started.md
             - Authenticate: proof-of-spacetime/foxy-pool/pools/hddcoin-og/authenticate.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/hddcoin-og/faq.md
+          - STAI (OG):
+            - Getting Started: proof-of-spacetime/foxy-pool/pools/stai-og/getting-started.md
+            - Authenticate: proof-of-spacetime/foxy-pool/pools/stai-og/authenticate.md
+            - FAQ: proof-of-spacetime/foxy-pool/pools/stai-og/faq.md
       - Chia-Dashboard-Satellite:
         - Home: proof-of-spacetime/chia-dashboard-satellite/index.md
         - Installing: proof-of-spacetime/chia-dashboard-satellite/installing.md
