@@ -92,6 +92,10 @@ nav:
             - Getting Started: proof-of-spacetime/foxy-pool/pools/flax-og/getting-started.md
             - Authenticate: proof-of-spacetime/foxy-pool/pools/flax-og/authenticate.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/flax-og/faq.md
+          - CHIVES:
+            - Getting Started: proof-of-spacetime/foxy-pool/pools/chives/getting-started.md
+            - Authenticate: proof-of-spacetime/foxy-pool/pools/chives/authenticate.md
+            - FAQ: proof-of-spacetime/foxy-pool/pools/chives/faq.md
           - CHIVES (OG):
             - Getting Started: proof-of-spacetime/foxy-pool/pools/chives-og/getting-started.md
             - Authenticate: proof-of-spacetime/foxy-pool/pools/chives-og/authenticate.md

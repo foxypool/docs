@@ -7,7 +7,7 @@
     No, these will be separate accounts.
 
 ??? faq "Changing the payout address"
-    To change your payout address please use the GUI's "Edit Payout Instructions" button. When not using the GUI but editing the chia `config.yaml` directly please change the `payout_instructions` for your Plot NFT to your desired payout address. The `payout_instructions` needs to be in puzzle hash form.
+    To change your payout address please use the GUI's "Edit Payout Instructions" button. When not using the GUI but editing the chives `config.yaml` directly please change the `payout_instructions` for your Plot NFT to your desired payout address. The `payout_instructions` needs to be in puzzle hash form.
 
 ## EC
 

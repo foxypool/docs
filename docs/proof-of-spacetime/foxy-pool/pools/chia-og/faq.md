@@ -11,9 +11,6 @@
 ??? faq "Will the OG pool continue to work after the official pooling protocol is released?"
     Yes, this pool is here to stay
 
-??? faq "What is DR"
-    DR is short for Distribution-Ratio, a feature that allows users to choose the ratio of block winner - historical share they want to use. This works exactly the same as outlined [here](../../../../proof-of-capacity/foxy-pool/distribution-ratio.md) for PoC. **Note**: it is not yet possible to change the default DR of 0-100.
-
 ## Multi-Farming
 
 ??? faq "Can i farm my OG plots on Foxy and my portable plots somewhere else?"
