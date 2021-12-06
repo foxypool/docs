@@ -1,6 +1,6 @@
 ## Getting started
 
-1. To get started farming on [Foxy-Pool CHIVES](https://chives.foxypool.io){target=_blank} please ensure you are using a NFT Pooling compatible version of the chives-blockchain software from [here](https://github.com/zcomputerwiz/chivesv2-blockchain/releases/latest){target=_blank}. This version has og-pooling support built in as well.
+1. To get started farming on [Foxy-Pool CHIVES](https://chives.foxypool.io){target=_blank} please ensure you are using version 1.2.11 or newer of the chives-blockchain software from [here](https://github.com/HiveProject2021/chives-blockchain/releases/latest){target=_blank}. Users also farming OG plots on Foxy can use the og-pooling enabled versions starting from 1.2.11 as well.
 2. Join the pool with your existing PlotNFT:
 
     === "via the GUI"
