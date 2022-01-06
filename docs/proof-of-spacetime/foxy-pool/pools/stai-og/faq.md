@@ -26,7 +26,7 @@
     Please ensure both `pool_url` and `pool_payout_address` are added into the farmer section and NOT full_node_peer section, it should be the same indentation as `full_node_peer`.
 
 ??? faq "I changed my config.yaml, but the config was reset?"
-    They are not gone, just re-arranged. The staicoin-blockchain software sorts the config keys alphabetically.
+    They are not gone, just re-arranged. The stai-blockchain software sorts the config keys alphabetically.
 
 ??? faq "I can't log in with my pool public key?"
     You can log in once you submitted your first partial to the pool. Check out the section on how to [verify your farmer is working correctly](getting-started.md#verify-your-farmer-is-working-correctly).

@@ -7,36 +7,36 @@ From your [My Farmer](https://stai-og.foxypool.io/my-farmer){target=_blank} page
 
 Clicking it will open a modal with instructions on what to do next:
 
-1. Change into the directory, where the `staicoin` binary is located at. When using a git install this is inside the `./activate`-ed repo directory. Otherwise, please use the following:
+1. Change into the directory, where the `stai` binary is located at. When using a git install this is inside the `./activate`-ed repo directory. Otherwise, please use the following:
 
     === "Windows"
         Open a powershell window and enter the following command:
         ```PowerShell
-        cd (Get-Item "$ENV:LOCALAPPDATA\staicoin-blockchain\app*\resources\app.asar.unpacked\daemon").fullname
+        cd (Get-Item "$ENV:LOCALAPPDATA\stai-blockchain\app*\resources\app.asar.unpacked\daemon").fullname
         ```
 
     === "Mac OS"
         Open a terminal and enter the following command:
         ```zsh
-        cd /Applications/staicoin.app/Contents/Resources/app.asar.unpacked/daemon
+        cd /Applications/stai.app/Contents/Resources/app.asar.unpacked/daemon
         ```
 
     === "Linux"
         Open a terminal/bash and enter the following command:
         ```bash
-        cd /usr/lib/staicoin-blockchain/resources/app.asar.unpacked/daemon
+        cd /usr/lib/stai-blockchain/resources/app.asar.unpacked/daemon
         ```
 
 2. Next we need to obtain the fingerprint for the pool public key, by entering the following command into the shell:
 
     === "Windows"
         ```PowerShell
-        .\staicoin keys show
+        .\stai keys show
         ```
 
     === "Linux & Mac OS"
         ```bash
-        ./staicoin keys show
+        ./stai keys show
         ```
 
     !!! info
@@ -46,22 +46,22 @@ Clicking it will open a modal with instructions on what to do next:
 
     === "Windows"
         ```PowerShell
-        .\staicoin keys sign -t "m/12381/8444/1/0" -d <the data to sign here> -f <your fingerprint here>
+        .\stai keys sign -t "m/12381/8444/1/0" -d <the data to sign here> -f <your fingerprint here>
         ```
 
         ??? example
             ```PowerShell
-            .\staicoin keys sign -t "m/12381/8444/1/0" -d 1632306148 -f 67890123456
+            .\stai keys sign -t "m/12381/8444/1/0" -d 1632306148 -f 67890123456
             ```
 
     === "Linux & Mac OS"
         ```bash
-        ./staicoin keys sign -t "m/12381/8444/1/0" -d <the data to sign here> -f <your fingerprint here>
+        ./stai keys sign -t "m/12381/8444/1/0" -d <the data to sign here> -f <your fingerprint here>
         ```
 
         ??? example
             ```bash
-            ./staicoin keys sign -t "m/12381/8444/1/0" -d 1632306148 -f 67890123456
+            ./stai keys sign -t "m/12381/8444/1/0" -d 1632306148 -f 67890123456
             ```
 
     !!! info
