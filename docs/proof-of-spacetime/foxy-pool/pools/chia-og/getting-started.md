@@ -14,36 +14,14 @@
     The following changes are only necessary for the node running the `farmer` service. If you run the GUI you also run the `farmer` service. As such if you run a multi harvester setup you only need to update the node with the farmer on it, the harvesters can remain as is.
 
 1. To get started farming on [Foxy-Pool CHIA (OG)](https://chia-og.foxypool.io){target=_blank} please download and install the pooling enabled chia-blockchain software from [here](https://github.com/foxypool/chia-blockchain/releases/latest){target=_blank}. The source is available on the `main` branch in case you prefer or require to build from source.
-2. Find your chia `config.yaml`:
-   
-    === "Linux & Mac OS"
-
-        ```bash
-        ~/.chia/mainnet/config/config.yaml
-        ```
-   
-    === "Windows"
-
-        ```ps
-        C:\Users\<user>\.chia\mainnet\config\config.yaml
-        ```
-
-3. Now update your chia `config.yaml` with the following changes:
-    - Add the `pool_url` option to the farmer section of the chia `config.yaml` and set it to `https://farmer.chia-og.foxypool.io`. Please note that there must not be a trailing slash present.
-    - Add the `pool_payout_address` option to the farmer section of the chia `config.yaml` and set it to your desired chia payout address
-
-    Your `config.yaml` should now look something like this:
-
-    ![config example](../../../../assets/img/getting-started/foxy-pool-chia-og-config-example.png){: loading=lazy }
-
-4. Register an account for your pool public key used by your plots via the discord bot on the [Foxy Discord](https://discord.gg/gNHhn9y){target=_blank} either via DM or in a channel:
+2. Register an account for your pool public key used by your plots via the discord bot on the [Foxy Discord](https://discord.gg/gNHhn9y){target=_blank} either via DM or in a channel:
 
     ![register account](../../../../assets/img/getting-started/foxy-pool-chia-og-register-account.png){: loading=lazy }
 
     !!! info
         You can get help on how the syntax looks like by entering `/register`
 
-5. Finally, after successfully registering your account (re-)start the pooling enabled chia-blockchain client.
+3. Finally, after successfully registering your account (re-)start the pooling enabled chia-blockchain client.
 
 ## Verify your farmer is working correctly
 
@@ -51,10 +29,6 @@ To verify your farmer is working correctly, please set your log level to `INFO` 
 If the connection to the pool worked you'll now see a log entry in your chia `debug.log`:
 ```
 Connected to OG pool Foxy-Pool CHIA (OG)
-```
-Otherwise, you'll see the following info message that pooling is disabled:
-```
-Not OG pooling as 'pool_payout_address' and/or 'pool_url' are missing in your config
 ```
 
 Once you submitted your first partial to the pool you can log in to the pool. This can take 1 - 60 minutes, depending on your capacity.
@@ -81,6 +55,25 @@ To leave the pool (temporary or permanent) please follow these steps:
     ![leave pool](../../../../assets/img/getting-started/leave-chia-pool.png){: loading=lazy }
 
 3. Once you have left the pool via the button, shut down your chia-blockchain software and head over to your chia `config.yaml`.
-4. In the config remove the `pool_payout_address` and `pool_url` config options you added to the farmer section.
 5. **Important**: Change the `xch_target_address` in the pool config section back to one of your addresses so that block rewards are credited to you instead of the pool!
 6. Install the official chia-blockchain software.
+
+## Using a pool payout address that differs from your farmer reward address
+
+1. Find your chia `config.yaml`:
+   
+    === "Linux & Mac OS"
+
+        ```bash
+        ~/.chia/mainnet/config/config.yaml
+        ```
+   
+    === "Windows"
+
+        ```ps
+        C:\Users\<user>\.chia\mainnet\config\config.yaml
+        ```
+
+2. Now add the `pool_payout_address` option to the farmer section of the chia `config.yaml` and set it to your desired chia payout address
+
+3. Save the `config.yaml` and (re-)start the pooling enabled chia-blockchain.
