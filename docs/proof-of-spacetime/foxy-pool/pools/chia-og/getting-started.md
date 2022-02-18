@@ -55,8 +55,8 @@ To leave the pool (temporary or permanent) please follow these steps:
     ![leave pool](../../../../assets/img/getting-started/leave-chia-pool.png){: loading=lazy }
 
 3. Once you have left the pool via the button, shut down your chia-blockchain software and head over to your chia `config.yaml`.
-5. **Important**: Change the `xch_target_address` in the pool config section back to one of your addresses so that block rewards are credited to you instead of the pool!
-6. Install the official chia-blockchain software.
+4. **Important**: Change the `xch_target_address` in the pool config section back to one of your addresses so that block rewards are credited to you instead of the pool!
+5. Install the official chia-blockchain software.
 
 ## Using a pool payout address that differs from your farmer reward address
 
