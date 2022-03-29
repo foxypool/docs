@@ -21,4 +21,4 @@ Check out the API docs here: [api-docs.foxypool.io](https://api-docs.foxypool.io
 
 ## Currency rates
 
-On PoSt pools a currency toggle allows users to show the coin values in a different (fiat) currency. Rates are provided by [CoinGecko](https://www.coingecko.com){target=_blank} and [XCH Forks](https://xchforks.com){target=_blank}.
+On PoSt pools a currency toggle allows users to show the coin values in a different (fiat) currency. Rates are provided by [CoinGecko](https://www.coingecko.com){target=_blank} and [XCH Universe](https://xchuniverse.com){target=_blank}.
