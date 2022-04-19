@@ -46,22 +46,22 @@ Clicking it will open a modal with instructions on what to do next:
 
     === "Windows"
         ```PowerShell
-        .\stai keys sign -t "m/12381/8444/1/0" -d <the data to sign here> -f <your fingerprint here>
+        .\stai keys sign -t "m/12381n/8444n/1n/0n" -d <the data to sign here> -f <your fingerprint here>
         ```
 
         ??? example
             ```PowerShell
-            .\stai keys sign -t "m/12381/8444/1/0" -d 1632306148 -f 67890123456
+            .\stai keys sign -t "m/12381n/8444n/1n/0n" -d 1632306148 -f 67890123456
             ```
 
     === "Linux & Mac OS"
         ```bash
-        ./stai keys sign -t "m/12381/8444/1/0" -d <the data to sign here> -f <your fingerprint here>
+        ./stai keys sign -t "m/12381n/8444n/1n/0n" -d <the data to sign here> -f <your fingerprint here>
         ```
 
         ??? example
             ```bash
-            ./stai keys sign -t "m/12381/8444/1/0" -d 1632306148 -f 67890123456
+            ./stai keys sign -t "m/12381n/8444n/1n/0n" -d 1632306148 -f 67890123456
             ```
 
     !!! info
