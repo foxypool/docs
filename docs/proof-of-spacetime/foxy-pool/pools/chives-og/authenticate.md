@@ -46,22 +46,22 @@ Clicking it will open a modal with instructions on what to do next:
 
     === "Windows"
         ```PowerShell
-        .\chives keys sign -t "m/12381/9699/1/0" -d <the data to sign here> -f <your fingerprint here>
+        .\chives keys sign -t "m/12381n/9699n/1n/0n" -d <the data to sign here> -f <your fingerprint here>
         ```
 
         ??? example
             ```PowerShell
-            .\chives keys sign -t "m/12381/9699/1/0" -d 1632306148 -f 67890123456
+            .\chives keys sign -t "m/12381n/9699n/1n/0n" -d 1632306148 -f 67890123456
             ```
 
     === "Linux & Mac OS"
         ```bash
-        ./chives keys sign -t "m/12381/9699/1/0" -d <the data to sign here> -f <your fingerprint here>
+        ./chives keys sign -t "m/12381n/9699n/1n/0n" -d <the data to sign here> -f <your fingerprint here>
         ```
 
         ??? example
             ```bash
-            ./chives keys sign -t "m/12381/9699/1/0" -d 1632306148 -f 67890123456
+            ./chives keys sign -t "m/12381n/9699n/1n/0n" -d 1632306148 -f 67890123456
             ```
 
     !!! info
