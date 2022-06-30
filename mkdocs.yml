@@ -17,6 +17,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - search.suggest
+    - content.tabs.link
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
