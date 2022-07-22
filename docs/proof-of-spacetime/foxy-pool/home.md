@@ -10,10 +10,10 @@ Currently, the following pools are available or planned:
 ### OG pools for existing solo plots (OG plots)
 
 - [x] [Foxy-Pool CHIA (OG)](pools/chia-og/getting-started.md)
-- [x] [Foxy-Pool FLAX (OG)](pools/flax-og/getting-started.md)
 - [x] [Foxy-Pool CHIVES (OG)](pools/chives-og/getting-started.md)
-- [x] [Foxy-Pool HDDCOIN (OG)](pools/hddcoin-og/getting-started.md)
-- [x] [Foxy-Pool STAI (OG)](pools/stai-og/getting-started.md)
+- [ ] [Foxy-Pool FLAX (OG)](pools/flax-og/getting-started.md) (deprecated, will be closed on 2022-08-20)
+- [ ] [Foxy-Pool HDDCOIN (OG)](pools/hddcoin-og/getting-started.md) (deprecated, will be closed on 2022-08-20)
+- [ ] [Foxy-Pool STAI (OG)](pools/stai-og/getting-started.md) (deprecated, will be closed on 2022-08-20)
 
 ## API
 

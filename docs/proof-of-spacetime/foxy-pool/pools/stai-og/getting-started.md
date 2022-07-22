@@ -1,3 +1,6 @@
+!!! warning
+    This pool is deprecated and will be closed on the 2022-08-20. All remaining pending balances and collaterals will be auto paid out once the pool closes.
+
 !!! info
     Please note that untrusted members have to accumulate 4 STAI in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance via the pools web ui.
 
