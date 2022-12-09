@@ -12,7 +12,7 @@ Clicking it will open a modal with instructions on what to do next:
     === "Windows"
         Open a powershell window and enter the following command:
         ```PowerShell
-        cd (Get-Item "$ENV:LOCALAPPDATA\chia-blockchain\app*\resources\app.asar.unpacked\daemon").fullname
+        cd (Get-Item "$ENV:LOCALAPPDATA\Programs\Chia\resources\app.asar.unpacked\daemon").fullname
         ```
 
     === "Mac OS"
