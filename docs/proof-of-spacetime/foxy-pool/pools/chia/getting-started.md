@@ -1,6 +1,6 @@
 ## Getting started
 
-1. To get started farming on [Foxy-Pool CHIA](https://chia.foxypool.io){target=_blank} please ensure you are using version 1.2.3 or newer of the chia-blockchain software from [here](https://github.com/Chia-Network/chia-blockchain/releases/latest){target=_blank}. Users also farming OG plots on Foxy can use the og-pooling enabled versions starting from 1.2.3 as well.
+1. To get started farming on [Foxy-Pool CHIA](https://chia.foxypool.io){target=_blank} please ensure you are using version 1.3.5 or newer of the chia-blockchain software from [here](https://github.com/Chia-Network/chia-blockchain/releases/latest){target=_blank}. Users also farming OG plots on Foxy can use the og-pooling enabled versions starting from 1.3.5 as well.
 2. If you require some coins to create your PlotNFT you can use the [faucet](https://faucet.chia.net){target=_blank} provided by the Chia team.
 3. Join the pool with your existing PlotNFT:
 
