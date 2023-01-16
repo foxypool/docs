@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 [Pledge-Agent](https://github.com/felixbrucker/pledge-agent) is a small app which automates pledging and sending of coins via their wallets.
 
 It can:
