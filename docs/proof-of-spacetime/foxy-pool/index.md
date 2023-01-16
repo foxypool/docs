@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 ## Available pools and coins
 
 Currently, the following pools are available or planned:

@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 ## What is Foxy-Miner
 
 [Foxy-Miner](https://github.com/foxypool/foxy-miner) is a mini proxy which wraps [scavenger](https://github.com/PoC-Consortium/scavenger) or [conqueror](https://github.com/PoC-Consortium/Helix) to provide a few features these miners do not yet support themselves:
