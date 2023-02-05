@@ -22,9 +22,6 @@
 
 ## Initial setup
 
-??? question "Adding pool_url and pool_payout_address"
-    Please ensure both `pool_url` and `pool_payout_address` are added into the farmer section and NOT full_node_peer section, it should be the same indentation as `full_node_peer`.
-
 ??? question "I changed my config.yaml, but the config was reset?"
     They are not gone, just re-arranged. The chives-blockchain software sorts the config keys alphabetically.
 
@@ -33,9 +30,6 @@
 
 ??? question "Can i have more than one pool public key for the same account?"
     No, these will be separate accounts
-
-??? question "How long does it take till I can access the "My Farmer" tab in the pool web ui after I have completed the setup?"
-    Once the first partial/proof is accepted by the pool. This also depends on how many plots you have, the duration can range from minutes to hours.
 
 ## EC
 
@@ -47,8 +41,8 @@
 
 ## Collateral
 
-??? question "Can you lower the 157.5 XCC collateral?"
-    No, 157.5 XCC is the pool reward portion when a block is won. As such the collateral needs to be at least this amount to be used effectively against cheaters.
+??? question "Can you lower the 78.75 XCC collateral?"
+    No, 78.75 XCC is the pool reward portion when a block is won. As such the collateral needs to be at least this amount to be used effectively against cheaters.
 
 ??? question "I am new, can i become a trusted member?"
     Unless a trusted member vouches for you, no
