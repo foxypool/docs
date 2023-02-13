@@ -1,5 +1,8 @@
 ## Initial setup
 
+??? question "Are compressed plots supported?"
+    Yes, compressed plots are supported
+
 ??? question "I can't log in with my Launcher Id?"
     You can log in once your PlotNFT fully switched over to Foxy.
 
