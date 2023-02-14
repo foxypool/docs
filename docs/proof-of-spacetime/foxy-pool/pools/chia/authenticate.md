@@ -1,5 +1,5 @@
 !!! info
-    Authenticating allows you to change your name and increase the minimum payout.
+    Authenticating allows you to change your name and increase the minimum payout as well as updating your difficulty.
 
 Authentication is done via the built-in login link for pools in the chia-blockchain software:
 
