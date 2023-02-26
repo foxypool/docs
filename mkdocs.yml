@@ -104,6 +104,8 @@ nav:
             - Getting Started: proof-of-spacetime/foxy-pool/pools/chives-og/getting-started.md
             - Authenticate: proof-of-spacetime/foxy-pool/pools/chives-og/authenticate.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/chives-og/faq.md
+      - Monitoring apps:
+          - proof-of-spacetime/monitoring-apps/index.md
       - Guides:
         - Switching from OG pooling to solo: proof-of-spacetime/guides/switching-from-og-pooling-to-solo.md
       - Chia-Dashboard-Satellite:
