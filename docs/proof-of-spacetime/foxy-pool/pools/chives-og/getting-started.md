@@ -1,3 +1,6 @@
+!!! warning
+    This pool is shutting down end of March, for more info please see the notice on the pool website or the announcement in discord.
+
 !!! info
     Please note that untrusted members have to accumulate 78.75 XCC in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance via the pools web ui.
 
