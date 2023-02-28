@@ -104,6 +104,10 @@ nav:
             - Getting Started: proof-of-spacetime/foxy-pool/pools/chives-og/getting-started.md
             - Authenticate: proof-of-spacetime/foxy-pool/pools/chives-og/authenticate.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/chives-og/faq.md
+      - Foxy-Farmer:
+          - proof-of-spacetime/foxy-farmer/index.md
+          - Installing: proof-of-spacetime/foxy-farmer/installing.md
+          - Configuration: proof-of-spacetime/foxy-farmer/configuration.md
       - Monitoring apps:
           - proof-of-spacetime/monitoring-apps/index.md
       - Guides:
