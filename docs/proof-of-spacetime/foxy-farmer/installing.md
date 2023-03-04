@@ -1,10 +1,9 @@
 === "Using the binary"
 
       1. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-farmer/releases/latest){target=_blank}
-      2. Run the binary, it will create a fresh chia config directory in your user home dir (`C:\Users\<your user>\.foxy-farmer`) and copy any existing chia `config.yaml` into it
-      3. It will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`
-      4. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
-      5. Profit!
+      2. Run the binary, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`
+      3. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
+      4. Profit!
 
 === "Running from source"
 
@@ -16,10 +15,9 @@
       ```bash
       pip install .
       ```
-      3. Run using `foxy-farmer`, it will create a fresh chia config directory in your user home dir (`C:\Users\<your user>\.foxy-farmer`) and copy any existing chia `config.yaml` into it
-      4. It will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`
-      5. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
-      6. Profit!
+      3. Run using `foxy-farmer`, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`
+      4. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
+      5. Profit!
 
 === "Using docker"
 

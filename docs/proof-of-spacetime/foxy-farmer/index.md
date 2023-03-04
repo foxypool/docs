@@ -13,5 +13,3 @@ Foxy-Farmer is useful in the following scenarios:
 
 - You are replotting your OG pooling farm to compressed madmax NFT plots but do not want to run two full nodes
 - Your hardware does not support running a full node
-
-
