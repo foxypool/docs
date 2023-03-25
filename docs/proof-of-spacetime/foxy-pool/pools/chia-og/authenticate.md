@@ -1,5 +1,5 @@
 !!! info
-    Authenticating allows you to change your name, increase the minimum payout and update your difficulty as well as leaving and rejoining the pool.
+    Authenticating allows you to change your name, increase the minimum payout, update your difficulty and configure notifications as well as leaving and rejoining the pool.
 
 From your [My Farmer](https://chia-og.foxypool.io/my-farmer){target=_blank} page on the pool you will see a green authentication button.
 
