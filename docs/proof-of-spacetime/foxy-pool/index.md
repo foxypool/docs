@@ -9,12 +9,10 @@ Currently, the following pools are available or planned:
 ### NFT pools for portable plots (PlotNFT)
 
 - [x] [Foxy-Pool CHIA](pools/chia/getting-started.md)
-- [x] [Foxy-Pool CHIVES](pools/chives/getting-started.md), shutting down end of March
 
 ### OG pools for existing solo plots (OG plots)
 
 - [x] [Foxy-Pool CHIA (OG)](pools/chia-og/getting-started.md)
-- [x] [Foxy-Pool CHIVES (OG)](pools/chives-og/getting-started.md), shutting down end of March
 
 ## API
 

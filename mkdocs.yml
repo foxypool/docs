@@ -96,14 +96,6 @@ nav:
             - Getting Started: proof-of-spacetime/foxy-pool/pools/chia-og/getting-started.md
             - Authenticate: proof-of-spacetime/foxy-pool/pools/chia-og/authenticate.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/chia-og/faq.md
-        - CHIVES:
-            - Getting Started: proof-of-spacetime/foxy-pool/pools/chives/getting-started.md
-            - Authenticate: proof-of-spacetime/foxy-pool/pools/chives/authenticate.md
-            - FAQ: proof-of-spacetime/foxy-pool/pools/chives/faq.md
-        - CHIVES (OG):
-            - Getting Started: proof-of-spacetime/foxy-pool/pools/chives-og/getting-started.md
-            - Authenticate: proof-of-spacetime/foxy-pool/pools/chives-og/authenticate.md
-            - FAQ: proof-of-spacetime/foxy-pool/pools/chives-og/faq.md
       - Foxy-Farmer:
           - proof-of-spacetime/foxy-farmer/index.md
           - Installing: proof-of-spacetime/foxy-farmer/installing.md
@@ -184,6 +176,12 @@ plugins:
         'chia-dashboard-satellite/installing.md': 'proof-of-spacetime/chia-dashboard-satellite/installing.md'
         'chia-dashboard-satellite/configuration.md': 'proof-of-spacetime/chia-dashboard-satellite/configuration.md'
         'chia-dashboard-satellite/api.md': 'proof-of-spacetime/chia-dashboard-satellite/api.md'
+        'proof-of-spacetime/foxy-pool/pools/chives/getting-started.md': 'proof-of-spacetime/foxy-pool/index.md'
+        'proof-of-spacetime/foxy-pool/pools/chives/authenticate.md': 'proof-of-spacetime/foxy-pool/index.md'
+        'proof-of-spacetime/foxy-pool/pools/chives/faq.md': 'proof-of-spacetime/foxy-pool/index.md'
+        'proof-of-spacetime/foxy-pool/pools/chives-og/getting-started.md': 'proof-of-spacetime/guides/switching-from-og-pooling-to-solo.md'
+        'proof-of-spacetime/foxy-pool/pools/chives-og/authenticate.md': 'proof-of-spacetime/guides/switching-from-og-pooling-to-solo.md'
+        'proof-of-spacetime/foxy-pool/pools/chives-og/faq.md': 'proof-of-spacetime/guides/switching-from-og-pooling-to-solo.md'
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
