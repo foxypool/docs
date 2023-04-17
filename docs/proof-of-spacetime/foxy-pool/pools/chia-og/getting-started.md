@@ -50,13 +50,14 @@ It is advisable to authenticate at this stage, so you can change your name, set 
 To leave the pool (temporary or permanent) please follow these steps:
 
 1. Visit the [My Farmer](https://chia-og.foxypool.io/my-farmer){target=_blank} tab of the pool, log in and authenticate.
-2. Press the "Leave pool" button and confirm whether you want to leave temporary (collateral will remain as is) or permanent (collateral will be paid out):
+2. Open the settings and select "Leave Pool"
+3. Confirm whether you want to leave temporarily (collateral will remain as is) or permanently (collateral will be paid out):
 
     ![leave pool](../../../../assets/img/getting-started/leave-chia-pool.png){: loading=lazy }
 
-3. Once you have left the pool via the button, shut down your chia-blockchain software and head over to your chia `config.yaml`.
-4. **Important**: Change the `xch_target_address` in the pool config section back to one of your addresses so that block rewards are credited to you instead of the pool!
-5. Install the official chia-blockchain software.
+4. Once you have left the pool via the button, shut down your chia-blockchain software and head over to your chia `config.yaml`.
+5. **Important**: Change the `xch_target_address` in the pool config section back to one of your addresses so that block rewards are credited to you instead of the pool!
+6. Install the official chia-blockchain software.
 
 ## Using a pool payout address that differs from your farmer reward address
 

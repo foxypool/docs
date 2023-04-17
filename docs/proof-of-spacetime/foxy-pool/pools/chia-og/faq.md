@@ -8,9 +8,6 @@
 
     Additionally, these other pools do not use a collateral based system, so users cheating the pool by multi farming on other pools reduce your profit greatly on these pools.
 
-??? question "Will the OG pool continue to work after the official pooling protocol is released?"
-    Yes, this pool is here to stay
-
 ## Multi-Farming
 
 ??? question "Can i farm my OG plots on Foxy and my portable plots somewhere else?"
