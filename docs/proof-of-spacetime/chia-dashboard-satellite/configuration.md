@@ -23,6 +23,12 @@ The config file currently consists of these config options:
 ### `chiaDashboardCoreUrl`:
 : The url the satellite should connect to for stats updates, default is `https://chia-dashboard-api.foxypool.io`.
 
+### `responseTimeSampleSize`:
+: How many response times should be aggregated to calculate the average response time as well as the worst response time.
+
+### `maximumFarmingInfos`:
+: How many farming infos should be collected for the chart. Maximum value: 100.
+
 
 ## Configuration Example
 
