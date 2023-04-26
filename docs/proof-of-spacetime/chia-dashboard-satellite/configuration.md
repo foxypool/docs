@@ -29,6 +29,12 @@ The config file currently consists of these config options:
 ### `maximumFarmingInfos`:
 : How many farming infos should be collected for the chart. Maximum value: 100.
 
+### `updateMode`:
+: How often the satellite should update the dashboard core api. Possible values: `slow`, `regular`, `fast`. Defaults to `regular`.
+
+### `enableCompatibilityMode`:
+: This setting results in the old data format being sent to the api. Possible values: `true`, `false`. Defaults to true if using any dashboard core api other than the default one.
+
 
 ## Configuration Example
 
