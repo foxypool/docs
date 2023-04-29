@@ -1,7 +1,7 @@
 !!! info
     Authenticating allows you to change your name, increase the minimum payout, update your difficulty and configure notifications as well as leaving and rejoining the pool.
 
-From your [My Farmer](https://chia-og.foxypool.io/my-farmer){target=_blank} page on the pool you will see a green authentication button.
+On your [My Farmer](https://chia-og.foxypool.io/my-farmer){target=_blank} page on the pool you will see a green authentication button at the top right.
 
 ![og-authentication-button](../../../../assets/img/getting-started/auth-og-account-button.png){ loading=lazy }
 
