@@ -55,7 +55,7 @@ To create the plots you can use the GUI, but for more advanced users using the C
     ![wallet details](../assets/img/chia-getting-started/wallet-details.png){: loading=lazy }
     ![wallet details open](../assets/img/chia-getting-started/wallet-details-open.png){: loading=lazy }
 
-    The PlotNFT contract address can be extracted by hovering over question mark icon to the right of the PlotNFT name:
+    The PlotNFT contract address can be extracted by hovering over the question mark icon to the right of the PlotNFT name:
 
     ![PlotNFT contract address](../assets/img/chia-getting-started/plotnft-contract-address.png){: loading=lazy }
 
