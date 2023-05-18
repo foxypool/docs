@@ -86,6 +86,8 @@ nav:
           - Configuration: proof-of-capacity/pledge-agent/configuration.md
       - Configuring Scavenger: proof-of-capacity/configuring-scavenger.md
   - Proof of Spacetime:
+      - Getting Started: proof-of-spacetime/getting-started.md
+      - Glossary: proof-of-spacetime/glossary.md
       - Foxy-Pool:
         - proof-of-spacetime/foxy-pool/index.md
         - CHIA:
