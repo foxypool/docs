@@ -89,6 +89,17 @@ Once you have created your first plots and your full node is synced you can see 
 ![Plots farming](../assets/img/chia-getting-started/plots-farming.png){: loading=lazy }
 ![Plots farming PlotNFT](../assets/img/chia-getting-started/plots-farming-plotnft.png){: loading=lazy }
 
+In the pools [My Farmer](https://chia.foxypool.io/my-farmer){target=_blank} tab you can see your farm in detail and keep track of it:
+![My Farmer](../assets/img/chia-getting-started/pool-stats.png){: loading=lazy }
+
+When viewing your Harvesters you can see more fine-grained info corresponding to your harvester(s):
+![Harvesters](../assets/img/chia-getting-started/pool-harvester-stats.png){: loading=lazy }
+![Harvester Proof times](../assets/img/chia-getting-started/pool-harvester-proof-times.png){: loading=lazy }
+
+Additionally, you can configure all sorts of settings related to name, payouts, difficulty and notifications by opening the settings:
+![Settings](../assets/img/chia-getting-started/pool-settings.gif){: loading=lazy }
+
+There are lots more things to explore on the Pool UI, just visit [My Farmer](https://chia.foxypool.io/my-farmer){target=_blank} to check them out!
 
 #### More Infos
 For a more in detail explanation of all things Chia please see the [official docs](https://docs.chia.net/introduction){target=_blank}.
