@@ -108,6 +108,7 @@ nav:
           - proof-of-spacetime/monitoring-apps/index.md
       - Guides:
         - Switching from OG pooling to solo: proof-of-spacetime/guides/switching-from-og-pooling-to-solo.md
+        - Changing the reward address: proof-of-spacetime/guides/changing-the-reward-address.md
       - Chia-Dashboard-Satellite:
         - proof-of-spacetime/chia-dashboard-satellite/index.md
         - Installing: proof-of-spacetime/chia-dashboard-satellite/installing.md
