@@ -16,7 +16,7 @@ Each miners [EC](ec.md) is multiplied by the historical share part of the DR and
 
     In this example the miner with a DR of 0-100 will receive double the amount of the miner with a DR of 50-50 because his relative EC is twice as big.
 
-The DR can be configured via the [Settings Tab](settings.md) or via headers sent by the mining software.
+The DR can be configured via the Settings Tab or via headers sent by the mining software.
 Foxy-Miner provides a `distributionRatio` config option for it.
 
 Mining software needs to send the header `X-DistributionRatio` in their `submitNonce` requests. This header should be a string following the `n-m` syntax where `n` is the block winner share and `m` is the historical share.

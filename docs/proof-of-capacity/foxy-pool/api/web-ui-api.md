@@ -10,7 +10,7 @@ The Web-UI Socket.IO endpoint of the Foxy-Pool Gateway is reachable on
 https://api.foxypool.io/web-ui
 ```
 
-To interact with a specific pool you will need the pools poolIdentifier. The poolIdentifier is generally the subdomain part of the hostname. For example the BHD pools poolIdentifier is `bhd`.
+To interact with a specific pool you will need the pools poolIdentifier. The poolIdentifier is generally the subdomain part of the hostname. For example the SIGNA pools poolIdentifier is `signa`.
 
 ## Subscribe to new pool stats for a given list of pools by pool identifier
 
@@ -19,7 +19,7 @@ const io = require('socket.io-client');
 
 const client = io('https://api.foxypool.io/web-ui');
 
-const poolIdentifier = ['bhd', 'signa'];
+const poolIdentifier = ['signa'];
 client.emit('subscribe', poolIdentifier, () => {
   // Do stuff here
 });

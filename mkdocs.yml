@@ -65,14 +65,11 @@ nav:
           - proof-of-capacity/foxy-pool/index.md
           - Mining: proof-of-capacity/foxy-pool/mining.md
           - Binding:
-              - BHD: proof-of-capacity/foxy-pool/binding/bhd.md
               - SIGNA: proof-of-capacity/foxy-pool/binding/signa.md
           - EC:  proof-of-capacity/foxy-pool/ec.md
           - Pledging:
               - Overview: proof-of-capacity/foxy-pool/pledging.md
-              - BHD: proof-of-capacity/foxy-pool/pledging/bhd.md
               - SIGNA: proof-of-capacity/foxy-pool/pledging/signa.md
-          - Settings: proof-of-capacity/foxy-pool/settings.md
           - Daily Rewards: proof-of-capacity/foxy-pool/daily-rewards.md
           - Distribution Ratio: proof-of-capacity/foxy-pool/distribution-ratio.md
           - API:
@@ -159,13 +156,10 @@ plugins:
         'general/glossary.md': 'proof-of-capacity/glossary.md'
         'foxy-pool/index.md': 'proof-of-capacity/foxy-pool/index.md'
         'foxy-pool/mining.md': 'proof-of-capacity/foxy-pool/mining.md'
-        'foxy-pool/binding/bhd.md': 'proof-of-capacity/foxy-pool/binding/bhd.md'
         'foxy-pool/binding/burst.md': 'proof-of-capacity/foxy-pool/binding/signa.md'
         'foxy-pool/ec.md': 'proof-of-capacity/foxy-pool/ec.md'
         'foxy-pool/pledging.md': 'proof-of-capacity/foxy-pool/pledging.md'
-        'foxy-pool/pledging/bhd.md': 'proof-of-capacity/foxy-pool/pledging/bhd.md'
         'foxy-pool/pledging/burst.md': 'proof-of-capacity/foxy-pool/pledging/signa.md'
-        'foxy-pool/settings.md': 'proof-of-capacity/foxy-pool/settings.md'
         'foxy-pool/daily-rewards.md': 'proof-of-capacity/foxy-pool/daily-rewards.md'
         'foxy-pool/distribution-ratio.md': 'proof-of-capacity/foxy-pool/distribution-ratio.md'
         'foxy-pool/api/overview.md': 'proof-of-capacity/foxy-pool/api/overview.md'

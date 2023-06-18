@@ -29,7 +29,7 @@ The file holding your stored hashes for mining. It consists of [nonces](#nonce).
 An alternative name for the [account id](#account-id). The Plotter Id is the first number in a [plot file](#plot-file) name.
 
 #### POC
-Proof-of-Capacity, the consensus algorithm of HDD mining coins, like SIGNA, BHD, etc.
+Proof-of-Capacity, the consensus algorithm of HDD mining coins, like SIGNA, etc.
 
 #### POC1
 The old legacy plot file format of SIGNA, not used anymore.

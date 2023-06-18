@@ -16,14 +16,6 @@ logToFile: true
 humanizeDeadlines: true
 isCpuOnly: false
 upstreams:
-  - name: 'FoxyPool BHD'
-    type: 'foxypool'
-    coin: 'BHD'
-    payoutAddress: 'your BHD payout address'
-    accountName: 'your desired name'
-    weight: 12
-    color: '#e25898'
-    doNotInterruptAbovePercent: 95
   - name: 'FoxyPool SIGNA'
     type: 'foxypool'
     coin: 'SIGNA'
@@ -75,7 +67,7 @@ The config file currently consists of these config options:
     #### `type`
     : Possible values: `socketio`, `foxypool`. Used to distinguish different upstream types. When omitted legacy http polling is used.
     #### `coin`
-    : Possible values: `BHD`, `SIGNA`. Required for Foxy-Pools and the `useProfitability` option.
+    : Possible values: `SIGNA`. Required for Foxy-Pools and the `useProfitability` option.
     #### `payoutAddress`
     : Possible values: any valid address for the `coin`. Your payout address of the specific coin of the upstream. Required for Foxy-Pools.
     #### `accountName`

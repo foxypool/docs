@@ -9,20 +9,7 @@ Recommended Plotter:
 
     For this tutorial Turbo Plotter is used.
 
-2. A Plot file contains a unique id, the [Plotter Id](glossary.md#plotter-id), also referred to as [Account Id](glossary.md#account-id). The Plotter Id is coin agnostic and can be bound to both BHD and SIGNA. To obtain a Plotter Id you now have two choices: Via a BHD wallet or via a SIGNA wallet.
-
-=== "BHD wallet"
-
-    Please open your own BHD wallet and click on "Help > Generate plotting account":
-
-    ![BHD wallet create account](../assets/img/getting-started/bhd-wallet-create-account.png){: loading=lazy }
-
-    A secret phrase and corresponding plotter id is generated for you, please store them in a secure location and make a backup!
-
-    ![BHD wallet copy plotter id and passphrase](../assets/img/getting-started/bhd-wallet-copy-plotter-id-and-passphrase.png){: loading=lazy }
-
-    !!! info
-        This secret phrase is directly related to the Plotter Id, without the secret phrase the Plot files for this Plotter Id can not be used correctly for mining.
+2. A Plot file contains a unique id, the [Plotter Id](glossary.md#plotter-id), also referred to as [Account Id](glossary.md#account-id). The Plotter Id is coin agnostic and can be bound to SIGNA. To obtain a Plotter Id use a SIGNA wallet.
 
 === "SIGNA wallet"
 
@@ -53,7 +40,7 @@ Recommended Plotter:
 3. Once you started the plotting you can observe its progress and estimated time till it is done plotting:
     ![Turbo Plotter plotting](../assets/img/getting-started/tp-plotting.png){: loading=lazy }
 
-4. While the Plot file is plotting, you can bind your Plotter Id to the pools. You can follow the binding guides for [BHD](foxy-pool/binding/bhd.md) and [SIGNA](foxy-pool/binding/signa.md) to do so.
+4. While the Plot file is plotting, you can bind your Plotter Id to the pools. You can follow the binding guide for [SIGNA](foxy-pool/binding/signa.md) to do so.
 5. You'll also need a [miner](glossary.md#mining-software), a piece of software reading your Plot files each round and submitting [deadlines](glossary.md#deadline) it finds in your Plot file to the pool.
    There are a number of supported and recommended mining software's listed [here](foxy-pool/mining.md), but to get started using [Foxy-Miner](foxy-miner/index.md) is recommended.
 6. Once the Plot file is done plotting, add its path to your miner's plot file list in it's configuration file and start mining!

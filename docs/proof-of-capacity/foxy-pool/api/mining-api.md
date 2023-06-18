@@ -13,7 +13,7 @@ const io = require('socket.io-client');
 
 const client = io('http://miner.foxypool.io/mining');
 
-const coin = 'BHD';
+const coin = 'SIGNA';
 client.emit('getMiningInfo', coin, (miningInfo) => {
   // Do stuff here
 });
@@ -24,7 +24,7 @@ client.emit('getMiningInfo', coin, (miningInfo) => {
 ```javascript
 ...
 
-const coins = ['BHD', 'SIGNA'];
+const coins = ['SIGNA'];
 client.emit('subscribe', coins, () => {
   // Do stuff here
 });
@@ -62,7 +62,7 @@ const options = {
   distributionRatio: '0-100',
 };
 
-const coin = 'BHD';
+const coin = 'SIGNA';
 client.emit('submitNonce', coin, submission, options, (result) => {
   // Do stuff here
 });
@@ -79,14 +79,14 @@ ws://miner.foxypool.io:8081
 The Request format is JSON and has the following properties:
 
 - **id**: the requests id is reused in the response for identification by the client, if it is supplied (optional)
-- **coin**: the coin (eg. 'BHD') this request is referring to, **required** for 'getMiningInfo' and 'submitNonce' requests
+- **coin**: the coin (eg. 'SIGNA') this request is referring to, **required** for 'getMiningInfo' and 'submitNonce' requests
 - **topic**: 'getMiningInfo' or 'submitNonce' or 'subscribe'
 - **payload**: the data to send with the request, **required** for 'submitNonce'
 
 The Response format is JSON and has the following properties:
 
 - **id**: the id from the request for identification by the client, if it was supplied
-- **coin**: the coin (eg. 'BHD') this request is referring to
+- **coin**: the coin (eg. 'SIGNA') this request is referring to
 - **topic**: 'miningInfo' or 'submitNonce' or 'subscribe'
 - **payload**: the result of the requests operation, only present when there was no error
 - **error**: only present when an error happened, contains an error message
@@ -129,7 +129,7 @@ async function sendMessageAndAwaitResponse(messageToSend) {
   return result;
 }
 
-const coin = 'BHD';
+const coin = 'SIGNA';
 const miningInfo = await sendMessageAndAwaitResponse({
   id: 123,
   coin,
@@ -143,7 +143,7 @@ const miningInfo = await sendMessageAndAwaitResponse({
 ```javascript
 ...
 
-const coins = ['BHD', 'SIGNA'];
+const coins = ['SIGNA'];
 await sendMessageAndAwaitResponse({
   id: 123,
   topic: 'subscribe',
@@ -189,7 +189,7 @@ const options = {
   distributionRatio: '0-100',
 };
 
-const coin = 'BHD';
+const coin = 'SIGNA';
 const result = await sendMessageAndAwaitResponse({
   id: 123,
   coin,
