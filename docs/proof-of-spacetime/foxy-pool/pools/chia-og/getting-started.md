@@ -13,7 +13,7 @@
 !!! info
     The following changes are only necessary for the node running the `farmer` service. If you run the GUI you also run the `farmer` service. As such if you run a multi harvester setup you only need to update the node with the farmer on it, the harvesters can remain as is.
 
-1. To get started farming on [Foxy-Pool CHIA (OG)](https://chia-og.foxypool.io){target=_blank} please download and install the pooling enabled chia-blockchain software from [here](https://github.com/foxypool/chia-blockchain/releases/latest){target=_blank}. The source is available on the `main` branch in case you prefer or require to build from source.
+1. To get started farming on [Foxy-Pool CHIA (OG)](https://chia-og.foxypool.io){target=_blank} please download and install the og pooling enabled chia-blockchain software from [here](https://github.com/foxypool/chia-blockchain/releases/latest){target=_blank}. The source is available on the `main` branch in case you prefer or require to build from source. Users already farming chia official compressed plots can use the og pooling enabled alpha/beta pre-releases from [here](https://github.com/foxypool/chia-blockchain/releases){target=_blank}.
 2. Register an account for your pool public key used by your plots via the discord bot on the [Foxy Discord](https://discord.gg/foxypool){target=_blank} either via DM or in a channel:
 
     ![register account](../../../../assets/img/getting-started/foxy-pool-chia-og-register-account.png){: loading=lazy }
