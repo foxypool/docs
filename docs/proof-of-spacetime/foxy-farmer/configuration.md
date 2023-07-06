@@ -10,7 +10,9 @@ farmer_reward_address: xch1063ymlv3saaxkh87h287nc3laelnxss0897xdw6g8zj6yvaa4elsl
 harvester_num_threads: 30
 listen_host: 127.0.0.1
 log_level: INFO
-plot_directories: []
+plot_directories:
+  - 'D:\plots'
+  - 'E:\plots'
 plot_refresh_interval_seconds: 900
 pool_payout_address: xch1063ymlv3saaxkh87h287nc3laelnxss0897xdw6g8zj6yvaa4elslg0xfa
 ```
