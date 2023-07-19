@@ -4,7 +4,7 @@ title: Home
 
 ## Welcome to the Foxy Documentation
 
-In here you'll find documentation for Foxy related software and services, including Foxy-Pool, Foxy-Proxy and Foxy-Miner and more.
+In here you'll find documentation for Foxy related software and services.
 
 The individual sections are shown as tabs at the top.
 
