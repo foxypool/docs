@@ -27,6 +27,10 @@
    ![empty pooling tab](../assets/img/chia-getting-started/empty-pooling-tab.png){: loading=lazy }
 
 3. Input the pool url `https://farmer.chia.foxypool.io` and hit "Create" at the bottom:
+
+    !!! info "Note"
+        If your ISP blocks the pool url or does not correctly route to it you can use `https://farmer-chia.foxypool.io` instead.
+
    ![create-plotnft](../assets/img/chia-getting-started/create-plotnft.png){: loading=lazy }
 
 4. Once the PlotNFT is created we can log in to the Pool UI by selecting the 3 dot menu at the top right and clicking on "View Pool Login Link" and opening the link in a browser:
