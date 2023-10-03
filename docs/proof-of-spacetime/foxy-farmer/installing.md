@@ -1,7 +1,7 @@
 === "Using the binary"
 
       1. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-farmer/releases/latest){target=_blank}
-      2. Run the binary, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`
+      2. Run the binary, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`. Note: if you never set up chia before you will need to import your 24 word mnemonic using `./foxy-farmer keys add`.
       3. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
       4. Profit!
 
@@ -15,7 +15,7 @@
       ```bash
       pip install .
       ```
-      3. Run using `foxy-farmer`, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`
+      3. Run using `foxy-farmer`, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml`. Note: if you never set up chia before you will need to import your 24 word mnemonic using `foxy-farmer keys add`.
       4. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
       5. Profit!
 

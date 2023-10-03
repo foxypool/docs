@@ -80,6 +80,7 @@ nav:
       - Monitoring apps:
           - proof-of-spacetime/monitoring-apps/index.md
       - Guides:
+        - Switching from FlexFarmer to Foxy: proof-of-spacetime/guides/switching-from-flex-farmer-to-foxy.md
         - Switching from OG pooling to solo: proof-of-spacetime/guides/switching-from-og-pooling-to-solo.md
         - Changing the reward address: proof-of-spacetime/guides/changing-the-reward-address.md
       - Chia-Dashboard-Satellite:
