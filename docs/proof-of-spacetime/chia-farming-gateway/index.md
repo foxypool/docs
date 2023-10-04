@@ -5,6 +5,7 @@ title: Chia Farming Gateway
 Foxy-Pool hosts a Chia Farming Gateway (`node.chia.foxypool.io:28444`) for anyone to use, which can be used to farm without a local full node. [Foxy-Farmer](../foxy-farmer/index.md) already uses this under the hood.
 
 - [x] NFT and OG plots are both supported!
+- [x] Bladebit compressed plots are supported!
 
 !!! info "Note"
     If you can run a full node, you should!

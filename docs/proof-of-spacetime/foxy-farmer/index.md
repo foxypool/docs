@@ -5,6 +5,7 @@ title: Foxy-Farmer
 [Foxy-Farmer](https://github.com/foxypool/foxy-farmer){target=_blank} is a simplified farmer for the chia blockchain using the Foxy-Pool [Chia Farming Gateway](../chia-farming-gateway/index.md) to farm without a full node running on your machine.
 
 - [x] NFT and OG pooling are both supported!
+- [x] Bladebit compressed plots are supported!
 
 !!! info "Note"
     If you can run a full node, you should!
