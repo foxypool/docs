@@ -75,6 +75,10 @@ nav:
           - proof-of-spacetime/foxy-farmer/index.md
           - Installing: proof-of-spacetime/foxy-farmer/installing.md
           - Configuration: proof-of-spacetime/foxy-farmer/configuration.md
+      - Foxy-GH-Farmer:
+          - proof-of-spacetime/foxy-gh-farmer/index.md
+          - Installing: proof-of-spacetime/foxy-gh-farmer/installing.md
+          - Configuration: proof-of-spacetime/foxy-gh-farmer/configuration.md
       - Chia Farming Gateway:
           - proof-of-spacetime/chia-farming-gateway/index.md
       - Monitoring apps:
