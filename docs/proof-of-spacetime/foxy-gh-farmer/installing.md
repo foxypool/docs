@@ -1,31 +1,33 @@
 === "Using the binary"
 
-     1. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-gh-farmer/releases/latest){target=_blank}
-     2. Run the binary, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
+     1. On Linux ensure you have `libgomp1` as well as `ocl-icd-libopencl1` installed
+     2. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-gh-farmer/releases/latest){target=_blank}
+     3. Run the binary, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
             If you never set up chia before in this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
 
-     3. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
-     4. Profit!
+     4. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
+     5. Profit!
 
 === "Running from source"
 
-      1. Clone the git repo and cd into it: 
+      1. On Linux ensure you have `libgomp1` as well as `ocl-icd-libopencl1` installed
+      2. Clone the git repo and cd into it: 
       ```bash
       git clone https://github.com/foxypool/foxy-gh-farmer && cd foxy-gh-farmer
       ```
-      2. Install the dependencies: 
+      3. Install the dependencies: 
       ```bash
       pip install .
       ```
-      3. Run using `foxy-gh-farmer`, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
+      4. Run using `foxy-gh-farmer`, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
             If you never set up chia before in this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
 
-      4. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
-      5. Profit!
+      5. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
+      6. Profit!
 
 === "Using docker"
 
