@@ -40,4 +40,9 @@
         ```
 
 === "Uncompressed & Bladebit compressed plots"
-    You can just use [Foxy-Farmer](../foxy-farmer/index.md), to install it please follow the steps listed [here](../foxy-farmer/installing.md).
+
+    1. Install Foxy-Farmer, see [this page](../foxy-farmer/installing.md){ target=_blank } on the various install methods.
+    2. Run Foxy-Farmer once to generate a `foxy-farmer.yaml` as well as the `.foxy-farmer` directory in your users home directory.
+    3. Import your 24 word mnemonic using `./foxy-farmer keys add`
+    4. Join the pool by running `./foxy-farmer join-pool`. This will spin up the wallet service, wait till its synced, join all PlotNFTs to the Foxy-Pool and shutdown the wallet service again once done. This process can take up to 30 minutes.
+    5. Run Foxy-Farmer and check out the Pools "My Farmer" tab!
