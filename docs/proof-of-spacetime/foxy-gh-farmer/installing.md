@@ -5,7 +5,7 @@
      3. Run the binary, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
-            If you never set up chia before in this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
+            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
 
      4. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
      5. Profit!
@@ -24,7 +24,7 @@
       4. Run using `foxy-gh-farmer`, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
-            If you never set up chia before in this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
+            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
 
       5. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
       6. Profit!
