@@ -1,6 +1,6 @@
 === "Using the binary"
 
-      1. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-farmer/releases/latest){target=_blank}
+      1. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-farmer/releases/latest){target=_blank} or if you can not access GitHub there is a [direct download](https://downloads.foxypool.io/chia/foxy-farmer/latest/){target=_blank} as well.
       2. Run the binary, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note

@@ -1,7 +1,7 @@
 === "Using the binary"
 
      1. On Linux ensure you have `libgomp1` as well as `ocl-icd-libopencl1` installed
-     2. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-gh-farmer/releases/latest){target=_blank}
+     2. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-gh-farmer/releases/latest){target=_blank} or if you can not access GitHub there is a [direct download](https://downloads.foxypool.io/chia/foxy-gh-farmer/latest/){target=_blank} as well.
      3. Run the binary, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
