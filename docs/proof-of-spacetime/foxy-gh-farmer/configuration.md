@@ -16,14 +16,14 @@ plot_refresh_interval_seconds: 3600
 pool_payout_address: xch1063ymlv3saaxkh87h287nc3laelnxss0897xdw6g8zj6yvaa4elslg0xfa
 # environment config options below only for syntax demonstration purposes, apply as need with the values you require
 recompute_hosts: [192.168.1.42]
-recompute_connect_timeout: '2000'
-recompute_retry_interval: '100'
-chiapos_max_cores: '8'
-chiapos_max_cuda_devices: '1'
-chiapos_max_opencl_devices: '1'
-chiapos_max_gpu_devices: '3'
-chiapos_opencl_platform: '2'
-chiapos_min_gpu_log_entries: '21'
+recompute_connect_timeout: 2000
+recompute_retry_interval: 100
+chiapos_max_cores: 8
+chiapos_max_cuda_devices: 1
+chiapos_max_opencl_devices: 1
+chiapos_max_gpu_devices: 3
+chiapos_opencl_platform: 2
+chiapos_min_gpu_log_entries: 21
 cuda_visible_devices: '0,2'
 ```
 
