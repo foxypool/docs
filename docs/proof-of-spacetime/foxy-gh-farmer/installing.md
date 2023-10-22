@@ -44,3 +44,10 @@
 
       Currently, this requires you to have a working `foxy-gh-farmer.yaml` already available to mount into the container. See this [example configuration](configuration.md#example-configuration) for reference.
       If you do not have a `.chia_keys` directory from a previous chia install, you can set the `CHIA_MNEMONIC` environment variable to your 24 words and it will create they keyring accordingly. Please unset it again once done.
+
+    !!! note
+        To execute the `join-pool` command please first `exec` into the running container with
+        ```bash
+        docker exec -it <name of your container> bash
+        ```
+        Then you can run `foxy-gh-farmer join-pool` inside the container.
