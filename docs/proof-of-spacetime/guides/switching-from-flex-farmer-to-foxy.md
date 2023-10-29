@@ -36,7 +36,7 @@
         farmer:
           full_node_peer:
             host: gh-node.chia.foxypool.io
-            port: 18445
+            port: 28445
         ```
 
 === "Uncompressed & Bladebit compressed plots"
