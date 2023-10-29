@@ -67,7 +67,7 @@ To create the plots you can use the GUI, but for more advanced users using the C
         1. To plot compressed plots using madMAx using your GPU (fast) first download the latest release [here](https://github.com/madMAx43v3r/chia-gigahorse/tree/master/cuda-plotter/windows){target=_blank}.
         2. Open a Powershell window and run the `cuda_plot_k32.exe` with the following arguments:
            ```bash
-           -n <number of plots here> -C <compression level here> -S 2 -x 8444 -t <tmp directory here> -d <final directory here> -f <FPK here> -c <PlotNFT contract address here>
+           -n <number of plots here> -C <compression level here> -x 8444 -t <tmp directory here> -d <final directory here> -f <FPK here> -c <PlotNFT contract address here>
            ```
 
             !!! info
