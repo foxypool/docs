@@ -10,3 +10,5 @@ title: Foxy-GH-Farmer
 Foxy-GH-Farmer is useful in the following scenarios:
 
 - Your hardware does not support running a full node
+
+If you are migrating from FlexFarmer please check out [this guide](../guides/switching-from-flex-farmer-to-foxy.md).
