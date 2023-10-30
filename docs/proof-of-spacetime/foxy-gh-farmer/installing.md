@@ -19,7 +19,7 @@
       ```
       3. Create a venv:
       ```bash
-      pyhon3 -m venv venv
+      python3 -m venv venv
       ```
       4. Install the dependencies: 
       ```bash
