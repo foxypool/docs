@@ -74,11 +74,13 @@ nav:
       - Foxy-Farmer:
           - proof-of-spacetime/foxy-farmer/index.md
           - Installing: proof-of-spacetime/foxy-farmer/installing.md
+          - Updating: proof-of-spacetime/foxy-farmer/updating.md
           - Configuration: proof-of-spacetime/foxy-farmer/configuration.md
           - Systemd service: proof-of-spacetime/foxy-farmer/setup-systemd-service.md
       - Foxy-GH-Farmer:
           - proof-of-spacetime/foxy-gh-farmer/index.md
           - Installing: proof-of-spacetime/foxy-gh-farmer/installing.md
+          - Updating: proof-of-spacetime/foxy-gh-farmer/updating.md
           - Configuration: proof-of-spacetime/foxy-gh-farmer/configuration.md
           - Systemd service: proof-of-spacetime/foxy-gh-farmer/setup-systemd-service.md
       - Chia Farming Gateway:
