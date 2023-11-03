@@ -11,7 +11,11 @@
         1. Install Foxy-GH-Farmer, see [this page](../foxy-gh-farmer/installing.md){ target=_blank } on the various install methods.
         2. Run Foxy-GH-Farmer once to generate a `foxy-gh-farmer.yaml` as well as the `.foxy-gh-farmer` directory in your users home directory.
         3. Import your 24 word mnemonic using `./foxy-gh-farmer keys add`
-        4. Join the pool by running `./foxy-gh-farmer join-pool`. This will spin up the wallet service, wait till its synced, join all PlotNFTs to the Foxy-Pool and shutdown the wallet service again once done. This process can take up to 30 minutes.
+        4. Join the pool by running `./foxy-gh-farmer join-pool` or by copying the `plot_nfts` from an existing `foxy-gh-farmer.yaml`.
+
+            !!! info
+                Running the `join-pool` command will spin up the wallet service, wait till its synced, join all PlotNFTs to the Foxy-Pool and shutdown the wallet service again once done. This will sync your PlotNFTs into `plot_nfts` in `foxy-gh-farmer.yaml`. This process can take up to 30 minutes.
+
         5. Run Foxy-GH-Farmer and check out the Pools "My Farmer" tab!  You can use `./foxy-gh-farmer auth` to generate the pool login link.
 
     === "Manual setup"
@@ -44,5 +48,9 @@
     1. Install Foxy-Farmer, see [this page](../foxy-farmer/installing.md){ target=_blank } on the various install methods.
     2. Run Foxy-Farmer once to generate a `foxy-farmer.yaml` as well as the `.foxy-farmer` directory in your users home directory.
     3. Import your 24 word mnemonic using `./foxy-farmer keys add`
-    4. Join the pool by running `./foxy-farmer join-pool`. This will spin up the wallet service, wait till its synced, join all PlotNFTs to the Foxy-Pool and shutdown the wallet service again once done. This process can take up to 30 minutes.
+    4. Join the pool by running `./foxy-farmer join-pool` or by copying the `plot_nfts` from an existing `foxy-farmer.yaml`.
+
+        !!! info
+            Running the `join-pool` command will spin up the wallet service, wait till its synced, join all PlotNFTs to the Foxy-Pool and shutdown the wallet service again once done. This will sync your PlotNFTs into `plot_nfts` in `foxy-farmer.yaml`. This process can take up to 30 minutes.
+
     5. Run Foxy-Farmer and check out the Pools "My Farmer" tab! You can use `./foxy-farmer auth` to generate the pool login link.

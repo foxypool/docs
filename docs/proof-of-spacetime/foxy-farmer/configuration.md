@@ -51,6 +51,9 @@ The config file currently consists of these config options:
 ### `recursive_plot_scan`:
 : Whether to scan the plot directories recursively or not. Will set `recursive_plot_scan` on the chia harvester config.
 
+### `plot_nfts`:
+: A list of PlotNFTs to farm with. Will set `pool_list` on the chia pool config.
+
 ### `parallel_decompressor_count`:
 : The number of CPUs to be used for decompressing plots. If this is set to `0`, then harvesting of compressed plots will be disabled. For GPU harvesting, set this value to `1`. For CPU harvesting, set it to the number of CPUs you want to use for decompression (typically `1`). Will set `parallel_decompressor_count` on the chia harvester config.
 

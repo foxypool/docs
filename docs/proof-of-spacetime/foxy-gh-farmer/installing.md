@@ -5,7 +5,7 @@
      3. Run the binary, it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
-            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `./foxy-gh-farmer join-pool`.
+            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `./foxy-gh-farmer keys add` and ensure your PlotNFTs are present in your `foxy-gh-farmer.yaml`. This can be achieved by copying them from another `foxy-gh-farmer.yaml` or running `./foxy-gh-farmer join-pool`.
 
      4. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
      5. Profit!
@@ -28,7 +28,7 @@
       5. Run using `venv/bin/foxy-gh-farmer` (or activate the venv using `source venv/bin/activate` and then just use `foxy-gh-farmer`), it will create a default `foxy-gh-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
 
         !!! note
-            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `venv/bin/foxy-gh-farmer keys add` and ensure the `config.yaml` in `<USER_HOME>/.foxy-gh-farmer/mainnet/config/` includes your PlotNFT in the pool list. This can be achieved by manually copying it from another `config.yaml` or running `venv/bin/foxy-gh-farmer join-pool`.
+            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `venv/bin/foxy-gh-farmer keys add` and ensure your PlotNFTs are present in your `foxy-gh-farmer.yaml`. This can be achieved by copying them from another `foxy-gh-farmer.yaml` or running `venv/bin/foxy-gh-farmer join-pool`.
 
       6. Edit the `foxy-gh-farmer.yaml` to your liking and restart foxy-gh-farmer
       7. Profit!

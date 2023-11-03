@@ -60,6 +60,9 @@ The config file currently consists of these config options:
 ### `recursive_plot_scan`:
 : Whether to scan the plot directories recursively or not. Will set `recursive_plot_scan` on the chia harvester config.
 
+### `plot_nfts`:
+: A list of PlotNFTs to farm with. Will set `pool_list` on the chia pool config.
+
 ### `recompute_hosts`:
 : Set your recompute hosts to use here, an empty array won't use any recompute servers. Accepts an array of strings or a string.
 
