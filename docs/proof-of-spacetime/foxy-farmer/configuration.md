@@ -45,6 +45,12 @@ The config file currently consists of these config options:
 ### `plot_refresh_interval_seconds`:
 : How often the harvester should rescan for new/deleted plots in your `plot_directories`.
 
+### `plot_refresh_batch_size`:
+: How many plots the harvester should process at once during plot refresh/rescan. If unset the default value is `300`. Decreasing this value will lower the load on your HDDs during plot refresh but increase the time for initially loading them.
+
+### `plot_refresh_batch_sleep_ms`:
+: The number of milliseconds to wait between plot refresh batches. If unset the default value is `1`. Increasing this value will lower the load on your HDDs during plot refresh but increase the time for initially loading them.
+
 ### `pool_payout_address`:
 : The Chia address you want your pool rewards credited to. This will be used as `payout_instructions` for all PlotNFTs and if OG pooling is enabled as the payout address for the OG pool. 
 
@@ -77,3 +83,18 @@ The config file currently consists of these config options:
 
 ### `max_compression_level_allowed`:
 : The highest level of compression your harvester will support. In Chia version 2.0, the maximum level is `7`. This will likely be increased in the future, but for now, you cannot increase it beyond the default. You can, however, set it to a lower number if desired. Will set `max_compression_level_allowed` on the chia harvester config.
+
+### `chia_daemon_port`:
+: If unset defaults to `55469`. Can be used to run multiple instances of Foxy-Farmer. Will set `daemon_port` on the chia config.
+
+### `chia_farmer_port`:
+: If unset defaults to `18447`. Can be used to run multiple instances of Foxy-Farmer. Will set `farmer.port` on the chia config.
+
+### `chia_farmer_rpc_port`:
+: If unset defaults to `18559`. Can be used to run multiple instances of Foxy-Farmer. Will set `farmer.rpc_port` on the chia config.
+
+### `chia_harvester_rpc_port`:
+: If unset defaults to `18560`. Can be used to run multiple instances of Foxy-Farmer. Will set `harvester.rpc_port` on the chia config.
+
+### `chia_wallet_rpc_port`:
+: If unset defaults to `19256`. Can be used to run multiple instances of Foxy-Farmer. Will set `wallet.rpc_port` on the chia config.

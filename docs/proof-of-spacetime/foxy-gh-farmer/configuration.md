@@ -54,6 +54,12 @@ The config file currently consists of these config options:
 ### `plot_refresh_interval_seconds`:
 : How often the harvester should rescan for new/deleted plots in your `plot_directories`.
 
+### `plot_refresh_batch_size`:
+: How many plots the harvester should process at once during plot refresh/rescan. If unset the default value is `300`. Decreasing this value will lower the load on your HDDs during plot refresh but increase the time for initially loading them.
+
+### `plot_refresh_batch_sleep_ms`:
+: The number of milliseconds to wait between plot refresh batches. If unset the default value is `1`. Increasing this value will lower the load on your HDDs during plot refresh but increase the time for initially loading them.
+
 ### `pool_payout_address`:
 : The Chia address you want your pool rewards credited to. This will be used as `payout_instructions` for all PlotNFTs. 
 
@@ -92,3 +98,18 @@ The config file currently consists of these config options:
 
 ### `cuda_visible_devices`:
 : Specify a list of CUDA devices to use. Remove or set to `null` to unset.
+
+### `chia_daemon_port`:
+: If unset defaults to `55470`. Can be used to run multiple instances of Foxy-Farmer. Will set `daemon_port` on the chia config.
+
+### `chia_farmer_port`:
+: If unset defaults to `28447`. Can be used to run multiple instances of Foxy-Farmer. Will set `farmer.port` on the chia config.
+
+### `chia_farmer_rpc_port`:
+: If unset defaults to `28559`. Can be used to run multiple instances of Foxy-Farmer. Will set `farmer.rpc_port` on the chia config.
+
+### `chia_harvester_rpc_port`:
+: If unset defaults to `28560`. Can be used to run multiple instances of Foxy-Farmer. Will set `harvester.rpc_port` on the chia config.
+
+### `chia_wallet_rpc_port`:
+: If unset defaults to `29256`. Can be used to run multiple instances of Foxy-Farmer. Will set `wallet.rpc_port` on the chia config.
