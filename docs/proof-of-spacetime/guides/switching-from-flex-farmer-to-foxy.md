@@ -39,7 +39,7 @@
         ```yaml
         farmer:
           full_node_peer:
-            host: gh-node.chia.foxypool.io
+            host: gh-farming-gateway.chia.foxypool.io
             port: 28445
         ```
 
