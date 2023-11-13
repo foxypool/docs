@@ -83,6 +83,8 @@ nav:
           - Updating: proof-of-spacetime/foxy-gh-farmer/updating.md
           - Configuration: proof-of-spacetime/foxy-gh-farmer/configuration.md
           - Systemd service: proof-of-spacetime/foxy-gh-farmer/setup-systemd-service.md
+      - Fast Farmer:
+          - proof-of-spacetime/fast-farmer/index.md
       - Chia Farming Gateway:
           - proof-of-spacetime/chia-farming-gateway/index.md
       - Monitoring apps:
