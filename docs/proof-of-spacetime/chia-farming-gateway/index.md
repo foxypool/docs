@@ -12,11 +12,13 @@ Foxy-Pool hosts a Chia Farming Gateway (`farming-gateway.chia.foxypool.io:28444`
 
 ## Using the gateway
 
-Besides running [Foxy-Farmer](../foxy-farmer/index.md) you can also use the gateway with a vanilla chia-blockchain install, just edit its `config.yaml` so that your farmers `full_node_peer` points to the gateway:
+Besides running [Foxy-Farmer](../foxy-farmer/index.md) you can also use the gateway with a vanilla chia-blockchain install, just edit its `config.yaml` so that your farmers `full_node_peers` point to the gateway:
 ```yaml
 farmer:
-  full_node_peer:
-    host: farming-gateway.chia.foxypool.io
+  full_node_peers:
+  - host: eu1.farming-gateway.chia.foxypool.io
+    port: 28444
+  - host: eu3.farming-gateway.chia.foxypool.io
     port: 28444
 ```
 

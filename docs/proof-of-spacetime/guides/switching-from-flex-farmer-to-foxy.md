@@ -38,8 +38,10 @@
         with
         ```yaml
         farmer:
-          full_node_peer:
-            host: gh-farming-gateway.chia.foxypool.io
+          full_node_peers:
+          - host: eu1.gh-farming-gateway.chia.foxypool.io
+            port: 28445
+          - host: eu3.gh-farming-gateway.chia.foxypool.io
             port: 28445
         ```
 
