@@ -26,7 +26,7 @@
         ```
         with
         ```
-        ./chia.bin plotnft join -i <wallet_id> -u https://farmer.chia.foxypool.io
+        ./chia.bin plotnft join -i <wallet_id> -u https://farmer-chia.foxypool.io
         ```
         and
         ```yaml

@@ -26,10 +26,7 @@
 2. Once you see the XCH in your balance it is time to create a PlotNFT by selecting "Pooling" in the sidebar on the left in the Chia GUI and clicking on "Join a Pool":
    ![empty pooling tab](../assets/img/chia-getting-started/empty-pooling-tab.png){: loading=lazy }
 
-3. Input the pool url `https://farmer.chia.foxypool.io` and hit "Create" at the bottom:
-
-    !!! info "Note"
-        If your ISP blocks the pool url or does not correctly route to it you can use `https://farmer-chia.foxypool.io` instead.
+3. Input the pool url `https://farmer-chia.foxypool.io` and hit "Create" at the bottom:
 
    ![create-plotnft](../assets/img/chia-getting-started/create-plotnft.png){: loading=lazy }
 

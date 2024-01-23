@@ -31,15 +31,6 @@ If the connection to the pool worked you'll now see a log entry in your chia `de
 Connected to OG pool Foxy-Pool CHIA (OG)
 ```
 
-!!! info Note
-    Should you have trouble connecting to the pool due to your ISP blocking the pool url or not routing correctly to it, you can add
-
-    ```yaml
-    pool_url: 'https://farmer-chia-og.foxypool.io'
-    ```
-    
-    to the farmer section of the `config.yaml`
-
 Once you submitted your first partial to the pool you can log in to the pool. This can take 1 - 60 minutes, depending on your capacity.
 
 You can search your log for
