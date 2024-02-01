@@ -6,6 +6,7 @@ title: Foxy-Farmer
 
 - [x] NFT and OG pooling are both supported!
 - [x] Bladebit compressed plots are supported!
+- [x] Gigahorse compressed plots are supported!
 
 !!! info "Note"
     If you can run a full node, you should!

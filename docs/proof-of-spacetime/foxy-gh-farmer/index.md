@@ -2,6 +2,9 @@
 title: Foxy-GH-Farmer
 ---
 
+!!! warning
+    Foxy-GH-Farmer is deprecated, please use [Foxy-Farmer](../foxy-farmer) with the `gigahorse` backend instead!
+
 [Foxy-GH-Farmer](https://github.com/foxypool/foxy-gh-farmer){target=_blank} is a simplified Gigahorse farmer for the chia blockchain using the Foxy-Pool Gigahorse Farming Gateway to farm without a full node running on your machine.
 
 !!! info "Note"
