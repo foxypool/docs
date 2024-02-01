@@ -24,4 +24,4 @@ On PoSt pools a currency toggle allows users to show the coin values in a differ
 
 ## Balances
 
-On PoSt pools the payout addresses balance on the farmer page is provided by [chia.tt](https://chia.tt){target=_blank}.
+On PoSt pools the payout addresses balance on the farmer page is provided by [ATB](https://alltheblocks.net){target=_blank}.
