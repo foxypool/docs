@@ -37,6 +37,9 @@ The config file currently consists of these config options:
 
 ## Chia options
 
+### `backend`
+: Which harvesting backend to use. Possible values: `bladebit`, `gigahorse`, `drplotter`. Defaults to `bladebit`.
+
 ### `enable_harvester`
 : Whether to start a harvester instance as well, or only a farmer instance.
 
@@ -148,3 +151,8 @@ The config file currently consists of these config options:
 
 ### `cuda_visible_devices`:
 : Specify a list of CUDA devices to use. Remove or set to `null` to unset.
+
+## DrPlotter only options
+
+### `dr_plotter_client_token`:
+: The client token to use to connect to your DrSolver(s).
