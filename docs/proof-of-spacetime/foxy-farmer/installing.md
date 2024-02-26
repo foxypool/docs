@@ -2,12 +2,12 @@
 
       1. On Linux ensure you have `ocl-icd-libopencl1` installed when using the gigahorse backend
       2. Download the latest binary zip for your OS from the [releases page](https://github.com/foxypool/foxy-farmer/releases/latest){target=_blank} or if you can not access GitHub there is a [direct download](https://downloads.foxypool.io/chia/foxy-farmer/latest/){target=_blank} as well.
-      3. Run the binary, it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
+      3. Run the binary and follow the first run wizard, it will create a `foxy-farmer.yaml` in the current directory based on your inputs.
 
         !!! note
-            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `./foxy-farmer keys add` and ensure your PlotNFTs are present in your `foxy-farmer.yaml`. This can be achieved by copying them from another `foxy-farmer.yaml` or running `./foxy-farmer join-pool`.
+            To join the pool just run `./foxy-farmer join-pool`. You can add `--fee` to supply a fee in case the mempool is full.
 
-      4. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
+      4. (Optional) Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
       5. Profit!
 
 === "Running from source"
@@ -25,12 +25,12 @@
       ```bash
       venv/bin/pip install .
       ```
-      5. Run using `venv/bin/foxy-farmer` (or activate the venv using `source venv/bin/activate` and then just use `foxy-farmer`), it will create a default `foxy-farmer.yaml` in the current directory based on your current chia `config.yaml` if available.
+      5. Run using `venv/bin/foxy-farmer` (or activate the venv using `source venv/bin/activate` and then just use `foxy-farmer`) and follow the first run wizard, it will create a `foxy-farmer.yaml` in the current directory based on your inputs.
 
         !!! note
-            If you never set up chia before on this machine you will need to import your 24 word mnemonic using `venv/bin/foxy-farmer keys add` and ensure your PlotNFTs are present in your `foxy-farmer.yaml`. This can be achieved by copying them from another `foxy-farmer.yaml` or running `venv/bin/foxy-farmer join-pool`.
+            To join the pool just run `./foxy-farmer join-pool`. You can add `--fee` to supply a fee in case the mempool is full.
 
-      6. Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
+      6. (Optional) Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
       7. Profit!
 
 === "Using docker"
