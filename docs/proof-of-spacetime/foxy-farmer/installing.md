@@ -28,7 +28,7 @@
       5. Run using `venv/bin/foxy-farmer` (or activate the venv using `source venv/bin/activate` and then just use `foxy-farmer`) and follow the first run wizard, it will create a `foxy-farmer.yaml` in the current directory based on your inputs.
 
         !!! note
-            You can join the pool at any time, just run `./foxy-farmer join-pool`. You can add `--fee` to supply a fee in case the mempool is full.
+            You can join the pool at any time, just run `foxy-farmer join-pool`. You can add `--fee` to supply a fee in case the mempool is full.
 
       6. (Optional) Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
       7. Profit!
