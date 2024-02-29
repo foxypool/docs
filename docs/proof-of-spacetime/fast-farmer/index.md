@@ -17,16 +17,29 @@ fullnode_ws_port: 28444
 ```
 
 To initialize a new setup completely without a local full node run:
-```bash
-./ff init \
-  --fullnode-rpc-host node-rpc-gateway-chia.foxypool.io \
-  --fullnode-rpc-port 443 \
-  --fullnode-ws-host farming-gateway.chia.foxypool.io \
-  --fullnode-ws-port 28444 \
-  --payout-address <your xch address here> \
-  -d <your plot directory here> \
-  -d <your other plot directory here>
-```
+=== "Windows"
+    ```ps
+    .\ff.exe init `
+      --fullnode-rpc-host node-rpc-gateway-chia.foxypool.io `
+      --fullnode-rpc-port 443 `
+      --fullnode-ws-host farming-gateway.chia.foxypool.io `
+      --fullnode-ws-port 28444 `
+      --payout-address <your xch address here> `
+      -d <your plot directory here> `
+      -d <your other plot directory here>
+    ```
+
+=== "Linux"
+    ```bash
+    ./ff init \
+      --fullnode-rpc-host node-rpc-gateway-chia.foxypool.io \
+      --fullnode-rpc-port 443 \
+      --fullnode-ws-host farming-gateway.chia.foxypool.io \
+      --fullnode-ws-port 28444 \
+      --payout-address <your xch address here> \
+      -d <your plot directory here> \
+      -d <your other plot directory here>
+    ```
 
 !!! info "Note"
     If you can run a full node, you should!
