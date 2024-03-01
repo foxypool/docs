@@ -3,7 +3,7 @@ title: Foxy-GH-Farmer
 ---
 
 !!! warning
-    Foxy-GH-Farmer is deprecated, please use [Foxy-Farmer](../foxy-farmer) with the `gigahorse` backend instead!
+    Foxy-GH-Farmer is deprecated, please use [Foxy-Farmer](../foxy-farmer/index.md) with the `gigahorse` backend instead!
 
     Steps to migrate:
 
