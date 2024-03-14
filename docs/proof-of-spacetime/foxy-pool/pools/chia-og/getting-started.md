@@ -1,5 +1,5 @@
 !!! info
-    Please note that untrusted members have to accumulate 1.75 XCH in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance via the pools web ui.
+    Please note that untrusted members have to accumulate 0.875 XCH in their collateral balance before receiving rewards by the pool to protect the pool against cheaters. When leaving the pool you can claim your collateral balance via the pools web ui.
 
     Currently, only long known members of the [Foxy Discord](https://discord.gg/foxypool){target=_blank} are trusted, but if such a person knows you very well, he can vouch for you.
 

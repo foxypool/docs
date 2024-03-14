@@ -37,7 +37,7 @@ The config file currently consists of these config options:
 : Whether to start a harvester instance as well, or only a farmer instance.
 
 ### `farmer_reward_address`
-: The Chia address you want your farmer rewards (0.25 XCH) credited to.
+: The Chia address you want your farmer rewards (0.125 XCH) credited to.
 
 ### `harvester_num_threads`:
 : How many threads the harvester service should use to lookup challenges.

@@ -43,8 +43,8 @@
 
 ## Collateral
 
-??? question "Can you lower the 1.75 XCH collateral?"
-    No, 1.75 XCH is the pool reward portion when a block is won. As such the collateral needs to be at least this amount to be used effectively against cheaters.
+??? question "Can you lower the 0.875 XCH collateral?"
+    No, 0.875 XCH is the pool reward portion when a block is won. As such the collateral needs to be at least this amount to be used effectively against cheaters.
 
 ??? question "I am new, can i become a trusted member?"
     Unless a trusted member vouches for you, no
