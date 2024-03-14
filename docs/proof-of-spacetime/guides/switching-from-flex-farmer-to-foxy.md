@@ -34,9 +34,9 @@
         farmer:
           full_node_peers:
           - host: eu1.gh-farming-gateway.chia.foxypool.io
-            port: 28445
+            port: 38445
           - host: eu3.gh-farming-gateway.chia.foxypool.io
-            port: 28445
+            port: 38445
         ```
 
 === "Uncompressed & Bladebit compressed plots"
