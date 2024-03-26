@@ -10,6 +10,17 @@
       4. (Optional) Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
       5. Profit!
 
+=== "Using pip"
+      1. On Linux ensure you have `ocl-icd-libopencl1` installed when using the gigahorse backend
+      2. Run `pip install foxy-farmer`
+      3. Run using `foxy-farmer` and follow the first run wizard, it will create a `foxy-farmer.yaml` in the current directory based on your inputs.
+
+        !!! note
+            You can join the pool at any time, just run `foxy-farmer join-pool`. You can add `--fee` to supply a fee in case the mempool is full.
+
+      4. (Optional) Edit the `foxy-farmer.yaml` to your liking and restart foxy-farmer
+      5. Profit!
+
 === "Running from source"
 
       1. On Linux ensure you have `ocl-icd-libopencl1` installed when using the gigahorse backend
