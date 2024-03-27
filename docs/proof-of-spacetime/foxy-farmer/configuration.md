@@ -156,3 +156,6 @@ The config file currently consists of these config options:
 
 ### `dr_plotter_client_token`:
 : The client token to use to connect to your DrSolver(s).
+
+### `dr_server_ip_address`:
+: The ip:port of your DrServer to use to connect to.
