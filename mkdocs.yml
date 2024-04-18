@@ -72,6 +72,7 @@ nav:
             - Authenticate: proof-of-spacetime/foxy-pool/pools/chia-og/authenticate.md
             - FAQ: proof-of-spacetime/foxy-pool/pools/chia-og/faq.md
         - Distribution Ratio: proof-of-spacetime/foxy-pool/distribution-ratio.md
+        - Farmer Rewards: proof-of-spacetime/foxy-pool/farmer-rewards.md
       - Foxy-Farmer:
           - proof-of-spacetime/foxy-farmer/index.md
           - Installing: proof-of-spacetime/foxy-farmer/installing.md
