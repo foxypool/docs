@@ -12,8 +12,8 @@ title: Fast Farmer
 
 Fast Farmer can be used without a local full node, by using the Foxy [Chia Farming Gateway](../chia-farming-gateway/index.md). To use it just edit your `fast_farmer.yaml`: 
 ```yaml
-fullnode_ws_host: farming-gateway.chia.foxypool.io
-fullnode_ws_port: 28444
+fullnode_ws_host: farming-gateway-chia.foxypool.io
+fullnode_ws_port: 443
 ```
 
 To initialize a new setup completely without a local full node run:
@@ -22,8 +22,8 @@ To initialize a new setup completely without a local full node run:
     .\ff.exe init `
       --fullnode-rpc-host node-rpc-gateway-chia.foxypool.io `
       --fullnode-rpc-port 443 `
-      --fullnode-ws-host farming-gateway.chia.foxypool.io `
-      --fullnode-ws-port 28444 `
+      --fullnode-ws-host farming-gateway-chia.foxypool.io `
+      --fullnode-ws-port 443 `
       --payout-address <your xch address here> `
       -d <your plot directory here> `
       -d <your other plot directory here>
@@ -34,8 +34,8 @@ To initialize a new setup completely without a local full node run:
     ./ff init \
       --fullnode-rpc-host node-rpc-gateway-chia.foxypool.io \
       --fullnode-rpc-port 443 \
-      --fullnode-ws-host farming-gateway.chia.foxypool.io \
-      --fullnode-ws-port 28444 \
+      --fullnode-ws-host farming-gateway-chia.foxypool.io \
+      --fullnode-ws-port 443 \
       --payout-address <your xch address here> \
       -d <your plot directory here> \
       -d <your other plot directory here>
