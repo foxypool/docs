@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 setup(
     name='foxypool-docs',
@@ -12,8 +12,8 @@ setup(
     long_description_content_type="text/markdown",
     python_requires='>=3.11, <4',
     install_requires=[
-        "mkdocs==1.5.3",
-        "mkdocs-material==9.5.18",
+        "mkdocs==1.6.0",
+        "mkdocs-material==9.5.20",
         "mkdocs-minify-plugin==0.8.0",
         "mkdocs-redirects==1.2.1",
     ],
