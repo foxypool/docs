@@ -13,7 +13,7 @@ setup(
     python_requires='>=3.11, <4',
     install_requires=[
         "mkdocs==1.6.0",
-        "mkdocs-material==9.5.21",
+        "mkdocs-material==9.5.22",
         "mkdocs-minify-plugin==0.8.0",
         "mkdocs-redirects==1.2.1",
     ],
