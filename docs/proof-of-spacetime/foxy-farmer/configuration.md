@@ -91,6 +91,9 @@ The config file currently consists of these config options:
 ### `chia_wallet_rpc_port`:
 : If unset defaults to `19256`. Can be used to run multiple instances of Foxy-Farmer. Will set `wallet.rpc_port` on the chia config.
 
+### `auto_update`:
+: Set to `true` to enable automatic updating of Foxy-Farmer to the latest version when using the binary install method. Update checks are performed on startup and periodically. Self-Updating does not work with source or docker installs.
+
 ## Bladebit only options
 
 ### `enable_og_pooling`
@@ -155,7 +158,10 @@ The config file currently consists of these config options:
 ## DrPlotter only options
 
 ### `dr_plotter_client_token`:
-: The client token to use to connect to your DrSolver(s).
+: The client token to use to authenticate with your DrServer.
 
 ### `dr_server_ip_address`:
 : The ip:port of your DrServer to use to connect to.
+
+### `dr_server_use_ssl`:
+: Set to `true` to connect to your DrServer using SSL (`wss://`). Only required if your DrServer is behind a SSL proxy or similar.
