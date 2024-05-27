@@ -91,6 +91,9 @@ The config file currently consists of these config options:
 ### `chia_wallet_rpc_port`:
 : If unset defaults to `19256`. Can be used to run multiple instances of Foxy-Farmer. Will set `wallet.rpc_port` on the chia config.
 
+### `syslog_port`:
+: If unset defaults to `11514`. Used by the gigahorse and drplotter backends to read their logs. Can be used to run multiple instances of Foxy-Farmer. Will set `logging.log_syslog_port` on the chia config.
+
 ### `auto_update`:
 : Set to `true` to enable automatic updating of Foxy-Farmer to the latest version when using the binary install method. Update checks are performed on startup and periodically. Self-Updating does not work with source or docker installs.
 
