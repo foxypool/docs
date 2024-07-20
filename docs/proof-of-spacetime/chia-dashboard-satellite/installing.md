@@ -4,7 +4,7 @@
 
       The recommended way is via `npm`, the package manager for Nodejs - the language the software is written in.
 
-      1. [Install Nodejs](../../general/installing-nodejs.md)
+      1. [Install Nodejs](../../general/guides/installing-nodejs.md)
       2. Install Chia-Dashboard-Satellite via `npm`:
          ```bash
          npm install --global chia-dashboard-satellite

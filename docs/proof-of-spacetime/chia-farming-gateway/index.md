@@ -6,7 +6,7 @@ Foxy-Pool hosts a Chia Farming Gateway (`farming-gateway.chia.foxypool.io:28444`
 
 - [x] NFT and OG plots are both supported!
 - [x] Bladebit compressed plots are supported!
-- [x] Gigahorse compressed plots are supported when using [Fast Farmer](../fast-farmer)!
+- [x] Gigahorse compressed plots are supported when using [Fast Farmer](../fast-farmer/index.md)!
 - [x] DrPlotter compressed plots are supported!
 
 !!! info "Note"

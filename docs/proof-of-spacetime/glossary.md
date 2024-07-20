@@ -1,5 +1,5 @@
 #### Compressed plots
-A plot file where some data is not stored on disk, but instead computed on the fly using your CPU or GPU. Different `c` sizes indicate the level of the compression, where higher numbers mean higher compression. Currently, there are two implementations: "Chia Official" using bladebit and madMAx using gigahorse. You can see [this comparison](https://xch.farm/compressed-plots/){target=_blank} for details.
+A plot file where some data is not stored on disk, but instead computed on the fly using your CPU or GPU. Different `c` sizes indicate the level of the compression, where higher numbers mean higher compression. Currently, there are multiple implementations: "Chia Official" using bladebit, madMAx using gigahorse and DrPlotter. You can see [this comparison](https://xch.farm/compressed-plots/){target=_blank} for details.
 
 #### Plot file
 The file holding your stored hashes for farming. Plot files have varying sizes indicated by their `k` size, where higher `k` sizes mean bigger plot files. Each step roughly doubles the plot size. The minimum `k` size for CHIA mainnet is 32 which results in a ~101 GiB plot file.
