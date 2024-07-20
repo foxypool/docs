@@ -16,9 +16,9 @@ Besides running [Foxy-Farmer](../foxy-farmer/index.md) you can also use the gate
 ```yaml
 farmer:
   full_node_peers:
-  - host: eu1.farming-gateway.chia.foxypool.io
+  - host: dus1.farming-gateway.chia.foxypool.io
     port: 28444
-  - host: eu3.farming-gateway.chia.foxypool.io
+  - host: nue1.farming-gateway.chia.foxypool.io
     port: 28444
 ```
 

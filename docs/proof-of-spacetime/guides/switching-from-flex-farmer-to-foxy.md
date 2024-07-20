@@ -33,9 +33,9 @@
         ```yaml
         farmer:
           full_node_peers:
-          - host: eu1.gh-farming-gateway.chia.foxypool.io
+          - host: dus1.gh-farming-gateway.chia.foxypool.io
             port: 48445
-          - host: eu3.gh-farming-gateway.chia.foxypool.io
+          - host: nue1.gh-farming-gateway.chia.foxypool.io
             port: 48445
         ```
 
