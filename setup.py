@@ -12,7 +12,7 @@ setup(
     long_description_content_type="text/markdown",
     python_requires='>=3.11, <4',
     install_requires=[
-        "mkdocs==1.6.0",
+        "mkdocs==1.6.1",
         "mkdocs-material==9.5.33",
         "mkdocs-minify-plugin==0.8.0",
         "mkdocs-redirects==1.2.1",
