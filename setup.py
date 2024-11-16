@@ -15,6 +15,6 @@ setup(
         "mkdocs==1.6.1",
         "mkdocs-material==9.5.39",
         "mkdocs-minify-plugin==0.8.0",
-        "mkdocs-redirects==1.2.1",
+        "mkdocs-redirects==1.2.2",
     ],
 )
