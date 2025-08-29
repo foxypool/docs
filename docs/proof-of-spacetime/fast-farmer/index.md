@@ -7,7 +7,7 @@ title: Fast Farmer
 - [x] Fast Farmer is fully supported on Foxy-Pool!
 - [x] NFT and OG plots are supported!
 - [x] Bladebit compressed plots are supported!
-- [x] Gigahorse plots are supported, please use [the binaries from here](https://github.com/evergreen-xch/ff_giga_bins){target=_blank}
+- [x] Gigahorse plots are supported, please use [the binaries from here](https://druid.garden/farmer){target=_blank}
 
 
 Fast Farmer can be used without a local full node, by using the Foxy [Chia Farming Gateway](../chia-farming-gateway/index.md). To use it just edit your `fast_farmer.yaml`: 
